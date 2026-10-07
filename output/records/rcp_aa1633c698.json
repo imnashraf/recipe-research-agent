@@ -1,0 +1,550 @@
+{
+  "recipe_id": "rcp_aa1633c698",
+  "source_url": "https://www.homeandplate.com/blog/perfect-sugar-cookie-recipe/",
+  "title": "Perfect Sugar Cookie Recipe",
+  "site": "homeandplate.com",
+  "category": [
+    "Dessert"
+  ],
+  "cuisine": [
+    "American"
+  ],
+  "yield_text": "2 / 2 dozen",
+  "servings": 24,
+  "servings_unit": "pieces",
+  "provenance": {
+    "page_source": "snapshot",
+    "fetched_url": "https://raw.githubusercontent.com/hhursev/recipe-scrapers/e7892149ee16c02cfd7ed1972e80791339727293/tests/test_data/homeandplate.com/homeandplate_2.testhtml",
+    "original_page_sha256": "fb47886c28de47622b899e55a76e2a63304fff1777ba238586c7f5d0b050bbc1",
+    "nutrition_source": "USDA National Nutrient Database for Standard Reference, Release 28 (SR28, 2015)"
+  },
+  "section_headings": [
+    "For frosting:"
+  ],
+  "ingredients": [
+    {
+      "index": 0,
+      "raw": "1 cup butter room temperature (very soft)",
+      "name": "butter",
+      "quantity": 1.0,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "01001",
+      "food_description": "Butter, salted",
+      "grams": 227.2,
+      "gram_basis": "USDA portion '1 tbsp' = 14.2 g (GmWt_2)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 1629.024,
+        "protein_g": 1.931,
+        "fat_g": 184.282,
+        "carbohydrate_g": 0.136,
+        "fiber_g": 0.0,
+        "sugars_g": 0.136,
+        "sodium_mg": 1460.896,
+        "saturated_fat_g": 116.708,
+        "cholesterol_mg": 488.48
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "butter"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "butter",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "01001 Butter, salted"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 1,
+      "raw": "1 cup granulated sugar",
+      "name": "granulated sugar",
+      "quantity": 1.0,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "19335",
+      "food_description": "Sugars, granulated",
+      "grams": 201.6,
+      "gram_basis": "USDA portion '1 tsp' = 4.2 g (GmWt_2)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 780.192,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 201.56,
+        "fiber_g": 0.0,
+        "sugars_g": 201.197,
+        "sodium_mg": 2.016,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "granulated sugar"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "granulated sugar",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "19335 Sugars, granulated"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 2,
+      "raw": "2 tsp vanilla extract",
+      "name": "vanilla extract",
+      "quantity": 2.0,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02050",
+      "food_description": "Vanilla extract",
+      "grams": 8.4,
+      "gram_basis": "USDA portion '1 tsp' = 4.2 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 24.192,
+        "protein_g": 0.005,
+        "fat_g": 0.005,
+        "carbohydrate_g": 1.063,
+        "fiber_g": 0.0,
+        "sugars_g": 1.063,
+        "sodium_mg": 0.756,
+        "saturated_fat_g": 0.001,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "vanilla extract"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "vanilla extract",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "02050 Vanilla extract"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 3,
+      "raw": "1 egg",
+      "name": "egg",
+      "quantity": 1.0,
+      "unit": null,
+      "status": "matched",
+      "food_id": "01123",
+      "food_description": "Egg, whole, raw, fresh",
+      "grams": null,
+      "gram_basis": "count without size or weight; no USDA portion to convert it",
+      "nutrition_status": "no_gram_weight",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "egg"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "egg",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "01123 Egg, whole, raw, fresh"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 4,
+      "raw": "3 cups flour",
+      "name": "flour",
+      "quantity": 3.0,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "20081",
+      "food_description": "Wheat flour, white, all-purpose, enriched, bleached",
+      "grams": 375.0,
+      "gram_basis": "USDA portion '1 cup' = 125 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 1365.0,
+        "protein_g": 38.737,
+        "fat_g": 3.675,
+        "carbohydrate_g": 286.163,
+        "fiber_g": 10.125,
+        "sugars_g": 1.012,
+        "sodium_mg": 7.5,
+        "saturated_fat_g": 0.581,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 3,
+      "queries_tried": [
+        "flour",
+        "all-purpose flour",
+        "Wheat flour, white, all-purpose, enriched, bleached"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "flour",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Carob flour' is not a close match (cost 3.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "all-purpose flour",
+          "strategy": "alias",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Wheat flour, white, all-purpose, enriched, bleached' is not a close match (cost 4.6 > 1.0)"
+        },
+        {
+          "attempt": 3,
+          "query": "Wheat flour, white, all-purpose, enriched, bleached",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "20081 Wheat flour, white, all-purpose, enriched, bleached"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 5,
+      "raw": "2 tsp baking powder",
+      "name": "baking powder",
+      "quantity": 2.0,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "18369",
+      "food_description": "Leavening agents, baking powder, double-acting, sodium aluminum sulfate",
+      "grams": 9.2,
+      "gram_basis": "USDA portion '1 tsp' = 4.6 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 4.876,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 2.548,
+        "fiber_g": 0.018,
+        "sugars_g": 0.0,
+        "sodium_mg": 975.2,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "baking powder",
+        "Leavening agents, baking powder, double-acting, sodium aluminum sulfate"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "baking powder",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Leavening agents, baking powder, low-sodium' is not a close match (cost 6.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Leavening agents, baking powder, double-acting, sodium aluminum sulfate",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "18369 Leavening agents, baking powder, double-acting, sodium aluminum sulfate"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 6,
+      "raw": "Sprinkles, sugars and nonpareils",
+      "name": "sprinkles",
+      "quantity": null,
+      "unit": null,
+      "status": "unknown",
+      "food_id": null,
+      "food_description": null,
+      "grams": null,
+      "gram_basis": null,
+      "nutrition_status": "no_food_id",
+      "nutrients": null,
+      "attempts": 3,
+      "queries_tried": [
+        "sprinkles",
+        "nonpareils",
+        "candy sprinkles"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "sprinkles",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        },
+        {
+          "attempt": 2,
+          "query": "nonpareils",
+          "strategy": "alias",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        },
+        {
+          "attempt": 3,
+          "query": "candy sprinkles",
+          "strategy": "alias",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        }
+      ],
+      "unknown_reason": "no acceptable match within the 3-attempt cap; last: no_candidates"
+    },
+    {
+      "index": 7,
+      "raw": "4 oz. cream cheese (softened)",
+      "name": "cream cheese",
+      "quantity": 4.0,
+      "unit": "oz",
+      "status": "matched",
+      "food_id": "01017",
+      "food_description": "Cheese, cream",
+      "grams": 113.4,
+      "gram_basis": "mass stated in recipe line",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 396.9,
+        "protein_g": 6.974,
+        "fat_g": 39.055,
+        "carbohydrate_g": 6.26,
+        "fiber_g": 0.0,
+        "sugars_g": 4.264,
+        "sodium_mg": 356.076,
+        "saturated_fat_g": 22.922,
+        "cholesterol_mg": 114.534
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "cream cheese"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "cream cheese",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "01017 Cheese, cream"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 8,
+      "raw": "3 tablespoons butter (softened)",
+      "name": "butter",
+      "quantity": 3.0,
+      "unit": "tbsp",
+      "status": "matched",
+      "food_id": "01001",
+      "food_description": "Butter, salted",
+      "grams": 42.6,
+      "gram_basis": "USDA portion '1 tbsp' = 14.2 g (GmWt_2)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 305.442,
+        "protein_g": 0.362,
+        "fat_g": 34.553,
+        "carbohydrate_g": 0.026,
+        "fiber_g": 0.0,
+        "sugars_g": 0.026,
+        "sodium_mg": 273.918,
+        "saturated_fat_g": 21.883,
+        "cholesterol_mg": 91.59
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "butter"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "butter",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "01001 Butter, salted"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 9,
+      "raw": "1/2 teaspoon vanilla extract",
+      "name": "vanilla extract",
+      "quantity": 0.5,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02050",
+      "food_description": "Vanilla extract",
+      "grams": 2.1,
+      "gram_basis": "USDA portion '1 tsp' = 4.2 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 6.048,
+        "protein_g": 0.001,
+        "fat_g": 0.001,
+        "carbohydrate_g": 0.266,
+        "fiber_g": 0.0,
+        "sugars_g": 0.266,
+        "sodium_mg": 0.189,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "vanilla extract"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "vanilla extract",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "02050 Vanilla extract"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 10,
+      "raw": "1.5 cup confectioners sugar",
+      "name": "confectioners sugar",
+      "quantity": 1.5,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "19336",
+      "food_description": "Sugars, powdered",
+      "grams": 180.0,
+      "gram_basis": "USDA portion '1 cup, unsifted' = 120 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 700.2,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 179.586,
+        "fiber_g": 0.0,
+        "sugars_g": 176.058,
+        "sodium_mg": 3.6,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "confectioners sugar",
+        "powdered sugar"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "confectioners sugar",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        },
+        {
+          "attempt": 2,
+          "query": "powdered sugar",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "19336 Sugars, powdered"
+        }
+      ],
+      "unknown_reason": null
+    }
+  ],
+  "match": {
+    "ingredients": 11,
+    "matched": 10,
+    "unknown": 1,
+    "match_rate": 0.909,
+    "retry_rounds": 3,
+    "hit_retry_cap": 1
+  },
+  "nutrition": {
+    "basis": "whole recipe, sum of ingredients with a food id and a gram weight",
+    "source": "USDA National Nutrient Database for Standard Reference, Release 28 (SR28, 2015)",
+    "complete": false,
+    "ingredients_total": 11,
+    "ingredients_with_nutrition": 9,
+    "unmatched_food_count": 1,
+    "matched_without_grams_count": 1,
+    "statement": "Partial: 2 of 11 ingredients have no nutrition (1 unmatched food, 1 matched but no gram weight); totals cover the other 9 only.",
+    "totals": {
+      "energy_kcal": 5211.9,
+      "protein_g": 48.0,
+      "fat_g": 261.6,
+      "saturated_fat_g": 162.1,
+      "carbohydrate_g": 677.6,
+      "fiber_g": 10.1,
+      "sugars_g": 384.0,
+      "sodium_mg": 3080.2,
+      "cholesterol_mg": 694.6
+    },
+    "per_serving": {
+      "energy_kcal": 217.2,
+      "protein_g": 2.0,
+      "fat_g": 10.9,
+      "saturated_fat_g": 6.8,
+      "carbohydrate_g": 28.2,
+      "fiber_g": 0.4,
+      "sugars_g": 16.0,
+      "sodium_mg": 128.3,
+      "cholesterol_mg": 28.9
+    },
+    "servings": 24,
+    "nutrient_values_missing_in_usda": {}
+  },
+  "cook_notes": {
+    "status": "produced",
+    "comment_count": 7,
+    "threshold": 5,
+    "claims": [
+      {
+        "text": "made it and liked it",
+        "count": 3,
+        "comment_ids": [
+          "4918",
+          "6412",
+          "8689"
+        ]
+      }
+    ],
+    "card": "Cook notes (7 comments): 3 of 7 made it and liked it.",
+    "word_count": 12,
+    "backend": "themes-v2"
+  },
+  "node_path": [
+    "fetch",
+    "parse_recipe",
+    "parse_ingredients",
+    "match_nutrition",
+    "match_nutrition",
+    "match_nutrition",
+    "mark_unknown",
+    "gather_comments",
+    "summarise",
+    "validate",
+    "write"
+  ],
+  "terminal": {
+    "state": "complete_partial",
+    "reason": "2 of 11 ingredients without nutrition (1 unknown, 1 hit the 3-attempt cap, 1 no gram weight); card from 7 comments"
+  }
+}

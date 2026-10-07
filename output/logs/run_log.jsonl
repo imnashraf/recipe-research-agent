@@ -1,0 +1,382 @@
+{"ts": "2026-10-07T23:55:15+00:00", "event": "start", "url": "https://www.thecountrycook.net/southern-fudge-pie/", "thread": "batch:8f14802a32fc"}
+{"ts": "2026-10-07T23:55:16+00:00", "event": "fetched", "url": "https://www.thecountrycook.net/southern-fudge-pie/", "source": "snapshot", "recipes": 1, "comments": 36}
+{"ts": "2026-10-07T23:55:16+00:00", "event": "node_done", "node": "fetch", "url": "https://www.thecountrycook.net/southern-fudge-pie/", "recipe_id": null}
+{"ts": "2026-10-07T23:55:16+00:00", "event": "node_done", "node": "parse_recipe", "url": "https://www.thecountrycook.net/southern-fudge-pie/", "recipe_id": "rcp_8f14802a32"}
+{"ts": "2026-10-07T23:55:16+00:00", "event": "node_done", "node": "parse_ingredients", "url": "https://www.thecountrycook.net/southern-fudge-pie/", "recipe_id": "rcp_8f14802a32"}
+{"ts": "2026-10-07T23:55:16+00:00", "event": "match_round", "url": "https://www.thecountrycook.net/southern-fudge-pie/", "round": 1, "matched": 5, "pending": 3}
+{"ts": "2026-10-07T23:55:16+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://www.thecountrycook.net/southern-fudge-pie/", "recipe_id": "rcp_8f14802a32"}
+{"ts": "2026-10-07T23:55:16+00:00", "event": "match_round", "url": "https://www.thecountrycook.net/southern-fudge-pie/", "round": 2, "matched": 8, "pending": 0}
+{"ts": "2026-10-07T23:55:16+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://www.thecountrycook.net/southern-fudge-pie/", "recipe_id": "rcp_8f14802a32"}
+{"ts": "2026-10-07T23:55:16+00:00", "event": "node_done", "node": "gather_comments", "url": "https://www.thecountrycook.net/southern-fudge-pie/", "recipe_id": "rcp_8f14802a32"}
+{"ts": "2026-10-07T23:55:16+00:00", "event": "node_done", "node": "summarise", "url": "https://www.thecountrycook.net/southern-fudge-pie/", "recipe_id": "rcp_8f14802a32"}
+{"ts": "2026-10-07T23:55:16+00:00", "event": "node_done", "node": "validate", "url": "https://www.thecountrycook.net/southern-fudge-pie/", "recipe_id": "rcp_8f14802a32"}
+{"ts": "2026-10-07T23:55:16+00:00", "event": "terminal", "url": "https://www.thecountrycook.net/southern-fudge-pie/", "recipe_id": "rcp_8f14802a32", "state": "complete_partial", "reason": "1 of 8 ingredients without nutrition (0 unknown, 0 hit the 3-attempt cap, 1 no gram weight); card from 34 comments", "node_path": ["fetch", "parse_recipe", "parse_ingredients", "match_nutrition", "match_nutrition", "gather_comments", "summarise", "validate", "write"]}
+{"ts": "2026-10-07T23:55:16+00:00", "event": "node_done", "node": "write", "url": "https://www.thecountrycook.net/southern-fudge-pie/", "recipe_id": "rcp_8f14802a32"}
+{"ts": "2026-10-07T23:55:16+00:00", "event": "start", "url": "https://cookieandkate.com/peach-cobbler/", "thread": "batch:88989bf2ca66"}
+{"ts": "2026-10-07T23:55:16+00:00", "event": "fetched", "url": "https://cookieandkate.com/peach-cobbler/", "source": "snapshot", "recipes": 1, "comments": 34}
+{"ts": "2026-10-07T23:55:16+00:00", "event": "node_done", "node": "fetch", "url": "https://cookieandkate.com/peach-cobbler/", "recipe_id": null}
+{"ts": "2026-10-07T23:55:16+00:00", "event": "node_done", "node": "parse_recipe", "url": "https://cookieandkate.com/peach-cobbler/", "recipe_id": "rcp_88989bf2ca"}
+{"ts": "2026-10-07T23:55:16+00:00", "event": "node_done", "node": "parse_ingredients", "url": "https://cookieandkate.com/peach-cobbler/", "recipe_id": "rcp_88989bf2ca"}
+{"ts": "2026-10-07T23:55:16+00:00", "event": "match_round", "url": "https://cookieandkate.com/peach-cobbler/", "round": 1, "matched": 8, "pending": 7}
+{"ts": "2026-10-07T23:55:16+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://cookieandkate.com/peach-cobbler/", "recipe_id": "rcp_88989bf2ca"}
+{"ts": "2026-10-07T23:55:16+00:00", "event": "match_round", "url": "https://cookieandkate.com/peach-cobbler/", "round": 2, "matched": 14, "pending": 1}
+{"ts": "2026-10-07T23:55:16+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://cookieandkate.com/peach-cobbler/", "recipe_id": "rcp_88989bf2ca"}
+{"ts": "2026-10-07T23:55:16+00:00", "event": "node_done", "node": "mark_unknown", "url": "https://cookieandkate.com/peach-cobbler/", "recipe_id": "rcp_88989bf2ca"}
+{"ts": "2026-10-07T23:55:16+00:00", "event": "node_done", "node": "gather_comments", "url": "https://cookieandkate.com/peach-cobbler/", "recipe_id": "rcp_88989bf2ca"}
+{"ts": "2026-10-07T23:55:16+00:00", "event": "node_done", "node": "summarise", "url": "https://cookieandkate.com/peach-cobbler/", "recipe_id": "rcp_88989bf2ca"}
+{"ts": "2026-10-07T23:55:16+00:00", "event": "node_done", "node": "validate", "url": "https://cookieandkate.com/peach-cobbler/", "recipe_id": "rcp_88989bf2ca"}
+{"ts": "2026-10-07T23:55:16+00:00", "event": "terminal", "url": "https://cookieandkate.com/peach-cobbler/", "recipe_id": "rcp_88989bf2ca", "state": "complete_partial", "reason": "3 of 15 ingredients without nutrition (1 unknown, 0 hit the 3-attempt cap, 2 no gram weight); card from 19 comments", "node_path": ["fetch", "parse_recipe", "parse_ingredients", "match_nutrition", "match_nutrition", "mark_unknown", "gather_comments", "summarise", "validate", "write"]}
+{"ts": "2026-10-07T23:55:16+00:00", "event": "node_done", "node": "write", "url": "https://cookieandkate.com/peach-cobbler/", "recipe_id": "rcp_88989bf2ca"}
+{"ts": "2026-10-07T23:55:16+00:00", "event": "start", "url": "https://houseofnasheats.com/black-forest-cake/", "thread": "batch:954df896bf9a"}
+{"ts": "2026-10-07T23:55:17+00:00", "event": "fetched", "url": "https://houseofnasheats.com/black-forest-cake/", "source": "snapshot", "recipes": 1, "comments": 33}
+{"ts": "2026-10-07T23:55:17+00:00", "event": "node_done", "node": "fetch", "url": "https://houseofnasheats.com/black-forest-cake/", "recipe_id": null}
+{"ts": "2026-10-07T23:55:17+00:00", "event": "node_done", "node": "parse_recipe", "url": "https://houseofnasheats.com/black-forest-cake/", "recipe_id": "rcp_954df896bf"}
+{"ts": "2026-10-07T23:55:17+00:00", "event": "node_done", "node": "parse_ingredients", "url": "https://houseofnasheats.com/black-forest-cake/", "recipe_id": "rcp_954df896bf"}
+{"ts": "2026-10-07T23:55:17+00:00", "event": "match_round", "url": "https://houseofnasheats.com/black-forest-cake/", "round": 1, "matched": 10, "pending": 7}
+{"ts": "2026-10-07T23:55:17+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://houseofnasheats.com/black-forest-cake/", "recipe_id": "rcp_954df896bf"}
+{"ts": "2026-10-07T23:55:17+00:00", "event": "match_round", "url": "https://houseofnasheats.com/black-forest-cake/", "round": 2, "matched": 17, "pending": 0}
+{"ts": "2026-10-07T23:55:17+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://houseofnasheats.com/black-forest-cake/", "recipe_id": "rcp_954df896bf"}
+{"ts": "2026-10-07T23:55:17+00:00", "event": "node_done", "node": "gather_comments", "url": "https://houseofnasheats.com/black-forest-cake/", "recipe_id": "rcp_954df896bf"}
+{"ts": "2026-10-07T23:55:17+00:00", "event": "node_done", "node": "summarise", "url": "https://houseofnasheats.com/black-forest-cake/", "recipe_id": "rcp_954df896bf"}
+{"ts": "2026-10-07T23:55:17+00:00", "event": "node_done", "node": "validate", "url": "https://houseofnasheats.com/black-forest-cake/", "recipe_id": "rcp_954df896bf"}
+{"ts": "2026-10-07T23:55:17+00:00", "event": "terminal", "url": "https://houseofnasheats.com/black-forest-cake/", "recipe_id": "rcp_954df896bf", "state": "complete", "reason": "all 17 ingredients matched with grams; card from 14 comments", "node_path": ["fetch", "parse_recipe", "parse_ingredients", "match_nutrition", "match_nutrition", "gather_comments", "summarise", "validate", "write"]}
+{"ts": "2026-10-07T23:55:17+00:00", "event": "node_done", "node": "write", "url": "https://houseofnasheats.com/black-forest-cake/", "recipe_id": "rcp_954df896bf"}
+{"ts": "2026-10-07T23:55:17+00:00", "event": "start", "url": "https://ourbestbites.com/banana-cream-pie/", "thread": "batch:6cc580a3f97d"}
+{"ts": "2026-10-07T23:55:17+00:00", "event": "fetched", "url": "https://ourbestbites.com/banana-cream-pie/", "source": "snapshot", "recipes": 1, "comments": 33}
+{"ts": "2026-10-07T23:55:17+00:00", "event": "node_done", "node": "fetch", "url": "https://ourbestbites.com/banana-cream-pie/", "recipe_id": null}
+{"ts": "2026-10-07T23:55:17+00:00", "event": "node_done", "node": "parse_recipe", "url": "https://ourbestbites.com/banana-cream-pie/", "recipe_id": "rcp_6cc580a3f9"}
+{"ts": "2026-10-07T23:55:17+00:00", "event": "node_done", "node": "parse_ingredients", "url": "https://ourbestbites.com/banana-cream-pie/", "recipe_id": "rcp_6cc580a3f9"}
+{"ts": "2026-10-07T23:55:18+00:00", "event": "match_round", "url": "https://ourbestbites.com/banana-cream-pie/", "round": 1, "matched": 4, "pending": 3}
+{"ts": "2026-10-07T23:55:18+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://ourbestbites.com/banana-cream-pie/", "recipe_id": "rcp_6cc580a3f9"}
+{"ts": "2026-10-07T23:55:18+00:00", "event": "match_round", "url": "https://ourbestbites.com/banana-cream-pie/", "round": 2, "matched": 7, "pending": 0}
+{"ts": "2026-10-07T23:55:18+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://ourbestbites.com/banana-cream-pie/", "recipe_id": "rcp_6cc580a3f9"}
+{"ts": "2026-10-07T23:55:18+00:00", "event": "node_done", "node": "gather_comments", "url": "https://ourbestbites.com/banana-cream-pie/", "recipe_id": "rcp_6cc580a3f9"}
+{"ts": "2026-10-07T23:55:18+00:00", "event": "node_done", "node": "summarise", "url": "https://ourbestbites.com/banana-cream-pie/", "recipe_id": "rcp_6cc580a3f9"}
+{"ts": "2026-10-07T23:55:18+00:00", "event": "node_done", "node": "validate", "url": "https://ourbestbites.com/banana-cream-pie/", "recipe_id": "rcp_6cc580a3f9"}
+{"ts": "2026-10-07T23:55:18+00:00", "event": "terminal", "url": "https://ourbestbites.com/banana-cream-pie/", "recipe_id": "rcp_6cc580a3f9", "state": "complete_partial", "reason": "1 of 7 ingredients without nutrition (0 unknown, 0 hit the 3-attempt cap, 1 no gram weight); card from 30 comments", "node_path": ["fetch", "parse_recipe", "parse_ingredients", "match_nutrition", "match_nutrition", "gather_comments", "summarise", "validate", "write"]}
+{"ts": "2026-10-07T23:55:18+00:00", "event": "node_done", "node": "write", "url": "https://ourbestbites.com/banana-cream-pie/", "recipe_id": "rcp_6cc580a3f9"}
+{"ts": "2026-10-07T23:55:18+00:00", "event": "start", "url": "https://sallysbakingaddiction.com/recipe-round-2-cake-batter-chocolate-chip-cookies/", "thread": "batch:456ba2c583b4"}
+{"ts": "2026-10-07T23:55:18+00:00", "event": "fetched", "url": "https://sallysbakingaddiction.com/recipe-round-2-cake-batter-chocolate-chip-cookies/", "source": "snapshot", "recipes": 1, "comments": 31}
+{"ts": "2026-10-07T23:55:18+00:00", "event": "node_done", "node": "fetch", "url": "https://sallysbakingaddiction.com/recipe-round-2-cake-batter-chocolate-chip-cookies/", "recipe_id": null}
+{"ts": "2026-10-07T23:55:18+00:00", "event": "node_done", "node": "parse_recipe", "url": "https://sallysbakingaddiction.com/recipe-round-2-cake-batter-chocolate-chip-cookies/", "recipe_id": "rcp_456ba2c583"}
+{"ts": "2026-10-07T23:55:18+00:00", "event": "node_done", "node": "parse_ingredients", "url": "https://sallysbakingaddiction.com/recipe-round-2-cake-batter-chocolate-chip-cookies/", "recipe_id": "rcp_456ba2c583"}
+{"ts": "2026-10-07T23:55:18+00:00", "event": "match_round", "url": "https://sallysbakingaddiction.com/recipe-round-2-cake-batter-chocolate-chip-cookies/", "round": 1, "matched": 4, "pending": 7}
+{"ts": "2026-10-07T23:55:18+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://sallysbakingaddiction.com/recipe-round-2-cake-batter-chocolate-chip-cookies/", "recipe_id": "rcp_456ba2c583"}
+{"ts": "2026-10-07T23:55:18+00:00", "event": "match_round", "url": "https://sallysbakingaddiction.com/recipe-round-2-cake-batter-chocolate-chip-cookies/", "round": 2, "matched": 8, "pending": 3}
+{"ts": "2026-10-07T23:55:18+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://sallysbakingaddiction.com/recipe-round-2-cake-batter-chocolate-chip-cookies/", "recipe_id": "rcp_456ba2c583"}
+{"ts": "2026-10-07T23:55:18+00:00", "event": "match_round", "url": "https://sallysbakingaddiction.com/recipe-round-2-cake-batter-chocolate-chip-cookies/", "round": 3, "matched": 8, "pending": 3}
+{"ts": "2026-10-07T23:55:18+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://sallysbakingaddiction.com/recipe-round-2-cake-batter-chocolate-chip-cookies/", "recipe_id": "rcp_456ba2c583"}
+{"ts": "2026-10-07T23:55:18+00:00", "event": "node_done", "node": "mark_unknown", "url": "https://sallysbakingaddiction.com/recipe-round-2-cake-batter-chocolate-chip-cookies/", "recipe_id": "rcp_456ba2c583"}
+{"ts": "2026-10-07T23:55:18+00:00", "event": "node_done", "node": "gather_comments", "url": "https://sallysbakingaddiction.com/recipe-round-2-cake-batter-chocolate-chip-cookies/", "recipe_id": "rcp_456ba2c583"}
+{"ts": "2026-10-07T23:55:18+00:00", "event": "node_done", "node": "summarise", "url": "https://sallysbakingaddiction.com/recipe-round-2-cake-batter-chocolate-chip-cookies/", "recipe_id": "rcp_456ba2c583"}
+{"ts": "2026-10-07T23:55:18+00:00", "event": "node_done", "node": "validate", "url": "https://sallysbakingaddiction.com/recipe-round-2-cake-batter-chocolate-chip-cookies/", "recipe_id": "rcp_456ba2c583"}
+{"ts": "2026-10-07T23:55:18+00:00", "event": "terminal", "url": "https://sallysbakingaddiction.com/recipe-round-2-cake-batter-chocolate-chip-cookies/", "recipe_id": "rcp_456ba2c583", "state": "complete_partial", "reason": "4 of 11 ingredients without nutrition (3 unknown, 1 hit the 3-attempt cap, 1 no gram weight); card from 21 comments", "node_path": ["fetch", "parse_recipe", "parse_ingredients", "match_nutrition", "match_nutrition", "match_nutrition", "mark_unknown", "gather_comments", "summarise", "validate", "write"]}
+{"ts": "2026-10-07T23:55:18+00:00", "event": "node_done", "node": "write", "url": "https://sallysbakingaddiction.com/recipe-round-2-cake-batter-chocolate-chip-cookies/", "recipe_id": "rcp_456ba2c583"}
+{"ts": "2026-10-07T23:55:18+00:00", "event": "start", "url": "https://southernbite.com/old-fashioned-butter-rolls/", "thread": "batch:37c8a934787b"}
+{"ts": "2026-10-07T23:55:19+00:00", "event": "fetched", "url": "https://southernbite.com/old-fashioned-butter-rolls/", "source": "snapshot", "recipes": 1, "comments": 38}
+{"ts": "2026-10-07T23:55:19+00:00", "event": "node_done", "node": "fetch", "url": "https://southernbite.com/old-fashioned-butter-rolls/", "recipe_id": null}
+{"ts": "2026-10-07T23:55:19+00:00", "event": "node_done", "node": "parse_recipe", "url": "https://southernbite.com/old-fashioned-butter-rolls/", "recipe_id": "rcp_37c8a93478"}
+{"ts": "2026-10-07T23:55:19+00:00", "event": "node_done", "node": "parse_ingredients", "url": "https://southernbite.com/old-fashioned-butter-rolls/", "recipe_id": "rcp_37c8a93478"}
+{"ts": "2026-10-07T23:55:19+00:00", "event": "match_round", "url": "https://southernbite.com/old-fashioned-butter-rolls/", "round": 1, "matched": 3, "pending": 6}
+{"ts": "2026-10-07T23:55:19+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://southernbite.com/old-fashioned-butter-rolls/", "recipe_id": "rcp_37c8a93478"}
+{"ts": "2026-10-07T23:55:19+00:00", "event": "match_round", "url": "https://southernbite.com/old-fashioned-butter-rolls/", "round": 2, "matched": 8, "pending": 1}
+{"ts": "2026-10-07T23:55:19+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://southernbite.com/old-fashioned-butter-rolls/", "recipe_id": "rcp_37c8a93478"}
+{"ts": "2026-10-07T23:55:19+00:00", "event": "node_done", "node": "mark_unknown", "url": "https://southernbite.com/old-fashioned-butter-rolls/", "recipe_id": "rcp_37c8a93478"}
+{"ts": "2026-10-07T23:55:19+00:00", "event": "node_done", "node": "gather_comments", "url": "https://southernbite.com/old-fashioned-butter-rolls/", "recipe_id": "rcp_37c8a93478"}
+{"ts": "2026-10-07T23:55:19+00:00", "event": "node_done", "node": "summarise", "url": "https://southernbite.com/old-fashioned-butter-rolls/", "recipe_id": "rcp_37c8a93478"}
+{"ts": "2026-10-07T23:55:19+00:00", "event": "node_done", "node": "validate", "url": "https://southernbite.com/old-fashioned-butter-rolls/", "recipe_id": "rcp_37c8a93478"}
+{"ts": "2026-10-07T23:55:19+00:00", "event": "terminal", "url": "https://southernbite.com/old-fashioned-butter-rolls/", "recipe_id": "rcp_37c8a93478", "state": "complete_partial", "reason": "1 of 9 ingredients without nutrition (1 unknown, 0 hit the 3-attempt cap, 0 no gram weight); card from 18 comments", "node_path": ["fetch", "parse_recipe", "parse_ingredients", "match_nutrition", "match_nutrition", "mark_unknown", "gather_comments", "summarise", "validate", "write"]}
+{"ts": "2026-10-07T23:55:19+00:00", "event": "node_done", "node": "write", "url": "https://southernbite.com/old-fashioned-butter-rolls/", "recipe_id": "rcp_37c8a93478"}
+{"ts": "2026-10-07T23:55:19+00:00", "event": "start", "url": "https://www.zenbelly.com/gingerbread/", "thread": "batch:d534b880e0f6"}
+{"ts": "2026-10-07T23:55:19+00:00", "event": "fetched", "url": "https://www.zenbelly.com/gingerbread/", "source": "snapshot", "recipes": 1, "comments": 32}
+{"ts": "2026-10-07T23:55:19+00:00", "event": "node_done", "node": "fetch", "url": "https://www.zenbelly.com/gingerbread/", "recipe_id": null}
+{"ts": "2026-10-07T23:55:19+00:00", "event": "node_done", "node": "parse_recipe", "url": "https://www.zenbelly.com/gingerbread/", "recipe_id": "rcp_d534b880e0"}
+{"ts": "2026-10-07T23:55:19+00:00", "event": "node_done", "node": "parse_ingredients", "url": "https://www.zenbelly.com/gingerbread/", "recipe_id": "rcp_d534b880e0"}
+{"ts": "2026-10-07T23:55:19+00:00", "event": "match_round", "url": "https://www.zenbelly.com/gingerbread/", "round": 1, "matched": 3, "pending": 12}
+{"ts": "2026-10-07T23:55:19+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://www.zenbelly.com/gingerbread/", "recipe_id": "rcp_d534b880e0"}
+{"ts": "2026-10-07T23:55:19+00:00", "event": "match_round", "url": "https://www.zenbelly.com/gingerbread/", "round": 2, "matched": 9, "pending": 6}
+{"ts": "2026-10-07T23:55:19+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://www.zenbelly.com/gingerbread/", "recipe_id": "rcp_d534b880e0"}
+{"ts": "2026-10-07T23:55:19+00:00", "event": "match_round", "url": "https://www.zenbelly.com/gingerbread/", "round": 3, "matched": 11, "pending": 4}
+{"ts": "2026-10-07T23:55:19+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://www.zenbelly.com/gingerbread/", "recipe_id": "rcp_d534b880e0"}
+{"ts": "2026-10-07T23:55:19+00:00", "event": "node_done", "node": "mark_unknown", "url": "https://www.zenbelly.com/gingerbread/", "recipe_id": "rcp_d534b880e0"}
+{"ts": "2026-10-07T23:55:19+00:00", "event": "node_done", "node": "gather_comments", "url": "https://www.zenbelly.com/gingerbread/", "recipe_id": "rcp_d534b880e0"}
+{"ts": "2026-10-07T23:55:19+00:00", "event": "node_done", "node": "summarise", "url": "https://www.zenbelly.com/gingerbread/", "recipe_id": "rcp_d534b880e0"}
+{"ts": "2026-10-07T23:55:19+00:00", "event": "node_done", "node": "validate", "url": "https://www.zenbelly.com/gingerbread/", "recipe_id": "rcp_d534b880e0"}
+{"ts": "2026-10-07T23:55:19+00:00", "event": "terminal", "url": "https://www.zenbelly.com/gingerbread/", "recipe_id": "rcp_d534b880e0", "state": "complete_partial", "reason": "7 of 15 ingredients without nutrition (4 unknown, 2 hit the 3-attempt cap, 3 no gram weight); card from 17 comments", "node_path": ["fetch", "parse_recipe", "parse_ingredients", "match_nutrition", "match_nutrition", "match_nutrition", "mark_unknown", "gather_comments", "summarise", "validate", "write"]}
+{"ts": "2026-10-07T23:55:19+00:00", "event": "node_done", "node": "write", "url": "https://www.zenbelly.com/gingerbread/", "recipe_id": "rcp_d534b880e0"}
+{"ts": "2026-10-07T23:55:19+00:00", "event": "start", "url": "https://thinlicious.com/rich-creamy-pumpkin-cheesecake-bars/", "thread": "batch:40775bc48928"}
+{"ts": "2026-10-07T23:55:20+00:00", "event": "fetched", "url": "https://thinlicious.com/rich-creamy-pumpkin-cheesecake-bars/", "source": "snapshot", "recipes": 1, "comments": 20}
+{"ts": "2026-10-07T23:55:20+00:00", "event": "node_done", "node": "fetch", "url": "https://thinlicious.com/rich-creamy-pumpkin-cheesecake-bars/", "recipe_id": null}
+{"ts": "2026-10-07T23:55:20+00:00", "event": "node_done", "node": "parse_recipe", "url": "https://thinlicious.com/rich-creamy-pumpkin-cheesecake-bars/", "recipe_id": "rcp_40775bc489"}
+{"ts": "2026-10-07T23:55:20+00:00", "event": "node_done", "node": "parse_ingredients", "url": "https://thinlicious.com/rich-creamy-pumpkin-cheesecake-bars/", "recipe_id": "rcp_40775bc489"}
+{"ts": "2026-10-07T23:55:20+00:00", "event": "match_round", "url": "https://thinlicious.com/rich-creamy-pumpkin-cheesecake-bars/", "round": 1, "matched": 7, "pending": 7}
+{"ts": "2026-10-07T23:55:20+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://thinlicious.com/rich-creamy-pumpkin-cheesecake-bars/", "recipe_id": "rcp_40775bc489"}
+{"ts": "2026-10-07T23:55:20+00:00", "event": "match_round", "url": "https://thinlicious.com/rich-creamy-pumpkin-cheesecake-bars/", "round": 2, "matched": 9, "pending": 5}
+{"ts": "2026-10-07T23:55:20+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://thinlicious.com/rich-creamy-pumpkin-cheesecake-bars/", "recipe_id": "rcp_40775bc489"}
+{"ts": "2026-10-07T23:55:20+00:00", "event": "match_round", "url": "https://thinlicious.com/rich-creamy-pumpkin-cheesecake-bars/", "round": 3, "matched": 10, "pending": 4}
+{"ts": "2026-10-07T23:55:20+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://thinlicious.com/rich-creamy-pumpkin-cheesecake-bars/", "recipe_id": "rcp_40775bc489"}
+{"ts": "2026-10-07T23:55:20+00:00", "event": "node_done", "node": "mark_unknown", "url": "https://thinlicious.com/rich-creamy-pumpkin-cheesecake-bars/", "recipe_id": "rcp_40775bc489"}
+{"ts": "2026-10-07T23:55:20+00:00", "event": "node_done", "node": "gather_comments", "url": "https://thinlicious.com/rich-creamy-pumpkin-cheesecake-bars/", "recipe_id": "rcp_40775bc489"}
+{"ts": "2026-10-07T23:55:20+00:00", "event": "node_done", "node": "summarise", "url": "https://thinlicious.com/rich-creamy-pumpkin-cheesecake-bars/", "recipe_id": "rcp_40775bc489"}
+{"ts": "2026-10-07T23:55:20+00:00", "event": "node_done", "node": "validate", "url": "https://thinlicious.com/rich-creamy-pumpkin-cheesecake-bars/", "recipe_id": "rcp_40775bc489"}
+{"ts": "2026-10-07T23:55:20+00:00", "event": "terminal", "url": "https://thinlicious.com/rich-creamy-pumpkin-cheesecake-bars/", "recipe_id": "rcp_40775bc489", "state": "complete_partial", "reason": "5 of 14 ingredients without nutrition (4 unknown, 0 hit the 3-attempt cap, 1 no gram weight); card from 13 comments", "node_path": ["fetch", "parse_recipe", "parse_ingredients", "match_nutrition", "match_nutrition", "match_nutrition", "mark_unknown", "gather_comments", "summarise", "validate", "write"]}
+{"ts": "2026-10-07T23:55:20+00:00", "event": "node_done", "node": "write", "url": "https://thinlicious.com/rich-creamy-pumpkin-cheesecake-bars/", "recipe_id": "rcp_40775bc489"}
+{"ts": "2026-10-07T23:55:20+00:00", "event": "start", "url": "https://thebigmansworld.com/coconut-cake/", "thread": "batch:7c62b972de1c"}
+{"ts": "2026-10-07T23:55:20+00:00", "event": "fetched", "url": "https://thebigmansworld.com/coconut-cake/", "source": "snapshot", "recipes": 1, "comments": 21}
+{"ts": "2026-10-07T23:55:20+00:00", "event": "node_done", "node": "fetch", "url": "https://thebigmansworld.com/coconut-cake/", "recipe_id": null}
+{"ts": "2026-10-07T23:55:20+00:00", "event": "node_done", "node": "parse_recipe", "url": "https://thebigmansworld.com/coconut-cake/", "recipe_id": "rcp_7c62b972de"}
+{"ts": "2026-10-07T23:55:20+00:00", "event": "node_done", "node": "parse_ingredients", "url": "https://thebigmansworld.com/coconut-cake/", "recipe_id": "rcp_7c62b972de"}
+{"ts": "2026-10-07T23:55:20+00:00", "event": "match_round", "url": "https://thebigmansworld.com/coconut-cake/", "round": 1, "matched": 4, "pending": 9}
+{"ts": "2026-10-07T23:55:20+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://thebigmansworld.com/coconut-cake/", "recipe_id": "rcp_7c62b972de"}
+{"ts": "2026-10-07T23:55:20+00:00", "event": "match_round", "url": "https://thebigmansworld.com/coconut-cake/", "round": 2, "matched": 9, "pending": 4}
+{"ts": "2026-10-07T23:55:20+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://thebigmansworld.com/coconut-cake/", "recipe_id": "rcp_7c62b972de"}
+{"ts": "2026-10-07T23:55:20+00:00", "event": "match_round", "url": "https://thebigmansworld.com/coconut-cake/", "round": 3, "matched": 10, "pending": 3}
+{"ts": "2026-10-07T23:55:20+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://thebigmansworld.com/coconut-cake/", "recipe_id": "rcp_7c62b972de"}
+{"ts": "2026-10-07T23:55:20+00:00", "event": "node_done", "node": "mark_unknown", "url": "https://thebigmansworld.com/coconut-cake/", "recipe_id": "rcp_7c62b972de"}
+{"ts": "2026-10-07T23:55:20+00:00", "event": "node_done", "node": "gather_comments", "url": "https://thebigmansworld.com/coconut-cake/", "recipe_id": "rcp_7c62b972de"}
+{"ts": "2026-10-07T23:55:20+00:00", "event": "node_done", "node": "summarise", "url": "https://thebigmansworld.com/coconut-cake/", "recipe_id": "rcp_7c62b972de"}
+{"ts": "2026-10-07T23:55:20+00:00", "event": "node_done", "node": "validate", "url": "https://thebigmansworld.com/coconut-cake/", "recipe_id": "rcp_7c62b972de"}
+{"ts": "2026-10-07T23:55:20+00:00", "event": "terminal", "url": "https://thebigmansworld.com/coconut-cake/", "recipe_id": "rcp_7c62b972de", "state": "complete_partial", "reason": "3 of 13 ingredients without nutrition (3 unknown, 0 hit the 3-attempt cap, 0 no gram weight); card from 10 comments", "node_path": ["fetch", "parse_recipe", "parse_ingredients", "match_nutrition", "match_nutrition", "match_nutrition", "mark_unknown", "gather_comments", "summarise", "validate", "write"]}
+{"ts": "2026-10-07T23:55:20+00:00", "event": "node_done", "node": "write", "url": "https://thebigmansworld.com/coconut-cake/", "recipe_id": "rcp_7c62b972de"}
+{"ts": "2026-10-07T23:55:20+00:00", "event": "start", "url": "https://www.noracooks.com/vegan-chocolate-cake/", "thread": "batch:d79db9d19191"}
+{"ts": "2026-10-07T23:55:21+00:00", "event": "fetched", "url": "https://www.noracooks.com/vegan-chocolate-cake/", "source": "snapshot", "recipes": 1, "comments": 20}
+{"ts": "2026-10-07T23:55:21+00:00", "event": "node_done", "node": "fetch", "url": "https://www.noracooks.com/vegan-chocolate-cake/", "recipe_id": null}
+{"ts": "2026-10-07T23:55:21+00:00", "event": "node_done", "node": "parse_recipe", "url": "https://www.noracooks.com/vegan-chocolate-cake/", "recipe_id": "rcp_d79db9d191"}
+{"ts": "2026-10-07T23:55:21+00:00", "event": "node_done", "node": "parse_ingredients", "url": "https://www.noracooks.com/vegan-chocolate-cake/", "recipe_id": "rcp_d79db9d191"}
+{"ts": "2026-10-07T23:55:21+00:00", "event": "match_round", "url": "https://www.noracooks.com/vegan-chocolate-cake/", "round": 1, "matched": 6, "pending": 11}
+{"ts": "2026-10-07T23:55:21+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://www.noracooks.com/vegan-chocolate-cake/", "recipe_id": "rcp_d79db9d191"}
+{"ts": "2026-10-07T23:55:21+00:00", "event": "match_round", "url": "https://www.noracooks.com/vegan-chocolate-cake/", "round": 2, "matched": 16, "pending": 1}
+{"ts": "2026-10-07T23:55:21+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://www.noracooks.com/vegan-chocolate-cake/", "recipe_id": "rcp_d79db9d191"}
+{"ts": "2026-10-07T23:55:21+00:00", "event": "node_done", "node": "mark_unknown", "url": "https://www.noracooks.com/vegan-chocolate-cake/", "recipe_id": "rcp_d79db9d191"}
+{"ts": "2026-10-07T23:55:21+00:00", "event": "node_done", "node": "gather_comments", "url": "https://www.noracooks.com/vegan-chocolate-cake/", "recipe_id": "rcp_d79db9d191"}
+{"ts": "2026-10-07T23:55:21+00:00", "event": "node_done", "node": "summarise", "url": "https://www.noracooks.com/vegan-chocolate-cake/", "recipe_id": "rcp_d79db9d191"}
+{"ts": "2026-10-07T23:55:21+00:00", "event": "node_done", "node": "validate", "url": "https://www.noracooks.com/vegan-chocolate-cake/", "recipe_id": "rcp_d79db9d191"}
+{"ts": "2026-10-07T23:55:21+00:00", "event": "terminal", "url": "https://www.noracooks.com/vegan-chocolate-cake/", "recipe_id": "rcp_d79db9d191", "state": "complete_partial", "reason": "3 of 17 ingredients without nutrition (1 unknown, 0 hit the 3-attempt cap, 2 no gram weight); card from 10 comments", "node_path": ["fetch", "parse_recipe", "parse_ingredients", "match_nutrition", "match_nutrition", "mark_unknown", "gather_comments", "summarise", "validate", "write"]}
+{"ts": "2026-10-07T23:55:21+00:00", "event": "node_done", "node": "write", "url": "https://www.noracooks.com/vegan-chocolate-cake/", "recipe_id": "rcp_d79db9d191"}
+{"ts": "2026-10-07T23:55:21+00:00", "event": "start", "url": "https://sugarspunrun.com/pecan-pie-cookies/", "thread": "batch:888a61d8034a"}
+{"ts": "2026-10-07T23:55:21+00:00", "event": "fetched", "url": "https://sugarspunrun.com/pecan-pie-cookies/", "source": "snapshot", "recipes": 1, "comments": 28}
+{"ts": "2026-10-07T23:55:21+00:00", "event": "node_done", "node": "fetch", "url": "https://sugarspunrun.com/pecan-pie-cookies/", "recipe_id": null}
+{"ts": "2026-10-07T23:55:21+00:00", "event": "node_done", "node": "parse_recipe", "url": "https://sugarspunrun.com/pecan-pie-cookies/", "recipe_id": "rcp_888a61d803"}
+{"ts": "2026-10-07T23:55:21+00:00", "event": "node_done", "node": "parse_ingredients", "url": "https://sugarspunrun.com/pecan-pie-cookies/", "recipe_id": "rcp_888a61d803"}
+{"ts": "2026-10-07T23:55:21+00:00", "event": "match_round", "url": "https://sugarspunrun.com/pecan-pie-cookies/", "round": 1, "matched": 8, "pending": 9}
+{"ts": "2026-10-07T23:55:21+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://sugarspunrun.com/pecan-pie-cookies/", "recipe_id": "rcp_888a61d803"}
+{"ts": "2026-10-07T23:55:21+00:00", "event": "match_round", "url": "https://sugarspunrun.com/pecan-pie-cookies/", "round": 2, "matched": 17, "pending": 0}
+{"ts": "2026-10-07T23:55:21+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://sugarspunrun.com/pecan-pie-cookies/", "recipe_id": "rcp_888a61d803"}
+{"ts": "2026-10-07T23:55:21+00:00", "event": "node_done", "node": "gather_comments", "url": "https://sugarspunrun.com/pecan-pie-cookies/", "recipe_id": "rcp_888a61d803"}
+{"ts": "2026-10-07T23:55:21+00:00", "event": "node_done", "node": "summarise", "url": "https://sugarspunrun.com/pecan-pie-cookies/", "recipe_id": "rcp_888a61d803"}
+{"ts": "2026-10-07T23:55:21+00:00", "event": "node_done", "node": "validate", "url": "https://sugarspunrun.com/pecan-pie-cookies/", "recipe_id": "rcp_888a61d803"}
+{"ts": "2026-10-07T23:55:21+00:00", "event": "terminal", "url": "https://sugarspunrun.com/pecan-pie-cookies/", "recipe_id": "rcp_888a61d803", "state": "complete_partial", "reason": "1 of 17 ingredients without nutrition (0 unknown, 0 hit the 3-attempt cap, 1 no gram weight); card from 13 comments", "node_path": ["fetch", "parse_recipe", "parse_ingredients", "match_nutrition", "match_nutrition", "gather_comments", "summarise", "validate", "write"]}
+{"ts": "2026-10-07T23:55:21+00:00", "event": "node_done", "node": "write", "url": "https://sugarspunrun.com/pecan-pie-cookies/", "recipe_id": "rcp_888a61d803"}
+{"ts": "2026-10-07T23:55:21+00:00", "event": "start", "url": "https://izzycooking.com/oreo-cheesecake-bites/", "thread": "batch:b503aae88088"}
+{"ts": "2026-10-07T23:55:22+00:00", "event": "fetched", "url": "https://izzycooking.com/oreo-cheesecake-bites/", "source": "snapshot", "recipes": 1, "comments": 48}
+{"ts": "2026-10-07T23:55:22+00:00", "event": "node_done", "node": "fetch", "url": "https://izzycooking.com/oreo-cheesecake-bites/", "recipe_id": null}
+{"ts": "2026-10-07T23:55:22+00:00", "event": "node_done", "node": "parse_recipe", "url": "https://izzycooking.com/oreo-cheesecake-bites/", "recipe_id": "rcp_b503aae880"}
+{"ts": "2026-10-07T23:55:22+00:00", "event": "node_done", "node": "parse_ingredients", "url": "https://izzycooking.com/oreo-cheesecake-bites/", "recipe_id": "rcp_b503aae880"}
+{"ts": "2026-10-07T23:55:22+00:00", "event": "match_round", "url": "https://izzycooking.com/oreo-cheesecake-bites/", "round": 1, "matched": 4, "pending": 2}
+{"ts": "2026-10-07T23:55:22+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://izzycooking.com/oreo-cheesecake-bites/", "recipe_id": "rcp_b503aae880"}
+{"ts": "2026-10-07T23:55:22+00:00", "event": "match_round", "url": "https://izzycooking.com/oreo-cheesecake-bites/", "round": 2, "matched": 5, "pending": 1}
+{"ts": "2026-10-07T23:55:22+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://izzycooking.com/oreo-cheesecake-bites/", "recipe_id": "rcp_b503aae880"}
+{"ts": "2026-10-07T23:55:22+00:00", "event": "match_round", "url": "https://izzycooking.com/oreo-cheesecake-bites/", "round": 3, "matched": 6, "pending": 0}
+{"ts": "2026-10-07T23:55:22+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://izzycooking.com/oreo-cheesecake-bites/", "recipe_id": "rcp_b503aae880"}
+{"ts": "2026-10-07T23:55:22+00:00", "event": "node_done", "node": "gather_comments", "url": "https://izzycooking.com/oreo-cheesecake-bites/", "recipe_id": "rcp_b503aae880"}
+{"ts": "2026-10-07T23:55:22+00:00", "event": "node_done", "node": "summarise", "url": "https://izzycooking.com/oreo-cheesecake-bites/", "recipe_id": "rcp_b503aae880"}
+{"ts": "2026-10-07T23:55:22+00:00", "event": "node_done", "node": "validate", "url": "https://izzycooking.com/oreo-cheesecake-bites/", "recipe_id": "rcp_b503aae880"}
+{"ts": "2026-10-07T23:55:22+00:00", "event": "terminal", "url": "https://izzycooking.com/oreo-cheesecake-bites/", "recipe_id": "rcp_b503aae880", "state": "complete_partial", "reason": "1 of 6 ingredients without nutrition (0 unknown, 0 hit the 3-attempt cap, 1 no gram weight); card from 35 comments", "node_path": ["fetch", "parse_recipe", "parse_ingredients", "match_nutrition", "match_nutrition", "match_nutrition", "gather_comments", "summarise", "validate", "write"]}
+{"ts": "2026-10-07T23:55:22+00:00", "event": "node_done", "node": "write", "url": "https://izzycooking.com/oreo-cheesecake-bites/", "recipe_id": "rcp_b503aae880"}
+{"ts": "2026-10-07T23:55:22+00:00", "event": "start", "url": "https://www.culinaryhill.com/apple-cider-donuts/", "thread": "batch:0d13d9e9fb7c"}
+{"ts": "2026-10-07T23:55:22+00:00", "event": "fetched", "url": "https://www.culinaryhill.com/apple-cider-donuts/", "source": "snapshot", "recipes": 1, "comments": 14}
+{"ts": "2026-10-07T23:55:22+00:00", "event": "node_done", "node": "fetch", "url": "https://www.culinaryhill.com/apple-cider-donuts/", "recipe_id": null}
+{"ts": "2026-10-07T23:55:22+00:00", "event": "node_done", "node": "parse_recipe", "url": "https://www.culinaryhill.com/apple-cider-donuts/", "recipe_id": "rcp_0d13d9e9fb"}
+{"ts": "2026-10-07T23:55:22+00:00", "event": "node_done", "node": "parse_ingredients", "url": "https://www.culinaryhill.com/apple-cider-donuts/", "recipe_id": "rcp_0d13d9e9fb"}
+{"ts": "2026-10-07T23:55:22+00:00", "event": "match_round", "url": "https://www.culinaryhill.com/apple-cider-donuts/", "round": 1, "matched": 8, "pending": 9}
+{"ts": "2026-10-07T23:55:22+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://www.culinaryhill.com/apple-cider-donuts/", "recipe_id": "rcp_0d13d9e9fb"}
+{"ts": "2026-10-07T23:55:22+00:00", "event": "match_round", "url": "https://www.culinaryhill.com/apple-cider-donuts/", "round": 2, "matched": 13, "pending": 4}
+{"ts": "2026-10-07T23:55:22+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://www.culinaryhill.com/apple-cider-donuts/", "recipe_id": "rcp_0d13d9e9fb"}
+{"ts": "2026-10-07T23:55:22+00:00", "event": "node_done", "node": "mark_unknown", "url": "https://www.culinaryhill.com/apple-cider-donuts/", "recipe_id": "rcp_0d13d9e9fb"}
+{"ts": "2026-10-07T23:55:22+00:00", "event": "node_done", "node": "gather_comments", "url": "https://www.culinaryhill.com/apple-cider-donuts/", "recipe_id": "rcp_0d13d9e9fb"}
+{"ts": "2026-10-07T23:55:22+00:00", "event": "node_done", "node": "summarise", "url": "https://www.culinaryhill.com/apple-cider-donuts/", "recipe_id": "rcp_0d13d9e9fb"}
+{"ts": "2026-10-07T23:55:22+00:00", "event": "node_done", "node": "validate", "url": "https://www.culinaryhill.com/apple-cider-donuts/", "recipe_id": "rcp_0d13d9e9fb"}
+{"ts": "2026-10-07T23:55:22+00:00", "event": "terminal", "url": "https://www.culinaryhill.com/apple-cider-donuts/", "recipe_id": "rcp_0d13d9e9fb", "state": "complete_partial", "reason": "5 of 17 ingredients without nutrition (4 unknown, 0 hit the 3-attempt cap, 1 no gram weight); card from 7 comments", "node_path": ["fetch", "parse_recipe", "parse_ingredients", "match_nutrition", "match_nutrition", "mark_unknown", "gather_comments", "summarise", "validate", "write"]}
+{"ts": "2026-10-07T23:55:22+00:00", "event": "node_done", "node": "write", "url": "https://www.culinaryhill.com/apple-cider-donuts/", "recipe_id": "rcp_0d13d9e9fb"}
+{"ts": "2026-10-07T23:55:22+00:00", "event": "start", "url": "https://www.homeandplate.com/blog/perfect-sugar-cookie-recipe/", "thread": "batch:aa1633c698a0"}
+{"ts": "2026-10-07T23:55:23+00:00", "event": "fetched", "url": "https://www.homeandplate.com/blog/perfect-sugar-cookie-recipe/", "source": "snapshot", "recipes": 1, "comments": 14}
+{"ts": "2026-10-07T23:55:23+00:00", "event": "node_done", "node": "fetch", "url": "https://www.homeandplate.com/blog/perfect-sugar-cookie-recipe/", "recipe_id": null}
+{"ts": "2026-10-07T23:55:23+00:00", "event": "node_done", "node": "parse_recipe", "url": "https://www.homeandplate.com/blog/perfect-sugar-cookie-recipe/", "recipe_id": "rcp_aa1633c698"}
+{"ts": "2026-10-07T23:55:23+00:00", "event": "node_done", "node": "parse_ingredients", "url": "https://www.homeandplate.com/blog/perfect-sugar-cookie-recipe/", "recipe_id": "rcp_aa1633c698"}
+{"ts": "2026-10-07T23:55:23+00:00", "event": "match_round", "url": "https://www.homeandplate.com/blog/perfect-sugar-cookie-recipe/", "round": 1, "matched": 7, "pending": 4}
+{"ts": "2026-10-07T23:55:23+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://www.homeandplate.com/blog/perfect-sugar-cookie-recipe/", "recipe_id": "rcp_aa1633c698"}
+{"ts": "2026-10-07T23:55:23+00:00", "event": "match_round", "url": "https://www.homeandplate.com/blog/perfect-sugar-cookie-recipe/", "round": 2, "matched": 9, "pending": 2}
+{"ts": "2026-10-07T23:55:23+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://www.homeandplate.com/blog/perfect-sugar-cookie-recipe/", "recipe_id": "rcp_aa1633c698"}
+{"ts": "2026-10-07T23:55:23+00:00", "event": "match_round", "url": "https://www.homeandplate.com/blog/perfect-sugar-cookie-recipe/", "round": 3, "matched": 10, "pending": 1}
+{"ts": "2026-10-07T23:55:23+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://www.homeandplate.com/blog/perfect-sugar-cookie-recipe/", "recipe_id": "rcp_aa1633c698"}
+{"ts": "2026-10-07T23:55:23+00:00", "event": "node_done", "node": "mark_unknown", "url": "https://www.homeandplate.com/blog/perfect-sugar-cookie-recipe/", "recipe_id": "rcp_aa1633c698"}
+{"ts": "2026-10-07T23:55:23+00:00", "event": "node_done", "node": "gather_comments", "url": "https://www.homeandplate.com/blog/perfect-sugar-cookie-recipe/", "recipe_id": "rcp_aa1633c698"}
+{"ts": "2026-10-07T23:55:23+00:00", "event": "node_done", "node": "summarise", "url": "https://www.homeandplate.com/blog/perfect-sugar-cookie-recipe/", "recipe_id": "rcp_aa1633c698"}
+{"ts": "2026-10-07T23:55:23+00:00", "event": "node_done", "node": "validate", "url": "https://www.homeandplate.com/blog/perfect-sugar-cookie-recipe/", "recipe_id": "rcp_aa1633c698"}
+{"ts": "2026-10-07T23:55:23+00:00", "event": "terminal", "url": "https://www.homeandplate.com/blog/perfect-sugar-cookie-recipe/", "recipe_id": "rcp_aa1633c698", "state": "complete_partial", "reason": "2 of 11 ingredients without nutrition (1 unknown, 1 hit the 3-attempt cap, 1 no gram weight); card from 7 comments", "node_path": ["fetch", "parse_recipe", "parse_ingredients", "match_nutrition", "match_nutrition", "match_nutrition", "mark_unknown", "gather_comments", "summarise", "validate", "write"]}
+{"ts": "2026-10-07T23:55:23+00:00", "event": "node_done", "node": "write", "url": "https://www.homeandplate.com/blog/perfect-sugar-cookie-recipe/", "recipe_id": "rcp_aa1633c698"}
+{"ts": "2026-10-07T23:55:23+00:00", "event": "start", "url": "https://addapinch.com/the-best-chocolate-cake-recipe-ever/", "thread": "batch:fc65dea92da5"}
+{"ts": "2026-10-07T23:55:23+00:00", "event": "fetched", "url": "https://addapinch.com/the-best-chocolate-cake-recipe-ever/", "source": "snapshot", "recipes": 1, "comments": 10}
+{"ts": "2026-10-07T23:55:23+00:00", "event": "node_done", "node": "fetch", "url": "https://addapinch.com/the-best-chocolate-cake-recipe-ever/", "recipe_id": null}
+{"ts": "2026-10-07T23:55:23+00:00", "event": "node_done", "node": "parse_recipe", "url": "https://addapinch.com/the-best-chocolate-cake-recipe-ever/", "recipe_id": "rcp_fc65dea92d"}
+{"ts": "2026-10-07T23:55:23+00:00", "event": "node_done", "node": "parse_ingredients", "url": "https://addapinch.com/the-best-chocolate-cake-recipe-ever/", "recipe_id": "rcp_fc65dea92d"}
+{"ts": "2026-10-07T23:55:23+00:00", "event": "match_round", "url": "https://addapinch.com/the-best-chocolate-cake-recipe-ever/", "round": 1, "matched": 4, "pending": 9}
+{"ts": "2026-10-07T23:55:23+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://addapinch.com/the-best-chocolate-cake-recipe-ever/", "recipe_id": "rcp_fc65dea92d"}
+{"ts": "2026-10-07T23:55:23+00:00", "event": "match_round", "url": "https://addapinch.com/the-best-chocolate-cake-recipe-ever/", "round": 2, "matched": 8, "pending": 5}
+{"ts": "2026-10-07T23:55:23+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://addapinch.com/the-best-chocolate-cake-recipe-ever/", "recipe_id": "rcp_fc65dea92d"}
+{"ts": "2026-10-07T23:55:23+00:00", "event": "match_round", "url": "https://addapinch.com/the-best-chocolate-cake-recipe-ever/", "round": 3, "matched": 8, "pending": 5}
+{"ts": "2026-10-07T23:55:23+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://addapinch.com/the-best-chocolate-cake-recipe-ever/", "recipe_id": "rcp_fc65dea92d"}
+{"ts": "2026-10-07T23:55:23+00:00", "event": "node_done", "node": "mark_unknown", "url": "https://addapinch.com/the-best-chocolate-cake-recipe-ever/", "recipe_id": "rcp_fc65dea92d"}
+{"ts": "2026-10-07T23:55:23+00:00", "event": "node_done", "node": "gather_comments", "url": "https://addapinch.com/the-best-chocolate-cake-recipe-ever/", "recipe_id": "rcp_fc65dea92d"}
+{"ts": "2026-10-07T23:55:23+00:00", "event": "node_done", "node": "summarise", "url": "https://addapinch.com/the-best-chocolate-cake-recipe-ever/", "recipe_id": "rcp_fc65dea92d"}
+{"ts": "2026-10-07T23:55:23+00:00", "event": "node_done", "node": "validate", "url": "https://addapinch.com/the-best-chocolate-cake-recipe-ever/", "recipe_id": "rcp_fc65dea92d"}
+{"ts": "2026-10-07T23:55:23+00:00", "event": "terminal", "url": "https://addapinch.com/the-best-chocolate-cake-recipe-ever/", "recipe_id": "rcp_fc65dea92d", "state": "complete_partial", "reason": "5 of 13 ingredients without nutrition (5 unknown, 1 hit the 3-attempt cap, 0 no gram weight); card from 5 comments", "node_path": ["fetch", "parse_recipe", "parse_ingredients", "match_nutrition", "match_nutrition", "match_nutrition", "mark_unknown", "gather_comments", "summarise", "validate", "write"]}
+{"ts": "2026-10-07T23:55:23+00:00", "event": "node_done", "node": "write", "url": "https://addapinch.com/the-best-chocolate-cake-recipe-ever/", "recipe_id": "rcp_fc65dea92d"}
+{"ts": "2026-10-07T23:55:23+00:00", "event": "start", "url": "https://www.smalltownwoman.com/banana-cream-pie/", "thread": "batch:b3d4fd62b7cf"}
+{"ts": "2026-10-07T23:55:24+00:00", "event": "fetched", "url": "https://www.smalltownwoman.com/banana-cream-pie/", "source": "snapshot", "recipes": 1, "comments": 24}
+{"ts": "2026-10-07T23:55:24+00:00", "event": "node_done", "node": "fetch", "url": "https://www.smalltownwoman.com/banana-cream-pie/", "recipe_id": null}
+{"ts": "2026-10-07T23:55:24+00:00", "event": "node_done", "node": "parse_recipe", "url": "https://www.smalltownwoman.com/banana-cream-pie/", "recipe_id": "rcp_b3d4fd62b7"}
+{"ts": "2026-10-07T23:55:24+00:00", "event": "node_done", "node": "parse_ingredients", "url": "https://www.smalltownwoman.com/banana-cream-pie/", "recipe_id": "rcp_b3d4fd62b7"}
+{"ts": "2026-10-07T23:55:24+00:00", "event": "match_round", "url": "https://www.smalltownwoman.com/banana-cream-pie/", "round": 1, "matched": 11, "pending": 5}
+{"ts": "2026-10-07T23:55:24+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://www.smalltownwoman.com/banana-cream-pie/", "recipe_id": "rcp_b3d4fd62b7"}
+{"ts": "2026-10-07T23:55:24+00:00", "event": "match_round", "url": "https://www.smalltownwoman.com/banana-cream-pie/", "round": 2, "matched": 16, "pending": 0}
+{"ts": "2026-10-07T23:55:24+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://www.smalltownwoman.com/banana-cream-pie/", "recipe_id": "rcp_b3d4fd62b7"}
+{"ts": "2026-10-07T23:55:24+00:00", "event": "node_done", "node": "gather_comments", "url": "https://www.smalltownwoman.com/banana-cream-pie/", "recipe_id": "rcp_b3d4fd62b7"}
+{"ts": "2026-10-07T23:55:24+00:00", "event": "node_done", "node": "summarise", "url": "https://www.smalltownwoman.com/banana-cream-pie/", "recipe_id": "rcp_b3d4fd62b7"}
+{"ts": "2026-10-07T23:55:24+00:00", "event": "node_done", "node": "validate", "url": "https://www.smalltownwoman.com/banana-cream-pie/", "recipe_id": "rcp_b3d4fd62b7"}
+{"ts": "2026-10-07T23:55:24+00:00", "event": "terminal", "url": "https://www.smalltownwoman.com/banana-cream-pie/", "recipe_id": "rcp_b3d4fd62b7", "state": "complete_partial", "reason": "3 of 16 ingredients without nutrition (0 unknown, 0 hit the 3-attempt cap, 3 no gram weight); card from 13 comments", "node_path": ["fetch", "parse_recipe", "parse_ingredients", "match_nutrition", "match_nutrition", "gather_comments", "summarise", "validate", "write"]}
+{"ts": "2026-10-07T23:55:24+00:00", "event": "node_done", "node": "write", "url": "https://www.smalltownwoman.com/banana-cream-pie/", "recipe_id": "rcp_b3d4fd62b7"}
+{"ts": "2026-10-07T23:55:24+00:00", "event": "start", "url": "https://www.savorynothings.com/chewy-chocolate-crinkle-cookies/", "thread": "batch:3af5e08cb98a"}
+{"ts": "2026-10-07T23:55:24+00:00", "event": "fetched", "url": "https://www.savorynothings.com/chewy-chocolate-crinkle-cookies/", "source": "snapshot", "recipes": 1, "comments": 20}
+{"ts": "2026-10-07T23:55:24+00:00", "event": "node_done", "node": "fetch", "url": "https://www.savorynothings.com/chewy-chocolate-crinkle-cookies/", "recipe_id": null}
+{"ts": "2026-10-07T23:55:24+00:00", "event": "node_done", "node": "parse_recipe", "url": "https://www.savorynothings.com/chewy-chocolate-crinkle-cookies/", "recipe_id": "rcp_3af5e08cb9"}
+{"ts": "2026-10-07T23:55:24+00:00", "event": "node_done", "node": "parse_ingredients", "url": "https://www.savorynothings.com/chewy-chocolate-crinkle-cookies/", "recipe_id": "rcp_3af5e08cb9"}
+{"ts": "2026-10-07T23:55:24+00:00", "event": "match_round", "url": "https://www.savorynothings.com/chewy-chocolate-crinkle-cookies/", "round": 1, "matched": 5, "pending": 4}
+{"ts": "2026-10-07T23:55:24+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://www.savorynothings.com/chewy-chocolate-crinkle-cookies/", "recipe_id": "rcp_3af5e08cb9"}
+{"ts": "2026-10-07T23:55:24+00:00", "event": "match_round", "url": "https://www.savorynothings.com/chewy-chocolate-crinkle-cookies/", "round": 2, "matched": 9, "pending": 0}
+{"ts": "2026-10-07T23:55:24+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://www.savorynothings.com/chewy-chocolate-crinkle-cookies/", "recipe_id": "rcp_3af5e08cb9"}
+{"ts": "2026-10-07T23:55:24+00:00", "event": "node_done", "node": "gather_comments", "url": "https://www.savorynothings.com/chewy-chocolate-crinkle-cookies/", "recipe_id": "rcp_3af5e08cb9"}
+{"ts": "2026-10-07T23:55:24+00:00", "event": "node_done", "node": "summarise", "url": "https://www.savorynothings.com/chewy-chocolate-crinkle-cookies/", "recipe_id": "rcp_3af5e08cb9"}
+{"ts": "2026-10-07T23:55:24+00:00", "event": "node_done", "node": "validate", "url": "https://www.savorynothings.com/chewy-chocolate-crinkle-cookies/", "recipe_id": "rcp_3af5e08cb9"}
+{"ts": "2026-10-07T23:55:24+00:00", "event": "terminal", "url": "https://www.savorynothings.com/chewy-chocolate-crinkle-cookies/", "recipe_id": "rcp_3af5e08cb9", "state": "complete", "reason": "all 9 ingredients matched with grams; card from 15 comments", "node_path": ["fetch", "parse_recipe", "parse_ingredients", "match_nutrition", "match_nutrition", "gather_comments", "summarise", "validate", "write"]}
+{"ts": "2026-10-07T23:55:24+00:00", "event": "node_done", "node": "write", "url": "https://www.savorynothings.com/chewy-chocolate-crinkle-cookies/", "recipe_id": "rcp_3af5e08cb9"}
+{"ts": "2026-10-07T23:55:24+00:00", "event": "start", "url": "https://theplantbasedschool.com/vegan-carrot-cake/", "thread": "batch:4af70562af7d"}
+{"ts": "2026-10-07T23:55:25+00:00", "event": "fetched", "url": "https://theplantbasedschool.com/vegan-carrot-cake/", "source": "snapshot", "recipes": 1, "comments": 2}
+{"ts": "2026-10-07T23:55:25+00:00", "event": "node_done", "node": "fetch", "url": "https://theplantbasedschool.com/vegan-carrot-cake/", "recipe_id": null}
+{"ts": "2026-10-07T23:55:25+00:00", "event": "node_done", "node": "parse_recipe", "url": "https://theplantbasedschool.com/vegan-carrot-cake/", "recipe_id": "rcp_4af70562af"}
+{"ts": "2026-10-07T23:55:25+00:00", "event": "node_done", "node": "parse_ingredients", "url": "https://theplantbasedschool.com/vegan-carrot-cake/", "recipe_id": "rcp_4af70562af"}
+{"ts": "2026-10-07T23:55:25+00:00", "event": "match_round", "url": "https://theplantbasedschool.com/vegan-carrot-cake/", "round": 1, "matched": 6, "pending": 14}
+{"ts": "2026-10-07T23:55:25+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://theplantbasedschool.com/vegan-carrot-cake/", "recipe_id": "rcp_4af70562af"}
+{"ts": "2026-10-07T23:55:25+00:00", "event": "match_round", "url": "https://theplantbasedschool.com/vegan-carrot-cake/", "round": 2, "matched": 13, "pending": 7}
+{"ts": "2026-10-07T23:55:25+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://theplantbasedschool.com/vegan-carrot-cake/", "recipe_id": "rcp_4af70562af"}
+{"ts": "2026-10-07T23:55:25+00:00", "event": "match_round", "url": "https://theplantbasedschool.com/vegan-carrot-cake/", "round": 3, "matched": 16, "pending": 4}
+{"ts": "2026-10-07T23:55:25+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://theplantbasedschool.com/vegan-carrot-cake/", "recipe_id": "rcp_4af70562af"}
+{"ts": "2026-10-07T23:55:25+00:00", "event": "node_done", "node": "mark_unknown", "url": "https://theplantbasedschool.com/vegan-carrot-cake/", "recipe_id": "rcp_4af70562af"}
+{"ts": "2026-10-07T23:55:25+00:00", "event": "node_done", "node": "gather_comments", "url": "https://theplantbasedschool.com/vegan-carrot-cake/", "recipe_id": "rcp_4af70562af"}
+{"ts": "2026-10-07T23:55:25+00:00", "event": "node_done", "node": "validate", "url": "https://theplantbasedschool.com/vegan-carrot-cake/", "recipe_id": "rcp_4af70562af"}
+{"ts": "2026-10-07T23:55:25+00:00", "event": "terminal", "url": "https://theplantbasedschool.com/vegan-carrot-cake/", "recipe_id": "rcp_4af70562af", "state": "complete_partial", "reason": "5 of 20 ingredients without nutrition (4 unknown, 0 hit the 3-attempt cap, 1 no gram weight); no card (2 comments < threshold 5)", "node_path": ["fetch", "parse_recipe", "parse_ingredients", "match_nutrition", "match_nutrition", "match_nutrition", "mark_unknown", "gather_comments", "validate", "write"]}
+{"ts": "2026-10-07T23:55:25+00:00", "event": "node_done", "node": "write", "url": "https://theplantbasedschool.com/vegan-carrot-cake/", "recipe_id": "rcp_4af70562af"}
+{"ts": "2026-10-07T23:55:25+00:00", "event": "start", "url": "https://spicysouthernkitchen.com/pineapple-pound-cake/", "thread": "batch:d2ebfad24c5a"}
+{"ts": "2026-10-07T23:55:25+00:00", "event": "fetched", "url": "https://spicysouthernkitchen.com/pineapple-pound-cake/", "source": "snapshot", "recipes": 1, "comments": 2}
+{"ts": "2026-10-07T23:55:25+00:00", "event": "node_done", "node": "fetch", "url": "https://spicysouthernkitchen.com/pineapple-pound-cake/", "recipe_id": null}
+{"ts": "2026-10-07T23:55:25+00:00", "event": "node_done", "node": "parse_recipe", "url": "https://spicysouthernkitchen.com/pineapple-pound-cake/", "recipe_id": "rcp_d2ebfad24c"}
+{"ts": "2026-10-07T23:55:25+00:00", "event": "node_done", "node": "parse_ingredients", "url": "https://spicysouthernkitchen.com/pineapple-pound-cake/", "recipe_id": "rcp_d2ebfad24c"}
+{"ts": "2026-10-07T23:55:25+00:00", "event": "match_round", "url": "https://spicysouthernkitchen.com/pineapple-pound-cake/", "round": 1, "matched": 6, "pending": 5}
+{"ts": "2026-10-07T23:55:25+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://spicysouthernkitchen.com/pineapple-pound-cake/", "recipe_id": "rcp_d2ebfad24c"}
+{"ts": "2026-10-07T23:55:25+00:00", "event": "match_round", "url": "https://spicysouthernkitchen.com/pineapple-pound-cake/", "round": 2, "matched": 10, "pending": 1}
+{"ts": "2026-10-07T23:55:25+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://spicysouthernkitchen.com/pineapple-pound-cake/", "recipe_id": "rcp_d2ebfad24c"}
+{"ts": "2026-10-07T23:55:25+00:00", "event": "node_done", "node": "mark_unknown", "url": "https://spicysouthernkitchen.com/pineapple-pound-cake/", "recipe_id": "rcp_d2ebfad24c"}
+{"ts": "2026-10-07T23:55:25+00:00", "event": "node_done", "node": "gather_comments", "url": "https://spicysouthernkitchen.com/pineapple-pound-cake/", "recipe_id": "rcp_d2ebfad24c"}
+{"ts": "2026-10-07T23:55:25+00:00", "event": "node_done", "node": "validate", "url": "https://spicysouthernkitchen.com/pineapple-pound-cake/", "recipe_id": "rcp_d2ebfad24c"}
+{"ts": "2026-10-07T23:55:25+00:00", "event": "terminal", "url": "https://spicysouthernkitchen.com/pineapple-pound-cake/", "recipe_id": "rcp_d2ebfad24c", "state": "complete_partial", "reason": "1 of 11 ingredients without nutrition (1 unknown, 0 hit the 3-attempt cap, 0 no gram weight); no card (2 comments < threshold 5)", "node_path": ["fetch", "parse_recipe", "parse_ingredients", "match_nutrition", "match_nutrition", "mark_unknown", "gather_comments", "validate", "write"]}
+{"ts": "2026-10-07T23:55:25+00:00", "event": "node_done", "node": "write", "url": "https://spicysouthernkitchen.com/pineapple-pound-cake/", "recipe_id": "rcp_d2ebfad24c"}
+{"ts": "2026-10-07T23:55:25+00:00", "event": "start", "url": "https://www.thecountrycook.net/peanut-butter-blossoms/", "thread": "batch:0f42aaa00b8f"}
+{"ts": "2026-10-07T23:55:26+00:00", "event": "fetched", "url": "https://www.thecountrycook.net/peanut-butter-blossoms/", "source": "snapshot", "recipes": 1, "comments": 2}
+{"ts": "2026-10-07T23:55:26+00:00", "event": "node_done", "node": "fetch", "url": "https://www.thecountrycook.net/peanut-butter-blossoms/", "recipe_id": null}
+{"ts": "2026-10-07T23:55:26+00:00", "event": "node_done", "node": "parse_recipe", "url": "https://www.thecountrycook.net/peanut-butter-blossoms/", "recipe_id": "rcp_0f42aaa00b"}
+{"ts": "2026-10-07T23:55:26+00:00", "event": "node_done", "node": "parse_ingredients", "url": "https://www.thecountrycook.net/peanut-butter-blossoms/", "recipe_id": "rcp_0f42aaa00b"}
+{"ts": "2026-10-07T23:55:26+00:00", "event": "match_round", "url": "https://www.thecountrycook.net/peanut-butter-blossoms/", "round": 1, "matched": 2, "pending": 8}
+{"ts": "2026-10-07T23:55:26+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://www.thecountrycook.net/peanut-butter-blossoms/", "recipe_id": "rcp_0f42aaa00b"}
+{"ts": "2026-10-07T23:55:26+00:00", "event": "match_round", "url": "https://www.thecountrycook.net/peanut-butter-blossoms/", "round": 2, "matched": 8, "pending": 2}
+{"ts": "2026-10-07T23:55:26+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://www.thecountrycook.net/peanut-butter-blossoms/", "recipe_id": "rcp_0f42aaa00b"}
+{"ts": "2026-10-07T23:55:26+00:00", "event": "match_round", "url": "https://www.thecountrycook.net/peanut-butter-blossoms/", "round": 3, "matched": 9, "pending": 1}
+{"ts": "2026-10-07T23:55:26+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://www.thecountrycook.net/peanut-butter-blossoms/", "recipe_id": "rcp_0f42aaa00b"}
+{"ts": "2026-10-07T23:55:26+00:00", "event": "node_done", "node": "mark_unknown", "url": "https://www.thecountrycook.net/peanut-butter-blossoms/", "recipe_id": "rcp_0f42aaa00b"}
+{"ts": "2026-10-07T23:55:26+00:00", "event": "node_done", "node": "gather_comments", "url": "https://www.thecountrycook.net/peanut-butter-blossoms/", "recipe_id": "rcp_0f42aaa00b"}
+{"ts": "2026-10-07T23:55:26+00:00", "event": "node_done", "node": "validate", "url": "https://www.thecountrycook.net/peanut-butter-blossoms/", "recipe_id": "rcp_0f42aaa00b"}
+{"ts": "2026-10-07T23:55:26+00:00", "event": "terminal", "url": "https://www.thecountrycook.net/peanut-butter-blossoms/", "recipe_id": "rcp_0f42aaa00b", "state": "complete_partial", "reason": "1 of 10 ingredients without nutrition (1 unknown, 1 hit the 3-attempt cap, 0 no gram weight); no card (1 comments < threshold 5)", "node_path": ["fetch", "parse_recipe", "parse_ingredients", "match_nutrition", "match_nutrition", "match_nutrition", "mark_unknown", "gather_comments", "validate", "write"]}
+{"ts": "2026-10-07T23:55:26+00:00", "event": "node_done", "node": "write", "url": "https://www.thecountrycook.net/peanut-butter-blossoms/", "recipe_id": "rcp_0f42aaa00b"}
+{"ts": "2026-10-07T23:55:26+00:00", "event": "start", "url": "https://www.asweetpeachef.com/healthy-apple-crumble/", "thread": "batch:199960060f2c"}
+{"ts": "2026-10-07T23:55:26+00:00", "event": "fetched", "url": "https://www.asweetpeachef.com/healthy-apple-crumble/", "source": "snapshot", "recipes": 1, "comments": 4}
+{"ts": "2026-10-07T23:55:26+00:00", "event": "node_done", "node": "fetch", "url": "https://www.asweetpeachef.com/healthy-apple-crumble/", "recipe_id": null}
+{"ts": "2026-10-07T23:55:26+00:00", "event": "node_done", "node": "parse_recipe", "url": "https://www.asweetpeachef.com/healthy-apple-crumble/", "recipe_id": "rcp_199960060f"}
+{"ts": "2026-10-07T23:55:26+00:00", "event": "node_done", "node": "parse_ingredients", "url": "https://www.asweetpeachef.com/healthy-apple-crumble/", "recipe_id": "rcp_199960060f"}
+{"ts": "2026-10-07T23:55:26+00:00", "event": "match_round", "url": "https://www.asweetpeachef.com/healthy-apple-crumble/", "round": 1, "matched": 1, "pending": 11}
+{"ts": "2026-10-07T23:55:26+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://www.asweetpeachef.com/healthy-apple-crumble/", "recipe_id": "rcp_199960060f"}
+{"ts": "2026-10-07T23:55:26+00:00", "event": "match_round", "url": "https://www.asweetpeachef.com/healthy-apple-crumble/", "round": 2, "matched": 6, "pending": 6}
+{"ts": "2026-10-07T23:55:26+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://www.asweetpeachef.com/healthy-apple-crumble/", "recipe_id": "rcp_199960060f"}
+{"ts": "2026-10-07T23:55:26+00:00", "event": "match_round", "url": "https://www.asweetpeachef.com/healthy-apple-crumble/", "round": 3, "matched": 8, "pending": 4}
+{"ts": "2026-10-07T23:55:26+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://www.asweetpeachef.com/healthy-apple-crumble/", "recipe_id": "rcp_199960060f"}
+{"ts": "2026-10-07T23:55:26+00:00", "event": "node_done", "node": "mark_unknown", "url": "https://www.asweetpeachef.com/healthy-apple-crumble/", "recipe_id": "rcp_199960060f"}
+{"ts": "2026-10-07T23:55:26+00:00", "event": "node_done", "node": "gather_comments", "url": "https://www.asweetpeachef.com/healthy-apple-crumble/", "recipe_id": "rcp_199960060f"}
+{"ts": "2026-10-07T23:55:26+00:00", "event": "node_done", "node": "validate", "url": "https://www.asweetpeachef.com/healthy-apple-crumble/", "recipe_id": "rcp_199960060f"}
+{"ts": "2026-10-07T23:55:26+00:00", "event": "terminal", "url": "https://www.asweetpeachef.com/healthy-apple-crumble/", "recipe_id": "rcp_199960060f", "state": "complete_partial", "reason": "5 of 12 ingredients without nutrition (4 unknown, 1 hit the 3-attempt cap, 1 no gram weight); no card (4 comments < threshold 5)", "node_path": ["fetch", "parse_recipe", "parse_ingredients", "match_nutrition", "match_nutrition", "match_nutrition", "mark_unknown", "gather_comments", "validate", "write"]}
+{"ts": "2026-10-07T23:55:26+00:00", "event": "node_done", "node": "write", "url": "https://www.asweetpeachef.com/healthy-apple-crumble/", "recipe_id": "rcp_199960060f"}
+{"ts": "2026-10-07T23:55:26+00:00", "event": "start", "url": "https://www.garlicandzest.com/easy-banana-cake-recipe/", "thread": "batch:2a33fb3cde4b"}
+{"ts": "2026-10-07T23:55:27+00:00", "event": "fetched", "url": "https://www.garlicandzest.com/easy-banana-cake-recipe/", "source": "snapshot", "recipes": 1, "comments": 1}
+{"ts": "2026-10-07T23:55:27+00:00", "event": "node_done", "node": "fetch", "url": "https://www.garlicandzest.com/easy-banana-cake-recipe/", "recipe_id": null}
+{"ts": "2026-10-07T23:55:27+00:00", "event": "node_done", "node": "parse_recipe", "url": "https://www.garlicandzest.com/easy-banana-cake-recipe/", "recipe_id": "rcp_2a33fb3cde"}
+{"ts": "2026-10-07T23:55:27+00:00", "event": "node_done", "node": "parse_ingredients", "url": "https://www.garlicandzest.com/easy-banana-cake-recipe/", "recipe_id": "rcp_2a33fb3cde"}
+{"ts": "2026-10-07T23:55:27+00:00", "event": "match_round", "url": "https://www.garlicandzest.com/easy-banana-cake-recipe/", "round": 1, "matched": 5, "pending": 6}
+{"ts": "2026-10-07T23:55:27+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://www.garlicandzest.com/easy-banana-cake-recipe/", "recipe_id": "rcp_2a33fb3cde"}
+{"ts": "2026-10-07T23:55:27+00:00", "event": "match_round", "url": "https://www.garlicandzest.com/easy-banana-cake-recipe/", "round": 2, "matched": 10, "pending": 1}
+{"ts": "2026-10-07T23:55:27+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://www.garlicandzest.com/easy-banana-cake-recipe/", "recipe_id": "rcp_2a33fb3cde"}
+{"ts": "2026-10-07T23:55:27+00:00", "event": "node_done", "node": "mark_unknown", "url": "https://www.garlicandzest.com/easy-banana-cake-recipe/", "recipe_id": "rcp_2a33fb3cde"}
+{"ts": "2026-10-07T23:55:27+00:00", "event": "node_done", "node": "gather_comments", "url": "https://www.garlicandzest.com/easy-banana-cake-recipe/", "recipe_id": "rcp_2a33fb3cde"}
+{"ts": "2026-10-07T23:55:27+00:00", "event": "node_done", "node": "validate", "url": "https://www.garlicandzest.com/easy-banana-cake-recipe/", "recipe_id": "rcp_2a33fb3cde"}
+{"ts": "2026-10-07T23:55:27+00:00", "event": "terminal", "url": "https://www.garlicandzest.com/easy-banana-cake-recipe/", "recipe_id": "rcp_2a33fb3cde", "state": "complete_partial", "reason": "1 of 11 ingredients without nutrition (1 unknown, 0 hit the 3-attempt cap, 0 no gram weight); no card (1 comments < threshold 5)", "node_path": ["fetch", "parse_recipe", "parse_ingredients", "match_nutrition", "match_nutrition", "mark_unknown", "gather_comments", "validate", "write"]}
+{"ts": "2026-10-07T23:55:27+00:00", "event": "node_done", "node": "write", "url": "https://www.garlicandzest.com/easy-banana-cake-recipe/", "recipe_id": "rcp_2a33fb3cde"}
+{"ts": "2026-10-07T23:55:27+00:00", "event": "start", "url": "https://www.wyseguide.com/blueberry-cobbler/", "thread": "batch:33acda540331"}
+{"ts": "2026-10-07T23:55:27+00:00", "event": "fetched", "url": "https://www.wyseguide.com/blueberry-cobbler/", "source": "snapshot", "recipes": 1, "comments": 1}
+{"ts": "2026-10-07T23:55:27+00:00", "event": "node_done", "node": "fetch", "url": "https://www.wyseguide.com/blueberry-cobbler/", "recipe_id": null}
+{"ts": "2026-10-07T23:55:27+00:00", "event": "node_done", "node": "parse_recipe", "url": "https://www.wyseguide.com/blueberry-cobbler/", "recipe_id": "rcp_33acda5403"}
+{"ts": "2026-10-07T23:55:27+00:00", "event": "node_done", "node": "parse_ingredients", "url": "https://www.wyseguide.com/blueberry-cobbler/", "recipe_id": "rcp_33acda5403"}
+{"ts": "2026-10-07T23:55:27+00:00", "event": "match_round", "url": "https://www.wyseguide.com/blueberry-cobbler/", "round": 1, "matched": 3, "pending": 5}
+{"ts": "2026-10-07T23:55:27+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://www.wyseguide.com/blueberry-cobbler/", "recipe_id": "rcp_33acda5403"}
+{"ts": "2026-10-07T23:55:27+00:00", "event": "match_round", "url": "https://www.wyseguide.com/blueberry-cobbler/", "round": 2, "matched": 7, "pending": 1}
+{"ts": "2026-10-07T23:55:27+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://www.wyseguide.com/blueberry-cobbler/", "recipe_id": "rcp_33acda5403"}
+{"ts": "2026-10-07T23:55:27+00:00", "event": "node_done", "node": "mark_unknown", "url": "https://www.wyseguide.com/blueberry-cobbler/", "recipe_id": "rcp_33acda5403"}
+{"ts": "2026-10-07T23:55:27+00:00", "event": "node_done", "node": "gather_comments", "url": "https://www.wyseguide.com/blueberry-cobbler/", "recipe_id": "rcp_33acda5403"}
+{"ts": "2026-10-07T23:55:27+00:00", "event": "node_done", "node": "validate", "url": "https://www.wyseguide.com/blueberry-cobbler/", "recipe_id": "rcp_33acda5403"}
+{"ts": "2026-10-07T23:55:27+00:00", "event": "terminal", "url": "https://www.wyseguide.com/blueberry-cobbler/", "recipe_id": "rcp_33acda5403", "state": "complete_partial", "reason": "1 of 8 ingredients without nutrition (1 unknown, 0 hit the 3-attempt cap, 0 no gram weight); no card (1 comments < threshold 5)", "node_path": ["fetch", "parse_recipe", "parse_ingredients", "match_nutrition", "match_nutrition", "mark_unknown", "gather_comments", "validate", "write"]}
+{"ts": "2026-10-07T23:55:27+00:00", "event": "node_done", "node": "write", "url": "https://www.wyseguide.com/blueberry-cobbler/", "recipe_id": "rcp_33acda5403"}
+{"ts": "2026-10-07T23:55:27+00:00", "event": "start", "url": "https://www.gimmesomeoven.com/peanut-butter-pie/", "thread": "batch:499b68545e40"}
+{"ts": "2026-10-07T23:55:28+00:00", "event": "fetched", "url": "https://www.gimmesomeoven.com/peanut-butter-pie/", "source": "snapshot", "recipes": 1, "comments": 3}
+{"ts": "2026-10-07T23:55:28+00:00", "event": "node_done", "node": "fetch", "url": "https://www.gimmesomeoven.com/peanut-butter-pie/", "recipe_id": null}
+{"ts": "2026-10-07T23:55:28+00:00", "event": "node_done", "node": "parse_recipe", "url": "https://www.gimmesomeoven.com/peanut-butter-pie/", "recipe_id": "rcp_499b68545e"}
+{"ts": "2026-10-07T23:55:28+00:00", "event": "node_done", "node": "parse_ingredients", "url": "https://www.gimmesomeoven.com/peanut-butter-pie/", "recipe_id": "rcp_499b68545e"}
+{"ts": "2026-10-07T23:55:28+00:00", "event": "match_round", "url": "https://www.gimmesomeoven.com/peanut-butter-pie/", "round": 1, "matched": 4, "pending": 6}
+{"ts": "2026-10-07T23:55:28+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://www.gimmesomeoven.com/peanut-butter-pie/", "recipe_id": "rcp_499b68545e"}
+{"ts": "2026-10-07T23:55:28+00:00", "event": "match_round", "url": "https://www.gimmesomeoven.com/peanut-butter-pie/", "round": 2, "matched": 5, "pending": 5}
+{"ts": "2026-10-07T23:55:28+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://www.gimmesomeoven.com/peanut-butter-pie/", "recipe_id": "rcp_499b68545e"}
+{"ts": "2026-10-07T23:55:28+00:00", "event": "match_round", "url": "https://www.gimmesomeoven.com/peanut-butter-pie/", "round": 3, "matched": 6, "pending": 4}
+{"ts": "2026-10-07T23:55:28+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://www.gimmesomeoven.com/peanut-butter-pie/", "recipe_id": "rcp_499b68545e"}
+{"ts": "2026-10-07T23:55:28+00:00", "event": "node_done", "node": "mark_unknown", "url": "https://www.gimmesomeoven.com/peanut-butter-pie/", "recipe_id": "rcp_499b68545e"}
+{"ts": "2026-10-07T23:55:28+00:00", "event": "node_done", "node": "gather_comments", "url": "https://www.gimmesomeoven.com/peanut-butter-pie/", "recipe_id": "rcp_499b68545e"}
+{"ts": "2026-10-07T23:55:28+00:00", "event": "node_done", "node": "validate", "url": "https://www.gimmesomeoven.com/peanut-butter-pie/", "recipe_id": "rcp_499b68545e"}
+{"ts": "2026-10-07T23:55:28+00:00", "event": "terminal", "url": "https://www.gimmesomeoven.com/peanut-butter-pie/", "recipe_id": "rcp_499b68545e", "state": "complete_partial", "reason": "4 of 10 ingredients without nutrition (4 unknown, 0 hit the 3-attempt cap, 0 no gram weight); no card (3 comments < threshold 5)", "node_path": ["fetch", "parse_recipe", "parse_ingredients", "match_nutrition", "match_nutrition", "match_nutrition", "mark_unknown", "gather_comments", "validate", "write"]}
+{"ts": "2026-10-07T23:55:28+00:00", "event": "node_done", "node": "write", "url": "https://www.gimmesomeoven.com/peanut-butter-pie/", "recipe_id": "rcp_499b68545e"}
+{"ts": "2026-10-07T23:55:28+00:00", "event": "start", "url": "https://somuchfoodblog.com/best-ever-pumpkin-pie/", "thread": "batch:d098681b060e"}
+{"ts": "2026-10-07T23:55:28+00:00", "event": "fetched", "url": "https://somuchfoodblog.com/best-ever-pumpkin-pie/", "source": "snapshot", "recipes": 1, "comments": 4}
+{"ts": "2026-10-07T23:55:28+00:00", "event": "node_done", "node": "fetch", "url": "https://somuchfoodblog.com/best-ever-pumpkin-pie/", "recipe_id": null}
+{"ts": "2026-10-07T23:55:28+00:00", "event": "node_done", "node": "parse_recipe", "url": "https://somuchfoodblog.com/best-ever-pumpkin-pie/", "recipe_id": "rcp_d098681b06"}
+{"ts": "2026-10-07T23:55:28+00:00", "event": "node_done", "node": "parse_ingredients", "url": "https://somuchfoodblog.com/best-ever-pumpkin-pie/", "recipe_id": "rcp_d098681b06"}
+{"ts": "2026-10-07T23:55:28+00:00", "event": "match_round", "url": "https://somuchfoodblog.com/best-ever-pumpkin-pie/", "round": 1, "matched": 5, "pending": 7}
+{"ts": "2026-10-07T23:55:28+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://somuchfoodblog.com/best-ever-pumpkin-pie/", "recipe_id": "rcp_d098681b06"}
+{"ts": "2026-10-07T23:55:28+00:00", "event": "match_round", "url": "https://somuchfoodblog.com/best-ever-pumpkin-pie/", "round": 2, "matched": 9, "pending": 3}
+{"ts": "2026-10-07T23:55:28+00:00", "event": "node_done", "node": "match_nutrition", "url": "https://somuchfoodblog.com/best-ever-pumpkin-pie/", "recipe_id": "rcp_d098681b06"}
+{"ts": "2026-10-07T23:55:28+00:00", "event": "node_done", "node": "mark_unknown", "url": "https://somuchfoodblog.com/best-ever-pumpkin-pie/", "recipe_id": "rcp_d098681b06"}
+{"ts": "2026-10-07T23:55:28+00:00", "event": "node_done", "node": "gather_comments", "url": "https://somuchfoodblog.com/best-ever-pumpkin-pie/", "recipe_id": "rcp_d098681b06"}
+{"ts": "2026-10-07T23:55:28+00:00", "event": "node_done", "node": "validate", "url": "https://somuchfoodblog.com/best-ever-pumpkin-pie/", "recipe_id": "rcp_d098681b06"}
+{"ts": "2026-10-07T23:55:28+00:00", "event": "terminal", "url": "https://somuchfoodblog.com/best-ever-pumpkin-pie/", "recipe_id": "rcp_d098681b06", "state": "complete_partial", "reason": "5 of 12 ingredients without nutrition (3 unknown, 0 hit the 3-attempt cap, 2 no gram weight); no card (2 comments < threshold 5)", "node_path": ["fetch", "parse_recipe", "parse_ingredients", "match_nutrition", "match_nutrition", "mark_unknown", "gather_comments", "validate", "write"]}
+{"ts": "2026-10-07T23:55:28+00:00", "event": "node_done", "node": "write", "url": "https://somuchfoodblog.com/best-ever-pumpkin-pie/", "recipe_id": "rcp_d098681b06"}

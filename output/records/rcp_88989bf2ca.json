@@ -1,0 +1,717 @@
+{
+  "recipe_id": "rcp_88989bf2ca",
+  "source_url": "https://cookieandkate.com/peach-cobbler/",
+  "title": "Peach Cobbler with Almond Topping",
+  "site": "cookieandkate.com",
+  "category": [
+    "Dessert"
+  ],
+  "cuisine": [
+    "American"
+  ],
+  "yield_text": "9 / 9 servings",
+  "servings": 9,
+  "servings_unit": "servings",
+  "provenance": {
+    "page_source": "snapshot",
+    "fetched_url": "https://raw.githubusercontent.com/hhursev/recipe-scrapers/e7892149ee16c02cfd7ed1972e80791339727293/tests/test_data/cookieandkate.com/cookieandkate_2.testhtml",
+    "original_page_sha256": "40bb686b67e5ab56c87309878ae428a06e4fb710f12b592a673f0a5bcfd350ef",
+    "nutrition_source": "USDA National Nutrient Database for Standard Reference, Release 28 (SR28, 2015)"
+  },
+  "section_headings": [],
+  "ingredients": [
+    {
+      "index": 0,
+      "raw": "2 1/2 pounds ripe peaches, peeled and cut into 1-inch chunks (about 6 medium-to-large)",
+      "name": "peaches",
+      "quantity": 2.5,
+      "unit": "lb",
+      "status": "matched",
+      "food_id": "09236",
+      "food_description": "Peaches, yellow, raw",
+      "grams": 1133.98,
+      "gram_basis": "mass stated in recipe line",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 442.252,
+        "protein_g": 10.319,
+        "fat_g": 2.835,
+        "carbohydrate_g": 108.182,
+        "fiber_g": 17.01,
+        "sugars_g": 95.141,
+        "sodium_mg": 0.0,
+        "saturated_fat_g": 0.215,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "peaches",
+        "Peaches, yellow, raw"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "peaches",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Peaches, yellow, raw' is not a close match (cost 1.3 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Peaches, yellow, raw",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "09236 Peaches, yellow, raw"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 1,
+      "raw": "3 tablespoons honey",
+      "name": "honey",
+      "quantity": 3.0,
+      "unit": "tbsp",
+      "status": "matched",
+      "food_id": "19296",
+      "food_description": "Honey",
+      "grams": 63.56,
+      "gram_basis": "USDA portion '1 cup' = 339 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 193.23,
+        "protein_g": 0.191,
+        "fat_g": 0.0,
+        "carbohydrate_g": 52.376,
+        "fiber_g": 0.127,
+        "sugars_g": 52.198,
+        "sodium_mg": 2.542,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "honey"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "honey",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "19296 Honey"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 2,
+      "raw": "2 tablespoons arrowroot starch or cornstarch",
+      "name": "arrowroot starch",
+      "quantity": 2.0,
+      "unit": "tbsp",
+      "status": "matched",
+      "food_id": "20003",
+      "food_description": "Arrowroot flour",
+      "grams": 16.0,
+      "gram_basis": "USDA portion '1 cup' = 128 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 57.12,
+        "protein_g": 0.048,
+        "fat_g": 0.016,
+        "carbohydrate_g": 14.104,
+        "fiber_g": 0.544,
+        "sugars_g": null,
+        "sodium_mg": 0.32,
+        "saturated_fat_g": 0.003,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "arrowroot starch",
+        "arrowroot flour"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "arrowroot starch",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        },
+        {
+          "attempt": 2,
+          "query": "arrowroot flour",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "20003 Arrowroot flour"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 3,
+      "raw": "1 teaspoon vanilla extract",
+      "name": "vanilla extract",
+      "quantity": 1.0,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02050",
+      "food_description": "Vanilla extract",
+      "grams": 4.2,
+      "gram_basis": "USDA portion '1 tsp' = 4.2 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 12.096,
+        "protein_g": 0.003,
+        "fat_g": 0.003,
+        "carbohydrate_g": 0.531,
+        "fiber_g": 0.0,
+        "sugars_g": 0.531,
+        "sodium_mg": 0.378,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "vanilla extract"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "vanilla extract",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "02050 Vanilla extract"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 4,
+      "raw": "1/2 teaspoon ground cinnamon",
+      "name": "ground cinnamon",
+      "quantity": 0.5,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02010",
+      "food_description": "Spices, cinnamon, ground",
+      "grams": 1.3,
+      "gram_basis": "USDA portion '1 tsp' = 2.6 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 3.211,
+        "protein_g": 0.052,
+        "fat_g": 0.016,
+        "carbohydrate_g": 1.048,
+        "fiber_g": 0.69,
+        "sugars_g": 0.028,
+        "sodium_mg": 0.13,
+        "saturated_fat_g": 0.004,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "ground cinnamon",
+        "Spices, cinnamon, ground"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "ground cinnamon",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Spices, cinnamon, ground' is not a close match (cost 3.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Spices, cinnamon, ground",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "02010 Spices, cinnamon, ground"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 5,
+      "raw": "2 1/2 cups (225 grams) blanched almond flour",
+      "name": "blanched almond flour",
+      "quantity": 2.5,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "12062",
+      "food_description": "Nuts, almonds, blanched",
+      "grams": 225.0,
+      "gram_basis": "mass stated in recipe line",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 1327.5,
+        "protein_g": 48.15,
+        "fat_g": 118.17,
+        "carbohydrate_g": 42.008,
+        "fiber_g": 22.275,
+        "sugars_g": 10.418,
+        "sodium_mg": 42.75,
+        "saturated_fat_g": 8.894,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "blanched almond flour",
+        "Nuts, almonds, blanched"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "blanched almond flour",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        },
+        {
+          "attempt": 2,
+          "query": "Nuts, almonds, blanched",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "12062 Nuts, almonds, blanched"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 6,
+      "raw": "1 tablespoon baking powder",
+      "name": "baking powder",
+      "quantity": 1.0,
+      "unit": "tbsp",
+      "status": "matched",
+      "food_id": "18369",
+      "food_description": "Leavening agents, baking powder, double-acting, sodium aluminum sulfate",
+      "grams": 13.8,
+      "gram_basis": "USDA portion '1 tsp' = 4.6 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 7.314,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 3.823,
+        "fiber_g": 0.028,
+        "sugars_g": 0.0,
+        "sodium_mg": 1462.8,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "baking powder",
+        "Leavening agents, baking powder, double-acting, sodium aluminum sulfate"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "baking powder",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Leavening agents, baking powder, low-sodium' is not a close match (cost 6.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Leavening agents, baking powder, double-acting, sodium aluminum sulfate",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "18369 Leavening agents, baking powder, double-acting, sodium aluminum sulfate"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 7,
+      "raw": "1/4 teaspoon fine salt",
+      "name": "salt",
+      "quantity": 0.25,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02047",
+      "food_description": "Salt, table",
+      "grams": 1.5,
+      "gram_basis": "USDA portion '1 tsp' = 6 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 0.0,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 581.37,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "salt"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "salt",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "02047 Salt, table"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 8,
+      "raw": "3 tablespoons granulated sugar",
+      "name": "granulated sugar",
+      "quantity": 3.0,
+      "unit": "tbsp",
+      "status": "matched",
+      "food_id": "19335",
+      "food_description": "Sugars, granulated",
+      "grams": 37.8,
+      "gram_basis": "USDA portion '1 tsp' = 4.2 g (GmWt_2)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 146.286,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 37.792,
+        "fiber_g": 0.0,
+        "sugars_g": 37.724,
+        "sodium_mg": 0.378,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "granulated sugar"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "granulated sugar",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "19335 Sugars, granulated"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 9,
+      "raw": "Zest from 1 large lemon",
+      "name": "zest from 1 lemon",
+      "quantity": null,
+      "unit": null,
+      "status": "unknown",
+      "food_id": null,
+      "food_description": null,
+      "grams": null,
+      "gram_basis": null,
+      "nutrition_status": "no_food_id",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "zest from 1 lemon"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "zest from 1 lemon",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        }
+      ],
+      "unknown_reason": "no other names to try after 1 attempt(s); last: no_candidates"
+    },
+    {
+      "index": 10,
+      "raw": "5 tablespoons cold unsalted butter",
+      "name": "unsalted butter",
+      "quantity": 5.0,
+      "unit": "tbsp",
+      "status": "matched",
+      "food_id": "01145",
+      "food_description": "Butter, without salt",
+      "grams": 71.0,
+      "gram_basis": "USDA portion '1 tbsp' = 14.2 g (GmWt_2)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 509.07,
+        "protein_g": 0.604,
+        "fat_g": 57.588,
+        "carbohydrate_g": 0.043,
+        "fiber_g": 0.0,
+        "sugars_g": 0.043,
+        "sodium_mg": 7.81,
+        "saturated_fat_g": 35.847,
+        "cholesterol_mg": 152.65
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "unsalted butter",
+        "butter without salt"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "unsalted butter",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        },
+        {
+          "attempt": 2,
+          "query": "butter without salt",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "01145 Butter, without salt"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 11,
+      "raw": "2 tablespoons plain whole-milk Greek yogurt",
+      "name": "plain whole-milk greek yogurt",
+      "quantity": 2.0,
+      "unit": "tbsp",
+      "status": "matched",
+      "food_id": "01293",
+      "food_description": "Yogurt, Greek, plain, whole milk",
+      "grams": null,
+      "gram_basis": "food has no USDA volume portion usable for 'tbsp'",
+      "nutrition_status": "no_gram_weight",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "plain whole-milk greek yogurt"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "plain whole-milk greek yogurt",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "01293 Yogurt, Greek, plain, whole milk"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 12,
+      "raw": "1 large egg",
+      "name": "egg",
+      "quantity": 1.0,
+      "unit": null,
+      "status": "matched",
+      "food_id": "01123",
+      "food_description": "Egg, whole, raw, fresh",
+      "grams": 50.0,
+      "gram_basis": "USDA portion '1 large' = 50 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 71.5,
+        "protein_g": 6.28,
+        "fat_g": 4.755,
+        "carbohydrate_g": 0.36,
+        "fiber_g": 0.0,
+        "sugars_g": 0.185,
+        "sodium_mg": 71.0,
+        "saturated_fat_g": 1.563,
+        "cholesterol_mg": 186.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "egg"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "egg",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "01123 Egg, whole, raw, fresh"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 13,
+      "raw": "Optional: 1 teaspoon turbinado sugar (raw sugar) for sprinkling on top",
+      "name": "turbinado sugar",
+      "quantity": 1.0,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "19908",
+      "food_description": "Sugar, turbinado",
+      "grams": 4.6,
+      "gram_basis": "USDA portion '1 tsp' = 4.6 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 18.354,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 4.591,
+        "fiber_g": null,
+        "sugars_g": 4.563,
+        "sodium_mg": 0.138,
+        "saturated_fat_g": null,
+        "cholesterol_mg": null
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "turbinado sugar"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "turbinado sugar",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "19908 Sugar, turbinado"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 14,
+      "raw": "Vanilla ice cream or whipped cream, for serving",
+      "name": "vanilla ice cream",
+      "quantity": null,
+      "unit": null,
+      "status": "matched",
+      "food_id": "19095",
+      "food_description": "Ice creams, vanilla",
+      "grams": null,
+      "gram_basis": "no single quantity in recipe line",
+      "nutrition_status": "no_gram_weight",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "vanilla ice cream"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "vanilla ice cream",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "19095 Ice creams, vanilla"
+        }
+      ],
+      "unknown_reason": null
+    }
+  ],
+  "match": {
+    "ingredients": 15,
+    "matched": 14,
+    "unknown": 1,
+    "match_rate": 0.933,
+    "retry_rounds": 2,
+    "hit_retry_cap": 0
+  },
+  "nutrition": {
+    "basis": "whole recipe, sum of ingredients with a food id and a gram weight",
+    "source": "USDA National Nutrient Database for Standard Reference, Release 28 (SR28, 2015)",
+    "complete": false,
+    "ingredients_total": 15,
+    "ingredients_with_nutrition": 12,
+    "unmatched_food_count": 1,
+    "matched_without_grams_count": 2,
+    "statement": "Partial: 3 of 15 ingredients have no nutrition (1 unmatched food, 2 matched but no gram weight); totals cover the other 12 only.",
+    "totals": {
+      "energy_kcal": 2787.9,
+      "protein_g": 65.6,
+      "fat_g": 183.4,
+      "saturated_fat_g": 46.5,
+      "carbohydrate_g": 264.9,
+      "fiber_g": 40.7,
+      "sugars_g": 200.8,
+      "sodium_mg": 2169.6,
+      "cholesterol_mg": 338.6
+    },
+    "per_serving": {
+      "energy_kcal": 309.8,
+      "protein_g": 7.3,
+      "fat_g": 20.4,
+      "saturated_fat_g": 5.2,
+      "carbohydrate_g": 29.4,
+      "fiber_g": 4.5,
+      "sugars_g": 22.3,
+      "sodium_mg": 241.1,
+      "cholesterol_mg": 37.6
+    },
+    "servings": 9,
+    "nutrient_values_missing_in_usda": {
+      "sugars_g": 1,
+      "saturated_fat_g": 1,
+      "fiber_g": 1,
+      "cholesterol_mg": 1
+    }
+  },
+  "cook_notes": {
+    "status": "produced",
+    "comment_count": 19,
+    "threshold": 5,
+    "claims": [
+      {
+        "text": "made it and liked it",
+        "count": 3,
+        "comment_ids": [
+          "905681",
+          "905718",
+          "907489"
+        ]
+      },
+      {
+        "text": "said family or guests enjoyed it",
+        "count": 3,
+        "comment_ids": [
+          "905681",
+          "905718",
+          "907489"
+        ]
+      },
+      {
+        "text": "asked a question",
+        "count": 8,
+        "comment_ids": [
+          "904522",
+          "904560",
+          "904565",
+          "904566",
+          "904682",
+          "905052",
+          "905345",
+          "906751"
+        ]
+      }
+    ],
+    "card": "Cook notes (19 comments): 3 of 19 made it and liked it. 3 of 19 said family or guests enjoyed it. 8 of 19 asked a question.",
+    "word_count": 27,
+    "backend": "themes-v2"
+  },
+  "node_path": [
+    "fetch",
+    "parse_recipe",
+    "parse_ingredients",
+    "match_nutrition",
+    "match_nutrition",
+    "mark_unknown",
+    "gather_comments",
+    "summarise",
+    "validate",
+    "write"
+  ],
+  "terminal": {
+    "state": "complete_partial",
+    "reason": "3 of 15 ingredients without nutrition (1 unknown, 0 hit the 3-attempt cap, 2 no gram weight); card from 19 comments"
+  }
+}

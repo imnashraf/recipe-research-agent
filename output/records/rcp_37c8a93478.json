@@ -1,0 +1,484 @@
+{
+  "recipe_id": "rcp_37c8a93478",
+  "source_url": "https://southernbite.com/old-fashioned-butter-rolls/",
+  "title": "Old Fashioned Butter Rolls",
+  "site": "southernbite.com",
+  "category": [
+    "Dessert"
+  ],
+  "cuisine": [
+    "American"
+  ],
+  "yield_text": "12 / 12 rolls",
+  "servings": 12,
+  "servings_unit": "rolls",
+  "provenance": {
+    "page_source": "snapshot",
+    "fetched_url": "https://raw.githubusercontent.com/hhursev/recipe-scrapers/e7892149ee16c02cfd7ed1972e80791339727293/tests/test_data/southernbite.com/southernbite_1.testhtml",
+    "original_page_sha256": "c0b2f673e0651a260cacf8f6e490e7d8a8e756c9201524c9f52037c310e980bf",
+    "nutrition_source": "USDA National Nutrient Database for Standard Reference, Release 28 (SR28, 2015)"
+  },
+  "section_headings": [],
+  "ingredients": [
+    {
+      "index": 0,
+      "raw": "2 cups self-rising flour",
+      "name": "self-rising flour",
+      "quantity": 2.0,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "20082",
+      "food_description": "Wheat flour, white, all-purpose, self-rising, enriched",
+      "grams": 250.0,
+      "gram_basis": "USDA portion '1 cup' = 125 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 885.0,
+        "protein_g": 24.725,
+        "fat_g": 2.425,
+        "carbohydrate_g": 185.55,
+        "fiber_g": 6.75,
+        "sugars_g": 0.55,
+        "sodium_mg": 2982.5,
+        "saturated_fat_g": 0.385,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "self-rising flour",
+        "Wheat flour, white, all-purpose, self-rising, enriched"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "self-rising flour",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Wheat flour, white, all-purpose, self-rising, enriched' is not a close match (cost 6.3 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Wheat flour, white, all-purpose, self-rising, enriched",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "20082 Wheat flour, white, all-purpose, self-rising, enriched"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 1,
+      "raw": "1/2 cup shortening",
+      "name": "shortening",
+      "quantity": 0.5,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "04615",
+      "food_description": "Shortening, vegetable, household, composite",
+      "grams": 102.4,
+      "gram_basis": "USDA portion '1 tbsp' = 12.8 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 905.216,
+        "protein_g": 0.0,
+        "fat_g": 102.369,
+        "carbohydrate_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 4.096,
+        "saturated_fat_g": 25.58,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "shortening",
+        "Shortening, vegetable, household, composite"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "shortening",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Shortening, vegetable, household, composite' is not a close match (cost 3.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Shortening, vegetable, household, composite",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "04615 Shortening, vegetable, household, composite"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 2,
+      "raw": "1/2 cup cold water",
+      "name": "water",
+      "quantity": 0.5,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "14411",
+      "food_description": "Beverages, water, tap, drinking",
+      "grams": 118.4,
+      "gram_basis": "USDA portion '1 fl oz' = 29.6 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 0.0,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 4.736,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "water",
+        "Beverages, water, tap, drinking"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "water",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Water, bottled, generic' is not a close match (cost 2.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Beverages, water, tap, drinking",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "14411 Beverages, water, tap, drinking"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 3,
+      "raw": "1/2 cup unsalted butter, very soft",
+      "name": "unsalted butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "01145",
+      "food_description": "Butter, without salt",
+      "grams": 113.6,
+      "gram_basis": "USDA portion '1 tbsp' = 14.2 g (GmWt_2)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 814.512,
+        "protein_g": 0.966,
+        "fat_g": 92.141,
+        "carbohydrate_g": 0.068,
+        "fiber_g": 0.0,
+        "sugars_g": 0.068,
+        "sodium_mg": 12.496,
+        "saturated_fat_g": 57.356,
+        "cholesterol_mg": 244.24
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "unsalted butter",
+        "butter without salt"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "unsalted butter",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        },
+        {
+          "attempt": 2,
+          "query": "butter without salt",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "01145 Butter, without salt"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 4,
+      "raw": "1/4 cup sugar",
+      "name": "sugar",
+      "quantity": 0.25,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "19335",
+      "food_description": "Sugars, granulated",
+      "grams": 50.4,
+      "gram_basis": "USDA portion '1 tsp' = 4.2 g (GmWt_2)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 195.048,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 50.39,
+        "fiber_g": 0.0,
+        "sugars_g": 50.299,
+        "sodium_mg": 0.504,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "sugar"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "sugar",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "19335 Sugars, granulated"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 5,
+      "raw": "1/2 teaspoon ground nutmeg (or cinnamon)",
+      "name": "ground nutmeg",
+      "quantity": 0.5,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02025",
+      "food_description": "Spices, nutmeg, ground",
+      "grams": 1.1,
+      "gram_basis": "USDA portion '1 tsp' = 2.2 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 5.775,
+        "protein_g": 0.064,
+        "fat_g": 0.399,
+        "carbohydrate_g": 0.542,
+        "fiber_g": 0.229,
+        "sugars_g": 0.033,
+        "sodium_mg": 0.176,
+        "saturated_fat_g": 0.285,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "ground nutmeg",
+        "Spices, nutmeg, ground"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "ground nutmeg",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Spices, nutmeg, ground' is not a close match (cost 3.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Spices, nutmeg, ground",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "02025 Spices, nutmeg, ground"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 6,
+      "raw": "2 cups milk",
+      "name": "milk",
+      "quantity": 2.0,
+      "unit": "cup",
+      "status": "unknown",
+      "food_id": null,
+      "food_description": null,
+      "grams": null,
+      "gram_basis": null,
+      "nutrition_status": "no_food_id",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "milk"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "milk",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Milk, sheep, fluid' is not a close match (cost 1.3 > 1.0)"
+        }
+      ],
+      "unknown_reason": "no other names to try after 1 attempt(s); last: rejected: best hit 'Milk, sheep, fluid' is not a close match (cost 1.3 > 1.0)"
+    },
+    {
+      "index": 7,
+      "raw": "2/3 cup sugar",
+      "name": "sugar",
+      "quantity": 0.6667,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "19335",
+      "food_description": "Sugars, granulated",
+      "grams": 134.41,
+      "gram_basis": "USDA portion '1 tsp' = 4.2 g (GmWt_2)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 520.154,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 134.38,
+        "fiber_g": 0.0,
+        "sugars_g": 134.138,
+        "sodium_mg": 1.344,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "sugar"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "sugar",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "19335 Sugars, granulated"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 8,
+      "raw": "1 teaspoon vanilla extract",
+      "name": "vanilla extract",
+      "quantity": 1.0,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02050",
+      "food_description": "Vanilla extract",
+      "grams": 4.2,
+      "gram_basis": "USDA portion '1 tsp' = 4.2 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 12.096,
+        "protein_g": 0.003,
+        "fat_g": 0.003,
+        "carbohydrate_g": 0.531,
+        "fiber_g": 0.0,
+        "sugars_g": 0.531,
+        "sodium_mg": 0.378,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "vanilla extract"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "vanilla extract",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "02050 Vanilla extract"
+        }
+      ],
+      "unknown_reason": null
+    }
+  ],
+  "match": {
+    "ingredients": 9,
+    "matched": 8,
+    "unknown": 1,
+    "match_rate": 0.889,
+    "retry_rounds": 2,
+    "hit_retry_cap": 0
+  },
+  "nutrition": {
+    "basis": "whole recipe, sum of ingredients with a food id and a gram weight",
+    "source": "USDA National Nutrient Database for Standard Reference, Release 28 (SR28, 2015)",
+    "complete": false,
+    "ingredients_total": 9,
+    "ingredients_with_nutrition": 8,
+    "unmatched_food_count": 1,
+    "matched_without_grams_count": 0,
+    "statement": "Partial: 1 of 9 ingredients have no nutrition (1 unmatched food, 0 matched but no gram weight); totals cover the other 8 only.",
+    "totals": {
+      "energy_kcal": 3337.8,
+      "protein_g": 25.8,
+      "fat_g": 197.3,
+      "saturated_fat_g": 83.6,
+      "carbohydrate_g": 371.5,
+      "fiber_g": 7.0,
+      "sugars_g": 185.6,
+      "sodium_mg": 3006.2,
+      "cholesterol_mg": 244.2
+    },
+    "per_serving": {
+      "energy_kcal": 278.2,
+      "protein_g": 2.1,
+      "fat_g": 16.4,
+      "saturated_fat_g": 7.0,
+      "carbohydrate_g": 31.0,
+      "fiber_g": 0.6,
+      "sugars_g": 15.5,
+      "sodium_mg": 250.5,
+      "cholesterol_mg": 20.3
+    },
+    "servings": 12,
+    "nutrient_values_missing_in_usda": {}
+  },
+  "cook_notes": {
+    "status": "produced",
+    "comment_count": 18,
+    "threshold": 5,
+    "claims": [
+      {
+        "text": "made it and liked it",
+        "count": 2,
+        "comment_ids": [
+          "238241",
+          "238705"
+        ]
+      },
+      {
+        "text": "asked a question",
+        "count": 6,
+        "comment_ids": [
+          "208384",
+          "231573",
+          "235633",
+          "236586",
+          "239411",
+          "251063"
+        ]
+      }
+    ],
+    "card": "Cook notes (18 comments): 2 of 18 made it and liked it. 6 of 18 asked a question.",
+    "word_count": 18,
+    "backend": "themes-v2"
+  },
+  "node_path": [
+    "fetch",
+    "parse_recipe",
+    "parse_ingredients",
+    "match_nutrition",
+    "match_nutrition",
+    "mark_unknown",
+    "gather_comments",
+    "summarise",
+    "validate",
+    "write"
+  ],
+  "terminal": {
+    "state": "complete_partial",
+    "reason": "1 of 9 ingredients without nutrition (1 unknown, 0 hit the 3-attempt cap, 0 no gram weight); card from 18 comments"
+  }
+}

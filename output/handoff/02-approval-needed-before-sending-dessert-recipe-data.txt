@@ -1,0 +1,30 @@
+From: recipe-agent@example.com
+To: approver@example.com
+Subject: Approval needed before sending: Dessert recipe dataset: 25 recipes, 85.1% ingredient match rate
+Attachments: recipe_dataset.pdf
+
+A draft email with the recipe dataset PDF is waiting for your approval. Nothing is sent until you approve.
+
+To: dataset-recipients@example.com
+Subject: Dessert recipe dataset: 25 recipes, 85.1% ingredient match rate
+
+Hello,
+
+Attached is the dessert recipe dataset compiled by the recipe research agent (PDF).
+
+- Recipes: 25 (terminal states: complete_partial: 23, complete: 2)
+- Ingredient lines: 309; matched to a USDA SR28 food id: 263 (85.1%)
+- With a gram weight and nutrition: 241; unknown: 46 (7 reached the retry cap)
+- Cook notes cards: 17 produced, 8 skipped (fewer than 5 comments)
+
+Settings: retry cap 3 lookups per ingredient, comment threshold 5, card cap 60 words.
+Unmatched ingredients are listed as unknown with the queries tried; they are never estimated, so recipe totals marked Partial leave them out.
+
+Regards,
+Recipe research agent (sent after human approval)
+
+Approve, edit or reject here: http://127.0.0.1:5678/form-waiting/4?signature=be43395fff11020617b066ad764fb3bbe215e5f0f603bc5878e7b44ea534d2f8
+
+---
+This email was sent automatically with n8n
+https://n8n.io

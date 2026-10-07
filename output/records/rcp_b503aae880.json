@@ -1,0 +1,390 @@
+{
+  "recipe_id": "rcp_b503aae880",
+  "source_url": "https://izzycooking.com/oreo-cheesecake-bites/",
+  "title": "Oreo Cheesecake Bites Recipe (+Video)",
+  "site": "izzycooking.com",
+  "category": [
+    "Dessert"
+  ],
+  "cuisine": [
+    "American"
+  ],
+  "yield_text": "16 / 16 mini cheesecakes",
+  "servings": 16,
+  "servings_unit": "mini cheesecakes",
+  "provenance": {
+    "page_source": "snapshot",
+    "fetched_url": "https://raw.githubusercontent.com/hhursev/recipe-scrapers/e7892149ee16c02cfd7ed1972e80791339727293/tests/test_data/izzycooking.com/izzycooking.testhtml",
+    "original_page_sha256": "0a6679d8e8e47d34faaa756d644da8d2aab7a884d2f1104984beef59837d417b",
+    "nutrition_source": "USDA National Nutrient Database for Standard Reference, Release 28 (SR28, 2015)"
+  },
+  "section_headings": [],
+  "ingredients": [
+    {
+      "index": 0,
+      "raw": "22 Oreo cookies ((Chop 6 of them into small pieces))",
+      "name": "oreo cookies",
+      "quantity": 22.0,
+      "unit": null,
+      "status": "matched",
+      "food_id": "18166",
+      "food_description": "Cookies, chocolate sandwich, with creme filling, regular",
+      "grams": 264.0,
+      "gram_basis": "USDA portion '3 cookie' = 36 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 1224.96,
+        "protein_g": 13.754,
+        "fat_g": 50.53,
+        "carbohydrate_g": 187.44,
+        "fiber_g": 7.656,
+        "sugars_g": 107.369,
+        "sodium_mg": 1024.32,
+        "saturated_fat_g": 14.913,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 3,
+      "queries_tried": [
+        "oreo cookies",
+        "chocolate sandwich cookies",
+        "Cookies, chocolate sandwich, with creme filling, regular"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "oreo cookies",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        },
+        {
+          "attempt": 2,
+          "query": "chocolate sandwich cookies",
+          "strategy": "alias",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Cookies, chocolate sandwich, with creme filling, regular' is not a close match (cost 2.3 > 1.0)"
+        },
+        {
+          "attempt": 3,
+          "query": "Cookies, chocolate sandwich, with creme filling, regular",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "18166 Cookies, chocolate sandwich, with creme filling, regular"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 1,
+      "raw": "16 ounces cream cheese (softened)",
+      "name": "cream cheese",
+      "quantity": 16.0,
+      "unit": "oz",
+      "status": "matched",
+      "food_id": "01017",
+      "food_description": "Cheese, cream",
+      "grams": 453.59,
+      "gram_basis": "mass stated in recipe line",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 1587.565,
+        "protein_g": 27.896,
+        "fat_g": 156.216,
+        "carbohydrate_g": 25.038,
+        "fiber_g": 0.0,
+        "sugars_g": 17.055,
+        "sodium_mg": 1424.273,
+        "saturated_fat_g": 91.684,
+        "cholesterol_mg": 458.126
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "cream cheese"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "cream cheese",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "01017 Cheese, cream"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 2,
+      "raw": "1/2 cup granulated sugar",
+      "name": "granulated sugar",
+      "quantity": 0.5,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "19335",
+      "food_description": "Sugars, granulated",
+      "grams": 100.8,
+      "gram_basis": "USDA portion '1 tsp' = 4.2 g (GmWt_2)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 390.096,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 100.78,
+        "fiber_g": 0.0,
+        "sugars_g": 100.598,
+        "sodium_mg": 1.008,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "granulated sugar"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "granulated sugar",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "19335 Sugars, granulated"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 3,
+      "raw": "1/2 tsp vanilla extract",
+      "name": "vanilla extract",
+      "quantity": 0.5,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02050",
+      "food_description": "Vanilla extract",
+      "grams": 2.1,
+      "gram_basis": "USDA portion '1 tsp' = 4.2 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 6.048,
+        "protein_g": 0.001,
+        "fat_g": 0.001,
+        "carbohydrate_g": 0.266,
+        "fiber_g": 0.0,
+        "sugars_g": 0.266,
+        "sodium_mg": 0.189,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "vanilla extract"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "vanilla extract",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "02050 Vanilla extract"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 4,
+      "raw": "2 eggs",
+      "name": "eggs",
+      "quantity": 2.0,
+      "unit": null,
+      "status": "matched",
+      "food_id": "01123",
+      "food_description": "Egg, whole, raw, fresh",
+      "grams": null,
+      "gram_basis": "count without size or weight; no USDA portion to convert it",
+      "nutrition_status": "no_gram_weight",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "eggs"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "eggs",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "01123 Egg, whole, raw, fresh"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 5,
+      "raw": "1/2 cup sour cream ((or plain Greek yogurt))",
+      "name": "sour cream",
+      "quantity": 0.5,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "01056",
+      "food_description": "Cream, sour, cultured",
+      "grams": 96.0,
+      "gram_basis": "USDA portion '1 tbsp' = 12 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 190.08,
+        "protein_g": 2.342,
+        "fat_g": 18.576,
+        "carbohydrate_g": 4.445,
+        "fiber_g": 0.0,
+        "sugars_g": 3.274,
+        "sodium_mg": 29.76,
+        "saturated_fat_g": 9.734,
+        "cholesterol_mg": 56.64
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "sour cream",
+        "Cream, sour, cultured"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "sour cream",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: ambiguous between 'Sour cream, light' and 'Cream, sour, cultured'"
+        },
+        {
+          "attempt": 2,
+          "query": "Cream, sour, cultured",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "01056 Cream, sour, cultured"
+        }
+      ],
+      "unknown_reason": null
+    }
+  ],
+  "match": {
+    "ingredients": 6,
+    "matched": 6,
+    "unknown": 0,
+    "match_rate": 1.0,
+    "retry_rounds": 3,
+    "hit_retry_cap": 0
+  },
+  "nutrition": {
+    "basis": "whole recipe, sum of ingredients with a food id and a gram weight",
+    "source": "USDA National Nutrient Database for Standard Reference, Release 28 (SR28, 2015)",
+    "complete": false,
+    "ingredients_total": 6,
+    "ingredients_with_nutrition": 5,
+    "unmatched_food_count": 0,
+    "matched_without_grams_count": 1,
+    "statement": "Partial: 1 of 6 ingredients have no nutrition (0 unmatched food, 1 matched but no gram weight); totals cover the other 5 only.",
+    "totals": {
+      "energy_kcal": 3398.7,
+      "protein_g": 44.0,
+      "fat_g": 225.3,
+      "saturated_fat_g": 116.3,
+      "carbohydrate_g": 318.0,
+      "fiber_g": 7.7,
+      "sugars_g": 228.6,
+      "sodium_mg": 2479.5,
+      "cholesterol_mg": 514.8
+    },
+    "per_serving": {
+      "energy_kcal": 212.4,
+      "protein_g": 2.8,
+      "fat_g": 14.1,
+      "saturated_fat_g": 7.3,
+      "carbohydrate_g": 19.9,
+      "fiber_g": 0.5,
+      "sugars_g": 14.3,
+      "sodium_mg": 155.0,
+      "cholesterol_mg": 32.2
+    },
+    "servings": 16,
+    "nutrient_values_missing_in_usda": {}
+  },
+  "cook_notes": {
+    "status": "produced",
+    "comment_count": 35,
+    "threshold": 5,
+    "claims": [
+      {
+        "text": "made it and liked it",
+        "count": 4,
+        "comment_ids": [
+          "76",
+          "1530",
+          "4996",
+          "9991"
+        ]
+      },
+      {
+        "text": "called it easy or quick",
+        "count": 3,
+        "comment_ids": [
+          "374",
+          "1530",
+          "2298"
+        ]
+      },
+      {
+        "text": "described a substitution or change they made",
+        "count": 3,
+        "comment_ids": [
+          "1441",
+          "4996",
+          "9991"
+        ]
+      },
+      {
+        "text": "will make it again or already have",
+        "count": 2,
+        "comment_ids": [
+          "511",
+          "2067"
+        ]
+      },
+      {
+        "text": "asked a question",
+        "count": 14,
+        "comment_ids": [
+          "115",
+          "116",
+          "238",
+          "289",
+          "341",
+          "633",
+          "644",
+          "976",
+          "981",
+          "1731",
+          "1801",
+          "2775",
+          "3947",
+          "12905"
+        ]
+      }
+    ],
+    "card": "Cook notes (35 comments): 4 of 35 made it and liked it. 3 of 35 called it easy or quick. 3 of 35 described a substitution or change they made. 2 of 35 will make it again or already have. 14 of 35 asked a question.",
+    "word_count": 46,
+    "backend": "themes-v2"
+  },
+  "node_path": [
+    "fetch",
+    "parse_recipe",
+    "parse_ingredients",
+    "match_nutrition",
+    "match_nutrition",
+    "match_nutrition",
+    "gather_comments",
+    "summarise",
+    "validate",
+    "write"
+  ],
+  "terminal": {
+    "state": "complete_partial",
+    "reason": "1 of 6 ingredients without nutrition (0 unknown, 0 hit the 3-attempt cap, 1 no gram weight); card from 35 comments"
+  }
+}

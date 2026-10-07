@@ -1,0 +1,11 @@
+__pycache__/
+.pytest_cache/
+.venv/
+# raw recipe pages (contain commenter names) are cached here, never committed
+.cache/
+# checkpoint DB and full state dumps hold sanitised comment text; regenerate locally
+output/checkpoints.sqlite*
+output/state_dumps/
+output/eval_runs/
+# raw captured emails carry the PDF as base64; the .txt copies are kept
+output/handoff/*.eml

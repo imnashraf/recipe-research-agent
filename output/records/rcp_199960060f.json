@@ -1,0 +1,588 @@
+{
+  "recipe_id": "rcp_199960060f",
+  "source_url": "https://www.asweetpeachef.com/healthy-apple-crumble/",
+  "title": "Healthy Apple Crumble",
+  "site": "asweetpeachef.com",
+  "category": [
+    "Dessert"
+  ],
+  "cuisine": [
+    "American"
+  ],
+  "yield_text": "8",
+  "servings": 8,
+  "servings_unit": "servings",
+  "provenance": {
+    "page_source": "snapshot",
+    "fetched_url": "https://raw.githubusercontent.com/hhursev/recipe-scrapers/e7892149ee16c02cfd7ed1972e80791339727293/tests/test_data/asweetpeachef.com/asweetpeachef_1.testhtml",
+    "original_page_sha256": "52b91e000d38d406d29c1da86a0fe2ba59fa6a273f889aef792a2ac18092efe5",
+    "nutrition_source": "USDA National Nutrient Database for Standard Reference, Release 28 (SR28, 2015)"
+  },
+  "section_headings": [],
+  "ingredients": [
+    {
+      "index": 0,
+      "raw": "8 cups sliced Granny Smith apples ((approx. 7 apples))",
+      "name": "granny smith apples",
+      "quantity": 8.0,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "09502",
+      "food_description": "Apples, raw, granny smith, with skin",
+      "grams": 872.0,
+      "gram_basis": "USDA portion '1 cup, sliced' = 109 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 505.76,
+        "protein_g": 3.837,
+        "fat_g": 1.657,
+        "carbohydrate_g": 118.679,
+        "fiber_g": 24.416,
+        "sugars_g": 83.625,
+        "sodium_mg": 8.72,
+        "saturated_fat_g": null,
+        "cholesterol_mg": null
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "granny smith apples",
+        "Apples, raw, granny smith, with skin"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "granny smith apples",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Apples, raw, granny smith, with skin' is not a close match (cost 1.3 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Apples, raw, granny smith, with skin",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "09502 Apples, raw, granny smith, with skin"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 1,
+      "raw": "1/2 cup coconut sugar (plus more to taste if needed)",
+      "name": "coconut sugar",
+      "quantity": 0.5,
+      "unit": "cup",
+      "status": "unknown",
+      "food_id": null,
+      "food_description": null,
+      "grams": null,
+      "gram_basis": null,
+      "nutrition_status": "no_food_id",
+      "nutrients": null,
+      "attempts": 3,
+      "queries_tried": [
+        "coconut sugar",
+        "coconut palm sugar",
+        "palm sugar"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "coconut sugar",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Sauce, peanut, made from coconut, water, sugar, peanuts' is not a close match (cost 8.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "coconut palm sugar",
+          "strategy": "alias",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        },
+        {
+          "attempt": 3,
+          "query": "palm sugar",
+          "strategy": "alias",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        }
+      ],
+      "unknown_reason": "no acceptable match within the 3-attempt cap; last: no_candidates"
+    },
+    {
+      "index": 2,
+      "raw": "1/2 fresh lemon zest and juice (plus more to taste if needed)",
+      "name": "lemon zest and juice",
+      "quantity": 0.5,
+      "unit": null,
+      "status": "unknown",
+      "food_id": null,
+      "food_description": null,
+      "grams": null,
+      "gram_basis": null,
+      "nutrition_status": "no_food_id",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "lemon zest and juice"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "lemon zest and juice",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        }
+      ],
+      "unknown_reason": "no other names to try after 1 attempt(s); last: no_candidates"
+    },
+    {
+      "index": 3,
+      "raw": "1 tsp ground cinnamon",
+      "name": "ground cinnamon",
+      "quantity": 1.0,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02010",
+      "food_description": "Spices, cinnamon, ground",
+      "grams": 2.6,
+      "gram_basis": "USDA portion '1 tsp' = 2.6 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 6.422,
+        "protein_g": 0.104,
+        "fat_g": 0.032,
+        "carbohydrate_g": 2.095,
+        "fiber_g": 1.381,
+        "sugars_g": 0.056,
+        "sodium_mg": 0.26,
+        "saturated_fat_g": 0.009,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "ground cinnamon",
+        "Spices, cinnamon, ground"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "ground cinnamon",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Spices, cinnamon, ground' is not a close match (cost 3.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Spices, cinnamon, ground",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "02010 Spices, cinnamon, ground"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 4,
+      "raw": "1/4 tsp ground nutmeg",
+      "name": "ground nutmeg",
+      "quantity": 0.25,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02025",
+      "food_description": "Spices, nutmeg, ground",
+      "grams": 0.55,
+      "gram_basis": "USDA portion '1 tsp' = 2.2 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 2.888,
+        "protein_g": 0.032,
+        "fat_g": 0.2,
+        "carbohydrate_g": 0.271,
+        "fiber_g": 0.114,
+        "sugars_g": 0.016,
+        "sodium_mg": 0.088,
+        "saturated_fat_g": 0.143,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "ground nutmeg",
+        "Spices, nutmeg, ground"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "ground nutmeg",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Spices, nutmeg, ground' is not a close match (cost 3.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Spices, nutmeg, ground",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "02025 Spices, nutmeg, ground"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 5,
+      "raw": "1/8 tsp sea salt",
+      "name": "sea salt",
+      "quantity": 0.125,
+      "unit": "tsp",
+      "status": "unknown",
+      "food_id": null,
+      "food_description": null,
+      "grams": null,
+      "gram_basis": null,
+      "nutrition_status": "no_food_id",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "sea salt"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "sea salt",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'KASHI, TLC, Pita Crisps, Sea Salt' is not a close match (cost 9.0 > 1.0)"
+        }
+      ],
+      "unknown_reason": "no other names to try after 1 attempt(s); last: rejected: best hit 'KASHI, TLC, Pita Crisps, Sea Salt' is not a close match (cost 9.0 > 1.0)"
+    },
+    {
+      "index": 6,
+      "raw": "1 cup almond flour",
+      "name": "almond flour",
+      "quantity": 1.0,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "12062",
+      "food_description": "Nuts, almonds, blanched",
+      "grams": null,
+      "gram_basis": "matched food is a stand-in for nutrients only; its USDA portion weights do not apply",
+      "nutrition_status": "no_gram_weight",
+      "nutrients": null,
+      "attempts": 3,
+      "queries_tried": [
+        "almond flour",
+        "almond meal",
+        "Nuts, almonds, blanched"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "almond flour",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        },
+        {
+          "attempt": 2,
+          "query": "almond meal",
+          "strategy": "alias",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Cereals ready-to-eat, MALT-O-MEAL, OAT BLENDERS with honey & almonds' is not a close match (cost 14.0 > 1.0)"
+        },
+        {
+          "attempt": 3,
+          "query": "Nuts, almonds, blanched",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "12062 Nuts, almonds, blanched"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 7,
+      "raw": "1/3 cup chopped pecans (can also use walnuts or almonds or a mixture of all 3)",
+      "name": "pecans",
+      "quantity": 0.3333,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "12142",
+      "food_description": "Nuts, pecans",
+      "grams": 36.33,
+      "gram_basis": "USDA portion '1 cup, chopped' = 109 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 251.038,
+        "protein_g": 3.331,
+        "fat_g": 26.146,
+        "carbohydrate_g": 5.035,
+        "fiber_g": 3.488,
+        "sugars_g": 1.442,
+        "sodium_mg": 0.0,
+        "saturated_fat_g": 2.245,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "pecans",
+        "Nuts, pecans"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "pecans",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Nuts, pecans' is not a close match (cost 3.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Nuts, pecans",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "12142 Nuts, pecans"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 8,
+      "raw": "1/4 cup pepitas",
+      "name": "pepitas",
+      "quantity": 0.25,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "12014",
+      "food_description": "Seeds, pumpkin and squash seed kernels, dried",
+      "grams": 32.25,
+      "gram_basis": "USDA portion '1 cup' = 129 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 180.278,
+        "protein_g": 9.749,
+        "fat_g": 15.819,
+        "carbohydrate_g": 3.454,
+        "fiber_g": 1.935,
+        "sugars_g": 0.452,
+        "sodium_mg": 2.257,
+        "saturated_fat_g": 2.793,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 3,
+      "queries_tried": [
+        "pepitas",
+        "pumpkin seeds",
+        "Seeds, pumpkin and squash seed kernels, dried"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "pepitas",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Seeds, pumpkin and squash seed kernels, dried' is not a close match (cost 6.6 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "pumpkin seeds",
+          "strategy": "alias",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Seeds, pumpkin and squash seed kernels, dried' is not a close match (cost 3.0 > 1.0)"
+        },
+        {
+          "attempt": 3,
+          "query": "Seeds, pumpkin and squash seed kernels, dried",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "12014 Seeds, pumpkin and squash seed kernels, dried"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 9,
+      "raw": "1 tsp ground cinnamon",
+      "name": "ground cinnamon",
+      "quantity": 1.0,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02010",
+      "food_description": "Spices, cinnamon, ground",
+      "grams": 2.6,
+      "gram_basis": "USDA portion '1 tsp' = 2.6 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 6.422,
+        "protein_g": 0.104,
+        "fat_g": 0.032,
+        "carbohydrate_g": 2.095,
+        "fiber_g": 1.381,
+        "sugars_g": 0.056,
+        "sodium_mg": 0.26,
+        "saturated_fat_g": 0.009,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "ground cinnamon",
+        "Spices, cinnamon, ground"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "ground cinnamon",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Spices, cinnamon, ground' is not a close match (cost 3.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Spices, cinnamon, ground",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "02010 Spices, cinnamon, ground"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 10,
+      "raw": "1/8 tsp sea salt",
+      "name": "sea salt",
+      "quantity": 0.125,
+      "unit": "tsp",
+      "status": "unknown",
+      "food_id": null,
+      "food_description": null,
+      "grams": null,
+      "gram_basis": null,
+      "nutrition_status": "no_food_id",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "sea salt"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "sea salt",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'KASHI, TLC, Pita Crisps, Sea Salt' is not a close match (cost 9.0 > 1.0)"
+        }
+      ],
+      "unknown_reason": "no other names to try after 1 attempt(s); last: rejected: best hit 'KASHI, TLC, Pita Crisps, Sea Salt' is not a close match (cost 9.0 > 1.0)"
+    },
+    {
+      "index": 11,
+      "raw": "2 tbsp melted coconut oil (plus more to lightly grease baking dish)",
+      "name": "coconut oil",
+      "quantity": 2.0,
+      "unit": "tbsp",
+      "status": "matched",
+      "food_id": "04047",
+      "food_description": "Oil, coconut",
+      "grams": 27.2,
+      "gram_basis": "USDA portion '1 tbsp' = 13.6 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 242.624,
+        "protein_g": 0.0,
+        "fat_g": 26.944,
+        "carbohydrate_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 0.0,
+        "saturated_fat_g": 22.433,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "coconut oil"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "coconut oil",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "04047 Oil, coconut"
+        }
+      ],
+      "unknown_reason": null
+    }
+  ],
+  "match": {
+    "ingredients": 12,
+    "matched": 8,
+    "unknown": 4,
+    "match_rate": 0.667,
+    "retry_rounds": 3,
+    "hit_retry_cap": 1
+  },
+  "nutrition": {
+    "basis": "whole recipe, sum of ingredients with a food id and a gram weight",
+    "source": "USDA National Nutrient Database for Standard Reference, Release 28 (SR28, 2015)",
+    "complete": false,
+    "ingredients_total": 12,
+    "ingredients_with_nutrition": 7,
+    "unmatched_food_count": 4,
+    "matched_without_grams_count": 1,
+    "statement": "Partial: 5 of 12 ingredients have no nutrition (4 unmatched food, 1 matched but no gram weight); totals cover the other 7 only.",
+    "totals": {
+      "energy_kcal": 1195.4,
+      "protein_g": 17.2,
+      "fat_g": 70.8,
+      "saturated_fat_g": 27.6,
+      "carbohydrate_g": 131.6,
+      "fiber_g": 32.7,
+      "sugars_g": 85.6,
+      "sodium_mg": 11.6,
+      "cholesterol_mg": 0.0
+    },
+    "per_serving": {
+      "energy_kcal": 149.4,
+      "protein_g": 2.1,
+      "fat_g": 8.8,
+      "saturated_fat_g": 3.5,
+      "carbohydrate_g": 16.4,
+      "fiber_g": 4.1,
+      "sugars_g": 10.7,
+      "sodium_mg": 1.4,
+      "cholesterol_mg": 0.0
+    },
+    "servings": 8,
+    "nutrient_values_missing_in_usda": {
+      "saturated_fat_g": 1,
+      "cholesterol_mg": 1
+    }
+  },
+  "cook_notes": {
+    "status": "skipped_below_threshold",
+    "comment_count": 4,
+    "threshold": 5,
+    "claims": [],
+    "card": null,
+    "word_count": 0,
+    "backend": null
+  },
+  "node_path": [
+    "fetch",
+    "parse_recipe",
+    "parse_ingredients",
+    "match_nutrition",
+    "match_nutrition",
+    "match_nutrition",
+    "mark_unknown",
+    "gather_comments",
+    "validate",
+    "write"
+  ],
+  "terminal": {
+    "state": "complete_partial",
+    "reason": "5 of 12 ingredients without nutrition (4 unknown, 1 hit the 3-attempt cap, 1 no gram weight); no card (4 comments < threshold 5)"
+  }
+}

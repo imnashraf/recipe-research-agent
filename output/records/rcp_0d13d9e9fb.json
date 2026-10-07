@@ -1,0 +1,745 @@
+{
+  "recipe_id": "rcp_0d13d9e9fb",
+  "source_url": "https://www.culinaryhill.com/apple-cider-donuts/",
+  "title": "Apple Cider Donuts",
+  "site": "culinaryhill.com",
+  "category": [
+    "Dessert"
+  ],
+  "cuisine": [
+    "American"
+  ],
+  "yield_text": "16 / 16 donuts",
+  "servings": 16,
+  "servings_unit": "donuts",
+  "provenance": {
+    "page_source": "snapshot",
+    "fetched_url": "https://raw.githubusercontent.com/hhursev/recipe-scrapers/e7892149ee16c02cfd7ed1972e80791339727293/tests/test_data/culinaryhill.com/culinaryhill_2.testhtml",
+    "original_page_sha256": "724152c98b297343a827088602811a7c7d7d2ad6c4a94a98ad71f07b85941cd0",
+    "nutrition_source": "USDA National Nutrient Database for Standard Reference, Release 28 (SR28, 2015)"
+  },
+  "section_headings": [],
+  "ingredients": [
+    {
+      "index": 0,
+      "raw": "3 cups apple cider ((see note 2))",
+      "name": "apple cider",
+      "quantity": 3.0,
+      "unit": "cup",
+      "status": "unknown",
+      "food_id": null,
+      "food_description": null,
+      "grams": null,
+      "gram_basis": null,
+      "nutrition_status": "no_food_id",
+      "nutrients": null,
+      "attempts": 2,
+      "queries_tried": [
+        "apple cider",
+        "sweet apple cider"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "apple cider",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        },
+        {
+          "attempt": 2,
+          "query": "sweet apple cider",
+          "strategy": "alias",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        }
+      ],
+      "unknown_reason": "no other names to try after 2 attempt(s); last: no_candidates"
+    },
+    {
+      "index": 1,
+      "raw": "2 cups all-purpose flour",
+      "name": "all-purpose flour",
+      "quantity": 2.0,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "20081",
+      "food_description": "Wheat flour, white, all-purpose, enriched, bleached",
+      "grams": 250.0,
+      "gram_basis": "USDA portion '1 cup' = 125 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 910.0,
+        "protein_g": 25.825,
+        "fat_g": 2.45,
+        "carbohydrate_g": 190.775,
+        "fiber_g": 6.75,
+        "sugars_g": 0.675,
+        "sodium_mg": 5.0,
+        "saturated_fat_g": 0.388,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "all-purpose flour",
+        "Wheat flour, white, all-purpose, enriched, bleached"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "all-purpose flour",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Wheat flour, white, all-purpose, enriched, bleached' is not a close match (cost 4.6 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Wheat flour, white, all-purpose, enriched, bleached",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "20081 Wheat flour, white, all-purpose, enriched, bleached"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 2,
+      "raw": "1 teaspoon baking soda",
+      "name": "baking soda",
+      "quantity": 1.0,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "18372",
+      "food_description": "Leavening agents, baking soda",
+      "grams": 4.6,
+      "gram_basis": "USDA portion '1 tsp' = 4.6 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 0.0,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 1258.56,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "baking soda",
+        "Leavening agents, baking soda"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "baking soda",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Leavening agents, baking soda' is not a close match (cost 4.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Leavening agents, baking soda",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "18372 Leavening agents, baking soda"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 3,
+      "raw": "3/4 teaspoon baking powder",
+      "name": "baking powder",
+      "quantity": 0.75,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "18369",
+      "food_description": "Leavening agents, baking powder, double-acting, sodium aluminum sulfate",
+      "grams": 3.45,
+      "gram_basis": "USDA portion '1 tsp' = 4.6 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 1.829,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 0.956,
+        "fiber_g": 0.007,
+        "sugars_g": 0.0,
+        "sodium_mg": 365.7,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "baking powder",
+        "Leavening agents, baking powder, double-acting, sodium aluminum sulfate"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "baking powder",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Leavening agents, baking powder, low-sodium' is not a close match (cost 6.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Leavening agents, baking powder, double-acting, sodium aluminum sulfate",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "18369 Leavening agents, baking powder, double-acting, sodium aluminum sulfate"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 4,
+      "raw": "1 teaspoon apple pie spice ((see note 3))",
+      "name": "apple pie spice",
+      "quantity": 1.0,
+      "unit": "tsp",
+      "status": "unknown",
+      "food_id": null,
+      "food_description": null,
+      "grams": null,
+      "gram_basis": null,
+      "nutrition_status": "no_food_id",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "apple pie spice"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "apple pie spice",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        }
+      ],
+      "unknown_reason": "no other names to try after 1 attempt(s); last: no_candidates"
+    },
+    {
+      "index": 5,
+      "raw": "1 teaspoon ground cinnamon",
+      "name": "ground cinnamon",
+      "quantity": 1.0,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02010",
+      "food_description": "Spices, cinnamon, ground",
+      "grams": 2.6,
+      "gram_basis": "USDA portion '1 tsp' = 2.6 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 6.422,
+        "protein_g": 0.104,
+        "fat_g": 0.032,
+        "carbohydrate_g": 2.095,
+        "fiber_g": 1.381,
+        "sugars_g": 0.056,
+        "sodium_mg": 0.26,
+        "saturated_fat_g": 0.009,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "ground cinnamon",
+        "Spices, cinnamon, ground"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "ground cinnamon",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Spices, cinnamon, ground' is not a close match (cost 3.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Spices, cinnamon, ground",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "02010 Spices, cinnamon, ground"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 6,
+      "raw": "1/4 teaspoon salt",
+      "name": "salt",
+      "quantity": 0.25,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02047",
+      "food_description": "Salt, table",
+      "grams": 1.5,
+      "gram_basis": "USDA portion '1 tsp' = 6 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 0.0,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 581.37,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "salt"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "salt",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "02047 Salt, table"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 7,
+      "raw": "2 tablespoon butter (melted)",
+      "name": "butter",
+      "quantity": 2.0,
+      "unit": "tbsp",
+      "status": "matched",
+      "food_id": "01001",
+      "food_description": "Butter, salted",
+      "grams": 28.4,
+      "gram_basis": "USDA portion '1 tbsp' = 14.2 g (GmWt_2)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 203.628,
+        "protein_g": 0.241,
+        "fat_g": 23.035,
+        "carbohydrate_g": 0.017,
+        "fiber_g": 0.0,
+        "sugars_g": 0.017,
+        "sodium_mg": 182.612,
+        "saturated_fat_g": 14.589,
+        "cholesterol_mg": 61.06
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "butter"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "butter",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "01001 Butter, salted"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 8,
+      "raw": "1 egg",
+      "name": "egg",
+      "quantity": 1.0,
+      "unit": null,
+      "status": "matched",
+      "food_id": "01123",
+      "food_description": "Egg, whole, raw, fresh",
+      "grams": null,
+      "gram_basis": "count without size or weight; no USDA portion to convert it",
+      "nutrition_status": "no_gram_weight",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "egg"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "egg",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "01123 Egg, whole, raw, fresh"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 9,
+      "raw": "1/2 cup brown sugar (packed)",
+      "name": "brown sugar",
+      "quantity": 0.5,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "19334",
+      "food_description": "Sugars, brown",
+      "grams": 110.0,
+      "gram_basis": "USDA portion '1 cup, packed' = 220 g (GmWt_2)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 418.0,
+        "protein_g": 0.132,
+        "fat_g": 0.0,
+        "carbohydrate_g": 107.899,
+        "fiber_g": 0.0,
+        "sugars_g": 106.722,
+        "sodium_mg": 30.8,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "brown sugar"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "brown sugar",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "19334 Sugars, brown"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 10,
+      "raw": "1/2 cup granulated sugar",
+      "name": "granulated sugar",
+      "quantity": 0.5,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "19335",
+      "food_description": "Sugars, granulated",
+      "grams": 100.8,
+      "gram_basis": "USDA portion '1 tsp' = 4.2 g (GmWt_2)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 390.096,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 100.78,
+        "fiber_g": 0.0,
+        "sugars_g": 100.598,
+        "sodium_mg": 1.008,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "granulated sugar"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "granulated sugar",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "19335 Sugars, granulated"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 11,
+      "raw": "1/2 cup milk",
+      "name": "milk",
+      "quantity": 0.5,
+      "unit": "cup",
+      "status": "unknown",
+      "food_id": null,
+      "food_description": null,
+      "grams": null,
+      "gram_basis": null,
+      "nutrition_status": "no_food_id",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "milk"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "milk",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Milk, sheep, fluid' is not a close match (cost 1.3 > 1.0)"
+        }
+      ],
+      "unknown_reason": "no other names to try after 1 attempt(s); last: rejected: best hit 'Milk, sheep, fluid' is not a close match (cost 1.3 > 1.0)"
+    },
+    {
+      "index": 12,
+      "raw": "1 teaspoon vanilla extract",
+      "name": "vanilla extract",
+      "quantity": 1.0,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02050",
+      "food_description": "Vanilla extract",
+      "grams": 4.2,
+      "gram_basis": "USDA portion '1 tsp' = 4.2 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 12.096,
+        "protein_g": 0.003,
+        "fat_g": 0.003,
+        "carbohydrate_g": 0.531,
+        "fiber_g": 0.0,
+        "sugars_g": 0.531,
+        "sodium_mg": 0.378,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "vanilla extract"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "vanilla extract",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "02050 Vanilla extract"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 13,
+      "raw": "1 cup granulated sugar",
+      "name": "granulated sugar",
+      "quantity": 1.0,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "19335",
+      "food_description": "Sugars, granulated",
+      "grams": 201.6,
+      "gram_basis": "USDA portion '1 tsp' = 4.2 g (GmWt_2)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 780.192,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 201.56,
+        "fiber_g": 0.0,
+        "sugars_g": 201.197,
+        "sodium_mg": 2.016,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "granulated sugar"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "granulated sugar",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "19335 Sugars, granulated"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 14,
+      "raw": "3/4 teaspoon apple pie spice",
+      "name": "apple pie spice",
+      "quantity": 0.75,
+      "unit": "tsp",
+      "status": "unknown",
+      "food_id": null,
+      "food_description": null,
+      "grams": null,
+      "gram_basis": null,
+      "nutrition_status": "no_food_id",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "apple pie spice"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "apple pie spice",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        }
+      ],
+      "unknown_reason": "no other names to try after 1 attempt(s); last: no_candidates"
+    },
+    {
+      "index": 15,
+      "raw": "3/4 teaspoon ground cinnamon",
+      "name": "ground cinnamon",
+      "quantity": 0.75,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02010",
+      "food_description": "Spices, cinnamon, ground",
+      "grams": 1.95,
+      "gram_basis": "USDA portion '1 tsp' = 2.6 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 4.817,
+        "protein_g": 0.078,
+        "fat_g": 0.024,
+        "carbohydrate_g": 1.572,
+        "fiber_g": 1.035,
+        "sugars_g": 0.042,
+        "sodium_mg": 0.195,
+        "saturated_fat_g": 0.007,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "ground cinnamon",
+        "Spices, cinnamon, ground"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "ground cinnamon",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Spices, cinnamon, ground' is not a close match (cost 3.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Spices, cinnamon, ground",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "02010 Spices, cinnamon, ground"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 16,
+      "raw": "1/2 cup butter (melted (see note 4))",
+      "name": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "01001",
+      "food_description": "Butter, salted",
+      "grams": 113.6,
+      "gram_basis": "USDA portion '1 tbsp' = 14.2 g (GmWt_2)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 814.512,
+        "protein_g": 0.966,
+        "fat_g": 92.141,
+        "carbohydrate_g": 0.068,
+        "fiber_g": 0.0,
+        "sugars_g": 0.068,
+        "sodium_mg": 730.448,
+        "saturated_fat_g": 58.354,
+        "cholesterol_mg": 244.24
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "butter"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "butter",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "01001 Butter, salted"
+        }
+      ],
+      "unknown_reason": null
+    }
+  ],
+  "match": {
+    "ingredients": 17,
+    "matched": 13,
+    "unknown": 4,
+    "match_rate": 0.765,
+    "retry_rounds": 2,
+    "hit_retry_cap": 0
+  },
+  "nutrition": {
+    "basis": "whole recipe, sum of ingredients with a food id and a gram weight",
+    "source": "USDA National Nutrient Database for Standard Reference, Release 28 (SR28, 2015)",
+    "complete": false,
+    "ingredients_total": 17,
+    "ingredients_with_nutrition": 12,
+    "unmatched_food_count": 4,
+    "matched_without_grams_count": 1,
+    "statement": "Partial: 5 of 17 ingredients have no nutrition (4 unmatched food, 1 matched but no gram weight); totals cover the other 12 only.",
+    "totals": {
+      "energy_kcal": 3541.6,
+      "protein_g": 27.3,
+      "fat_g": 117.7,
+      "saturated_fat_g": 73.3,
+      "carbohydrate_g": 606.3,
+      "fiber_g": 9.2,
+      "sugars_g": 409.9,
+      "sodium_mg": 3158.3,
+      "cholesterol_mg": 305.3
+    },
+    "per_serving": {
+      "energy_kcal": 221.3,
+      "protein_g": 1.7,
+      "fat_g": 7.4,
+      "saturated_fat_g": 4.6,
+      "carbohydrate_g": 37.9,
+      "fiber_g": 0.6,
+      "sugars_g": 25.6,
+      "sodium_mg": 197.4,
+      "cholesterol_mg": 19.1
+    },
+    "servings": 16,
+    "nutrient_values_missing_in_usda": {}
+  },
+  "cook_notes": {
+    "status": "produced",
+    "comment_count": 7,
+    "threshold": 5,
+    "claims": [
+      {
+        "text": "asked a question",
+        "count": 3,
+        "comment_ids": [
+          "106162",
+          "190494",
+          "192247"
+        ]
+      }
+    ],
+    "card": "Cook notes (7 comments): 3 of 7 asked a question.",
+    "word_count": 10,
+    "backend": "themes-v2"
+  },
+  "node_path": [
+    "fetch",
+    "parse_recipe",
+    "parse_ingredients",
+    "match_nutrition",
+    "match_nutrition",
+    "mark_unknown",
+    "gather_comments",
+    "summarise",
+    "validate",
+    "write"
+  ],
+  "terminal": {
+    "state": "complete_partial",
+    "reason": "5 of 17 ingredients without nutrition (4 unknown, 0 hit the 3-attempt cap, 1 no gram weight); card from 7 comments"
+  }
+}

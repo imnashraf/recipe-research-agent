@@ -1,0 +1,216 @@
+{
+  "description": "Other names to try, in order, when the recipe's own wording does not find the food. Plain synonyms first (what a cook would also call it), then the USDA SR28 wording. Synonyms are allowed to miss: each miss is one attempt toward the retry cap. Only foods that are the same food are listed; where the recipe leaves the type open (plain 'milk', 'vegetable oil', 'greek yogurt', 'sea salt') there is deliberately no alias, so the ingredient ends as unknown rather than guessed.",
+  "aliases": {
+    "toor dal": [
+      "arhar dal",
+      "Pigeon peas (red gram), mature seeds, raw"
+    ],
+    "all purpose flour": [
+      "Wheat flour, white, all-purpose, enriched, bleached"
+    ],
+    "all-purpose flour": [
+      "Wheat flour, white, all-purpose, enriched, bleached"
+    ],
+    "flour": [
+      "all-purpose flour",
+      "Wheat flour, white, all-purpose, enriched, bleached"
+    ],
+    "self-rising flour": [
+      "Wheat flour, white, all-purpose, self-rising, enriched"
+    ],
+    "almond flour": [
+      "almond meal",
+      {
+        "query": "Nuts, almonds, blanched",
+        "volume_portions": false
+      }
+    ],
+    "blanched almond flour": [
+      {
+        "query": "Nuts, almonds, blanched",
+        "volume_portions": false
+      }
+    ],
+    "arrowroot starch": [
+      "arrowroot flour"
+    ],
+    "tapioca starch": [
+      "tapioca flour",
+      "cassava starch"
+    ],
+    "coconut sugar": [
+      "coconut palm sugar",
+      "palm sugar"
+    ],
+    "confectioners sugar": [
+      "powdered sugar"
+    ],
+    "white sugar": [
+      "granulated sugar"
+    ],
+    "light brown sugar": [
+      "brown sugar"
+    ],
+    "unsalted butter": [
+      "butter without salt"
+    ],
+    "baking soda": [
+      "Leavening agents, baking soda"
+    ],
+    "baking powder": [
+      "Leavening agents, baking powder, double-acting, sodium aluminum sulfate"
+    ],
+    "cinnamon": [
+      "Spices, cinnamon, ground"
+    ],
+    "ground cinnamon": [
+      "Spices, cinnamon, ground"
+    ],
+    "nutmeg": [
+      "Spices, nutmeg, ground"
+    ],
+    "ground nutmeg": [
+      "Spices, nutmeg, ground"
+    ],
+    "ground ginger": [
+      "Spices, ginger, ground"
+    ],
+    "all spice": [
+      "allspice",
+      "Spices, allspice, ground"
+    ],
+    "ground allspice": [
+      "Spices, allspice, ground"
+    ],
+    "ground cardamom": [
+      "Spices, cardamom"
+    ],
+    "ground black pepper": [
+      "Spices, pepper, black"
+    ],
+    "ginger": [
+      "fresh ginger root",
+      "Ginger root, raw"
+    ],
+    "vanilla": [
+      "vanilla extract"
+    ],
+    "kosher salt": [
+      "coarse salt"
+    ],
+    "pink salt": [
+      "himalayan salt"
+    ],
+    "espresso powder": [
+      "instant espresso powder",
+      "instant espresso"
+    ],
+    "apple cider": [
+      "sweet apple cider"
+    ],
+    "whole milk": [
+      "Milk, whole, 3.25% milkfat, with added vitamin D"
+    ],
+    "2% milk": [
+      "Milk, reduced fat, fluid, 2% milkfat, with added vitamin A and vitamin D"
+    ],
+    "whole milk powder": [
+      "Milk, dry, whole, with added vitamin D"
+    ],
+    "buttermilk": [
+      "Milk, buttermilk, fluid, cultured, lowfat"
+    ],
+    "heavy cream": [
+      "heavy whipping cream"
+    ],
+    "whipping cream": [
+      "light whipping cream"
+    ],
+    "sour cream": [
+      "Cream, sour, cultured"
+    ],
+    "cocoa powder": [
+      "unsweetened cocoa powder"
+    ],
+    "peaches": [
+      "Peaches, yellow, raw"
+    ],
+    "pecans": [
+      "Nuts, pecans"
+    ],
+    "walnuts": [
+      "english walnuts",
+      "Nuts, walnuts, english"
+    ],
+    "pepitas": [
+      "pumpkin seeds",
+      "Seeds, pumpkin and squash seed kernels, dried"
+    ],
+    "granny smith apples": [
+      "Apples, raw, granny smith, with skin"
+    ],
+    "graham cracker crumbs": [
+      {
+        "query": "Cookies, graham crackers, plain or honey (includes cinnamon)",
+        "volume_portions": false
+      }
+    ],
+    "graham cracker crusts": [
+      "Pie Crust, Cookie-type, Graham Cracker, Ready Crust"
+    ],
+    "oreo cookies": [
+      "chocolate sandwich cookies",
+      "Cookies, chocolate sandwich, with creme filling, regular"
+    ],
+    "hershey’s kisses": [
+      "chocolate kisses",
+      "milk chocolate kisses"
+    ],
+    "pineapple juice": [
+      "Pineapple juice, canned or bottled, unsweetened, without added ascorbic acid"
+    ],
+    "pumpkin puree": [
+      "canned pumpkin",
+      "Pumpkin, canned, without salt"
+    ],
+    "raisins": [
+      "Raisins, seedless"
+    ],
+    "shortening": [
+      "Shortening, vegetable, household, composite"
+    ],
+    "unsweetened almond milk": [
+      "Beverages, almond milk, unsweetened, shelf stable"
+    ],
+    "unsweetened applesauce": [
+      "Applesauce, canned, unsweetened, without added ascorbic acid (includes USDA commodity)"
+    ],
+    "unsweetened chocolate squares": [
+      "Baking chocolate, unsweetened, squares"
+    ],
+    "water": [
+      "Beverages, water, tap, drinking"
+    ],
+    "vinegar": [
+      "white vinegar",
+      "Vinegar, distilled"
+    ],
+    "apple cider vinegar": [
+      "Vinegar, cider"
+    ],
+    "olive oil": [
+      "Oil, olive, salad or cooking"
+    ],
+    "creamy peanut butter": [
+      "smooth peanut butter",
+      "Peanut butter, smooth style, with salt"
+    ],
+    "sprinkles": [
+      "nonpareils",
+      "candy sprinkles"
+    ],
+    "instant vanilla pudding": [
+      "Puddings, vanilla, dry mix, instant"
+    ]
+  }
+}

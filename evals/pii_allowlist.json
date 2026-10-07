@@ -1,0 +1,11 @@
+{
+  "description": "Hits reviewed by hand and confirmed not to be personal data. Each entry says why. The scan fails on any hit not explained here or by the automatic site/brand and placeholder rules.",
+  "words": {
+    "Wendy": "Commenter 'Wendy P.' is on ourbestbites.com; the only occurrence in our files is \"Wendy's Frosty\" (the restaurant chain) in a thecountrycook.net comment.",
+    "Baking": "From the blog team display name \"<first name> @ Sally's Baking Recipes\"; in our files it is the food word (\"Baking chocolate\", \"Baking Powder\").",
+    "Recipes": "From the blog team display name \"<first name> @ Sally's Baking Recipes\"; in our files it is the plain word (\"Recipes: 25\").",
+    "Cookie": "From the blog name \"Cookie and Kate\" used as an author; in our files it is the food word (\"Cookie-type\", \"Sugar Cookie\").",
+    "Zest": "From a commenter display name ending in \"| Garlic & Zest\" (a blog name); in our files it is the food word (\"Zest from 1 large lemon\").",
+    "Bites": "From the blog team display name \"<first name> @ Our Best Bites\"; in our files it is the recipe title \"Oreo Cheesecake Bites\"."
+  }
+}

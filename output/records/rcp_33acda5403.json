@@ -1,0 +1,424 @@
+{
+  "recipe_id": "rcp_33acda5403",
+  "source_url": "https://www.wyseguide.com/blueberry-cobbler/",
+  "title": "Blueberry Cobbler",
+  "site": "wyseguide.com",
+  "category": [
+    "Dessert"
+  ],
+  "cuisine": [
+    "American"
+  ],
+  "yield_text": "9 / 9 servings",
+  "servings": 9,
+  "servings_unit": "servings",
+  "provenance": {
+    "page_source": "snapshot",
+    "fetched_url": "https://raw.githubusercontent.com/hhursev/recipe-scrapers/e7892149ee16c02cfd7ed1972e80791339727293/tests/test_data/wyseguide.com/wyseguide_1.testhtml",
+    "original_page_sha256": "22199a23a38d3fbd8533b9be95192250cc9ce81ce5377b772c71b41da1aee0f9",
+    "nutrition_source": "USDA National Nutrient Database for Standard Reference, Release 28 (SR28, 2015)"
+  },
+  "section_headings": [],
+  "ingredients": [
+    {
+      "index": 0,
+      "raw": "4 tbsp unsalted butter (melted)",
+      "name": "unsalted butter",
+      "quantity": 4.0,
+      "unit": "tbsp",
+      "status": "matched",
+      "food_id": "01145",
+      "food_description": "Butter, without salt",
+      "grams": 56.8,
+      "gram_basis": "USDA portion '1 tbsp' = 14.2 g (GmWt_2)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 407.256,
+        "protein_g": 0.483,
+        "fat_g": 46.07,
+        "carbohydrate_g": 0.034,
+        "fiber_g": 0.0,
+        "sugars_g": 0.034,
+        "sodium_mg": 6.248,
+        "saturated_fat_g": 28.678,
+        "cholesterol_mg": 122.12
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "unsalted butter",
+        "butter without salt"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "unsalted butter",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        },
+        {
+          "attempt": 2,
+          "query": "butter without salt",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "01145 Butter, without salt"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 1,
+      "raw": "3 cups blueberries",
+      "name": "blueberries",
+      "quantity": 3.0,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "09050",
+      "food_description": "Blueberries, raw",
+      "grams": 444.0,
+      "gram_basis": "USDA portion '1 cup' = 148 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 253.08,
+        "protein_g": 3.286,
+        "fat_g": 1.465,
+        "carbohydrate_g": 64.336,
+        "fiber_g": 10.656,
+        "sugars_g": 44.222,
+        "sodium_mg": 4.44,
+        "saturated_fat_g": 0.124,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "blueberries"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "blueberries",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "09050 Blueberries, raw"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 2,
+      "raw": "3/4 cup all-purpose flour",
+      "name": "all-purpose flour",
+      "quantity": 0.75,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "20081",
+      "food_description": "Wheat flour, white, all-purpose, enriched, bleached",
+      "grams": 93.75,
+      "gram_basis": "USDA portion '1 cup' = 125 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 341.25,
+        "protein_g": 9.684,
+        "fat_g": 0.919,
+        "carbohydrate_g": 71.541,
+        "fiber_g": 2.531,
+        "sugars_g": 0.253,
+        "sodium_mg": 1.875,
+        "saturated_fat_g": 0.145,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "all-purpose flour",
+        "Wheat flour, white, all-purpose, enriched, bleached"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "all-purpose flour",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Wheat flour, white, all-purpose, enriched, bleached' is not a close match (cost 4.6 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Wheat flour, white, all-purpose, enriched, bleached",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "20081 Wheat flour, white, all-purpose, enriched, bleached"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 3,
+      "raw": "1/2 cup granulated sugar",
+      "name": "granulated sugar",
+      "quantity": 0.5,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "19335",
+      "food_description": "Sugars, granulated",
+      "grams": 100.8,
+      "gram_basis": "USDA portion '1 tsp' = 4.2 g (GmWt_2)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 390.096,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 100.78,
+        "fiber_g": 0.0,
+        "sugars_g": 100.598,
+        "sodium_mg": 1.008,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "granulated sugar"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "granulated sugar",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "19335 Sugars, granulated"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 4,
+      "raw": "1 1/2 tsp baking powder",
+      "name": "baking powder",
+      "quantity": 1.5,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "18369",
+      "food_description": "Leavening agents, baking powder, double-acting, sodium aluminum sulfate",
+      "grams": 6.9,
+      "gram_basis": "USDA portion '1 tsp' = 4.6 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 3.657,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 1.911,
+        "fiber_g": 0.014,
+        "sugars_g": 0.0,
+        "sodium_mg": 731.4,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "baking powder",
+        "Leavening agents, baking powder, double-acting, sodium aluminum sulfate"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "baking powder",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Leavening agents, baking powder, low-sodium' is not a close match (cost 6.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Leavening agents, baking powder, double-acting, sodium aluminum sulfate",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "18369 Leavening agents, baking powder, double-acting, sodium aluminum sulfate"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 5,
+      "raw": "3/4 tsp kosher salt",
+      "name": "kosher salt",
+      "quantity": 0.75,
+      "unit": "tsp",
+      "status": "unknown",
+      "food_id": null,
+      "food_description": null,
+      "grams": null,
+      "gram_basis": null,
+      "nutrition_status": "no_food_id",
+      "nutrients": null,
+      "attempts": 2,
+      "queries_tried": [
+        "kosher salt",
+        "coarse salt"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "kosher salt",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        },
+        {
+          "attempt": 2,
+          "query": "coarse salt",
+          "strategy": "alias",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        }
+      ],
+      "unknown_reason": "no other names to try after 2 attempt(s); last: no_candidates"
+    },
+    {
+      "index": 6,
+      "raw": "2/3 cup whole milk",
+      "name": "whole milk",
+      "quantity": 0.6667,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "01077",
+      "food_description": "Milk, whole, 3.25% milkfat, with added vitamin D",
+      "grams": 162.67,
+      "gram_basis": "USDA portion '1 cup' = 244 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 99.232,
+        "protein_g": 5.124,
+        "fat_g": 5.287,
+        "carbohydrate_g": 7.808,
+        "fiber_g": 0.0,
+        "sugars_g": 8.215,
+        "sodium_mg": 69.95,
+        "saturated_fat_g": 3.034,
+        "cholesterol_mg": 16.267
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "whole milk",
+        "Milk, whole, 3.25% milkfat, with added vitamin D"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "whole milk",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Milk, buttermilk, fluid, whole' is not a close match (cost 1.3 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Milk, whole, 3.25% milkfat, with added vitamin D",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "01077 Milk, whole, 3.25% milkfat, with added vitamin D"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 7,
+      "raw": "1 tsp vanilla extract",
+      "name": "vanilla extract",
+      "quantity": 1.0,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02050",
+      "food_description": "Vanilla extract",
+      "grams": 4.2,
+      "gram_basis": "USDA portion '1 tsp' = 4.2 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 12.096,
+        "protein_g": 0.003,
+        "fat_g": 0.003,
+        "carbohydrate_g": 0.531,
+        "fiber_g": 0.0,
+        "sugars_g": 0.531,
+        "sodium_mg": 0.378,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "vanilla extract"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "vanilla extract",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "02050 Vanilla extract"
+        }
+      ],
+      "unknown_reason": null
+    }
+  ],
+  "match": {
+    "ingredients": 8,
+    "matched": 7,
+    "unknown": 1,
+    "match_rate": 0.875,
+    "retry_rounds": 2,
+    "hit_retry_cap": 0
+  },
+  "nutrition": {
+    "basis": "whole recipe, sum of ingredients with a food id and a gram weight",
+    "source": "USDA National Nutrient Database for Standard Reference, Release 28 (SR28, 2015)",
+    "complete": false,
+    "ingredients_total": 8,
+    "ingredients_with_nutrition": 7,
+    "unmatched_food_count": 1,
+    "matched_without_grams_count": 0,
+    "statement": "Partial: 1 of 8 ingredients have no nutrition (1 unmatched food, 0 matched but no gram weight); totals cover the other 7 only.",
+    "totals": {
+      "energy_kcal": 1506.7,
+      "protein_g": 18.6,
+      "fat_g": 53.7,
+      "saturated_fat_g": 32.0,
+      "carbohydrate_g": 246.9,
+      "fiber_g": 13.2,
+      "sugars_g": 153.9,
+      "sodium_mg": 815.3,
+      "cholesterol_mg": 138.4
+    },
+    "per_serving": {
+      "energy_kcal": 167.4,
+      "protein_g": 2.1,
+      "fat_g": 6.0,
+      "saturated_fat_g": 3.6,
+      "carbohydrate_g": 27.4,
+      "fiber_g": 1.5,
+      "sugars_g": 17.1,
+      "sodium_mg": 90.6,
+      "cholesterol_mg": 15.4
+    },
+    "servings": 9,
+    "nutrient_values_missing_in_usda": {}
+  },
+  "cook_notes": {
+    "status": "skipped_below_threshold",
+    "comment_count": 1,
+    "threshold": 5,
+    "claims": [],
+    "card": null,
+    "word_count": 0,
+    "backend": null
+  },
+  "node_path": [
+    "fetch",
+    "parse_recipe",
+    "parse_ingredients",
+    "match_nutrition",
+    "match_nutrition",
+    "mark_unknown",
+    "gather_comments",
+    "validate",
+    "write"
+  ],
+  "terminal": {
+    "state": "complete_partial",
+    "reason": "1 of 8 ingredients without nutrition (1 unknown, 0 hit the 3-attempt cap, 0 no gram weight); no card (1 comments < threshold 5)"
+  }
+}

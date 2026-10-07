@@ -1,0 +1,727 @@
+{
+  "recipe_id": "rcp_d534b880e0",
+  "source_url": "https://www.zenbelly.com/gingerbread/",
+  "title": "Paleo Gingerbread",
+  "site": "zenbelly.com",
+  "category": [
+    "Dessert"
+  ],
+  "cuisine": [],
+  "yield_text": "20 / 20 pieces",
+  "servings": 20,
+  "servings_unit": "pieces",
+  "provenance": {
+    "page_source": "snapshot",
+    "fetched_url": "https://raw.githubusercontent.com/hhursev/recipe-scrapers/e7892149ee16c02cfd7ed1972e80791339727293/tests/test_data/zenbelly.com/zenbelly_1.testhtml",
+    "original_page_sha256": "12728903b1c7d35765d409c6d82f63d94d40e40ec87868780d9a60cd573747ea",
+    "nutrition_source": "USDA National Nutrient Database for Standard Reference, Release 28 (SR28, 2015)"
+  },
+  "section_headings": [],
+  "ingredients": [
+    {
+      "index": 0,
+      "raw": "butter (ghee, or shortening for greasing the pan)",
+      "name": "butter",
+      "quantity": null,
+      "unit": null,
+      "status": "matched",
+      "food_id": "01001",
+      "food_description": "Butter, salted",
+      "grams": null,
+      "gram_basis": "no single quantity in recipe line",
+      "nutrition_status": "no_gram_weight",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "butter"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "butter",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "01001 Butter, salted"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 1,
+      "raw": "3 cups almond flour",
+      "name": "almond flour",
+      "quantity": 3.0,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "12062",
+      "food_description": "Nuts, almonds, blanched",
+      "grams": null,
+      "gram_basis": "matched food is a stand-in for nutrients only; its USDA portion weights do not apply",
+      "nutrition_status": "no_gram_weight",
+      "nutrients": null,
+      "attempts": 3,
+      "queries_tried": [
+        "almond flour",
+        "almond meal",
+        "Nuts, almonds, blanched"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "almond flour",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        },
+        {
+          "attempt": 2,
+          "query": "almond meal",
+          "strategy": "alias",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Cereals ready-to-eat, MALT-O-MEAL, OAT BLENDERS with honey & almonds' is not a close match (cost 14.0 > 1.0)"
+        },
+        {
+          "attempt": 3,
+          "query": "Nuts, almonds, blanched",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "12062 Nuts, almonds, blanched"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 2,
+      "raw": "1 1/2 cups tapioca starch (plus more for flouring pan)",
+      "name": "tapioca starch",
+      "quantity": 1.5,
+      "unit": "cup",
+      "status": "unknown",
+      "food_id": null,
+      "food_description": null,
+      "grams": null,
+      "gram_basis": null,
+      "nutrition_status": "no_food_id",
+      "nutrients": null,
+      "attempts": 3,
+      "queries_tried": [
+        "tapioca starch",
+        "tapioca flour",
+        "cassava starch"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "tapioca starch",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Bread, gluten-free, white, made with tapioca starch and brown rice flour' is not a close match (cost 10.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "tapioca flour",
+          "strategy": "alias",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Bread, gluten-free, white, made with tapioca starch and brown rice flour' is not a close match (cost 10.0 > 1.0)"
+        },
+        {
+          "attempt": 3,
+          "query": "cassava starch",
+          "strategy": "alias",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        }
+      ],
+      "unknown_reason": "no acceptable match within the 3-attempt cap; last: no_candidates"
+    },
+    {
+      "index": 3,
+      "raw": "1/2 cup coconut flour",
+      "name": "coconut flour",
+      "quantity": 0.5,
+      "unit": "cup",
+      "status": "unknown",
+      "food_id": null,
+      "food_description": null,
+      "grams": null,
+      "gram_basis": null,
+      "nutrition_status": "no_food_id",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "coconut flour"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "coconut flour",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        }
+      ],
+      "unknown_reason": "no other names to try after 1 attempt(s); last: no_candidates"
+    },
+    {
+      "index": 4,
+      "raw": "1 1/2 teaspoons baking soda",
+      "name": "baking soda",
+      "quantity": 1.5,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "18372",
+      "food_description": "Leavening agents, baking soda",
+      "grams": 6.9,
+      "gram_basis": "USDA portion '1 tsp' = 4.6 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 0.0,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 1887.84,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "baking soda",
+        "Leavening agents, baking soda"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "baking soda",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Leavening agents, baking soda' is not a close match (cost 4.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Leavening agents, baking soda",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "18372 Leavening agents, baking soda"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 5,
+      "raw": "2 teaspoons ground ginger",
+      "name": "ground ginger",
+      "quantity": 2.0,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02021",
+      "food_description": "Spices, ginger, ground",
+      "grams": 3.6,
+      "gram_basis": "USDA portion '1 tsp' = 1.8 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 12.06,
+        "protein_g": 0.323,
+        "fat_g": 0.153,
+        "carbohydrate_g": 2.578,
+        "fiber_g": 0.508,
+        "sugars_g": 0.122,
+        "sodium_mg": 0.972,
+        "saturated_fat_g": 0.094,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "ground ginger",
+        "Spices, ginger, ground"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "ground ginger",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Spices, ginger, ground' is not a close match (cost 3.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Spices, ginger, ground",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "02021 Spices, ginger, ground"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 6,
+      "raw": "1 teaspoons ground cinnamon",
+      "name": "ground cinnamon",
+      "quantity": 1.0,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02010",
+      "food_description": "Spices, cinnamon, ground",
+      "grams": 2.6,
+      "gram_basis": "USDA portion '1 tsp' = 2.6 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 6.422,
+        "protein_g": 0.104,
+        "fat_g": 0.032,
+        "carbohydrate_g": 2.095,
+        "fiber_g": 1.381,
+        "sugars_g": 0.056,
+        "sodium_mg": 0.26,
+        "saturated_fat_g": 0.009,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "ground cinnamon",
+        "Spices, cinnamon, ground"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "ground cinnamon",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Spices, cinnamon, ground' is not a close match (cost 3.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Spices, cinnamon, ground",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "02010 Spices, cinnamon, ground"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 7,
+      "raw": "1/4 teaspoon ground allspice",
+      "name": "ground allspice",
+      "quantity": 0.25,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02001",
+      "food_description": "Spices, allspice, ground",
+      "grams": 0.47,
+      "gram_basis": "USDA portion '1 tsp' = 1.9 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 1.249,
+        "protein_g": 0.029,
+        "fat_g": 0.041,
+        "carbohydrate_g": 0.343,
+        "fiber_g": 0.103,
+        "sugars_g": null,
+        "sodium_mg": 0.366,
+        "saturated_fat_g": 0.012,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "ground allspice",
+        "Spices, allspice, ground"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "ground allspice",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Spices, allspice, ground' is not a close match (cost 3.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Spices, allspice, ground",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "02001 Spices, allspice, ground"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 8,
+      "raw": "1/4 teaspoon ground cardamom",
+      "name": "ground cardamom",
+      "quantity": 0.25,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02006",
+      "food_description": "Spices, cardamom",
+      "grams": 0.5,
+      "gram_basis": "USDA portion '1 tsp, ground' = 2 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 1.555,
+        "protein_g": 0.054,
+        "fat_g": 0.034,
+        "carbohydrate_g": 0.342,
+        "fiber_g": 0.14,
+        "sugars_g": null,
+        "sodium_mg": 0.09,
+        "saturated_fat_g": 0.003,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "ground cardamom",
+        "Spices, cardamom"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "ground cardamom",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        },
+        {
+          "attempt": 2,
+          "query": "Spices, cardamom",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "02006 Spices, cardamom"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 9,
+      "raw": "1/2 teaspoon finely ground sea salt",
+      "name": "ground sea salt",
+      "quantity": 0.5,
+      "unit": "tsp",
+      "status": "unknown",
+      "food_id": null,
+      "food_description": null,
+      "grams": null,
+      "gram_basis": null,
+      "nutrition_status": "no_food_id",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "ground sea salt"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "ground sea salt",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        }
+      ],
+      "unknown_reason": "no other names to try after 1 attempt(s); last: no_candidates"
+    },
+    {
+      "index": 10,
+      "raw": "1 cup coconut sugar",
+      "name": "coconut sugar",
+      "quantity": 1.0,
+      "unit": "cup",
+      "status": "unknown",
+      "food_id": null,
+      "food_description": null,
+      "grams": null,
+      "gram_basis": null,
+      "nutrition_status": "no_food_id",
+      "nutrients": null,
+      "attempts": 3,
+      "queries_tried": [
+        "coconut sugar",
+        "coconut palm sugar",
+        "palm sugar"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "coconut sugar",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Sauce, peanut, made from coconut, water, sugar, peanuts' is not a close match (cost 8.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "coconut palm sugar",
+          "strategy": "alias",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        },
+        {
+          "attempt": 3,
+          "query": "palm sugar",
+          "strategy": "alias",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        }
+      ],
+      "unknown_reason": "no acceptable match within the 3-attempt cap; last: no_candidates"
+    },
+    {
+      "index": 11,
+      "raw": "1 cup molasses (use true molasses if you can find it)",
+      "name": "molasses",
+      "quantity": 1.0,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "19304",
+      "food_description": "Molasses",
+      "grams": 337.0,
+      "gram_basis": "USDA portion '1 cup' = 337 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 977.3,
+        "protein_g": 0.0,
+        "fat_g": 0.337,
+        "carbohydrate_g": 251.84,
+        "fiber_g": 0.0,
+        "sugars_g": 251.806,
+        "sodium_mg": 124.69,
+        "saturated_fat_g": 0.061,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "molasses"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "molasses",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "19304 Molasses"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 12,
+      "raw": "2 teaspoons fresh ginger",
+      "name": "ginger",
+      "quantity": 2.0,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "11216",
+      "food_description": "Ginger root, raw",
+      "grams": 4.0,
+      "gram_basis": "USDA portion '1 tsp' = 2 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 3.2,
+        "protein_g": 0.073,
+        "fat_g": 0.03,
+        "carbohydrate_g": 0.711,
+        "fiber_g": 0.08,
+        "sugars_g": 0.068,
+        "sodium_mg": 0.52,
+        "saturated_fat_g": 0.008,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 3,
+      "queries_tried": [
+        "ginger",
+        "fresh ginger root",
+        "Ginger root, raw"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "ginger",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Ginger root, raw' is not a close match (cost 3.3 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "fresh ginger root",
+          "strategy": "alias",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        },
+        {
+          "attempt": 3,
+          "query": "Ginger root, raw",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "11216 Ginger root, raw"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 13,
+      "raw": "1 cup boiling water",
+      "name": "water",
+      "quantity": 1.0,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "14411",
+      "food_description": "Beverages, water, tap, drinking",
+      "grams": 236.8,
+      "gram_basis": "USDA portion '1 fl oz' = 29.6 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 0.0,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 9.472,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "water",
+        "Beverages, water, tap, drinking"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "water",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Water, bottled, generic' is not a close match (cost 2.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Beverages, water, tap, drinking",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "14411 Beverages, water, tap, drinking"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 14,
+      "raw": "4 eggs",
+      "name": "eggs",
+      "quantity": 4.0,
+      "unit": null,
+      "status": "matched",
+      "food_id": "01123",
+      "food_description": "Egg, whole, raw, fresh",
+      "grams": null,
+      "gram_basis": "count without size or weight; no USDA portion to convert it",
+      "nutrition_status": "no_gram_weight",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "eggs"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "eggs",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "01123 Egg, whole, raw, fresh"
+        }
+      ],
+      "unknown_reason": null
+    }
+  ],
+  "match": {
+    "ingredients": 15,
+    "matched": 11,
+    "unknown": 4,
+    "match_rate": 0.733,
+    "retry_rounds": 3,
+    "hit_retry_cap": 2
+  },
+  "nutrition": {
+    "basis": "whole recipe, sum of ingredients with a food id and a gram weight",
+    "source": "USDA National Nutrient Database for Standard Reference, Release 28 (SR28, 2015)",
+    "complete": false,
+    "ingredients_total": 15,
+    "ingredients_with_nutrition": 8,
+    "unmatched_food_count": 4,
+    "matched_without_grams_count": 3,
+    "statement": "Partial: 7 of 15 ingredients have no nutrition (4 unmatched food, 3 matched but no gram weight); totals cover the other 8 only.",
+    "totals": {
+      "energy_kcal": 1001.8,
+      "protein_g": 0.6,
+      "fat_g": 0.6,
+      "saturated_fat_g": 0.2,
+      "carbohydrate_g": 257.9,
+      "fiber_g": 2.2,
+      "sugars_g": 252.1,
+      "sodium_mg": 2024.2,
+      "cholesterol_mg": 0.0
+    },
+    "per_serving": {
+      "energy_kcal": 50.1,
+      "protein_g": 0.0,
+      "fat_g": 0.0,
+      "saturated_fat_g": 0.0,
+      "carbohydrate_g": 12.9,
+      "fiber_g": 0.1,
+      "sugars_g": 12.6,
+      "sodium_mg": 101.2,
+      "cholesterol_mg": 0.0
+    },
+    "servings": 20,
+    "nutrient_values_missing_in_usda": {
+      "sugars_g": 2
+    }
+  },
+  "cook_notes": {
+    "status": "produced",
+    "comment_count": 17,
+    "threshold": 5,
+    "claims": [
+      {
+        "text": "made it and liked it",
+        "count": 5,
+        "comment_ids": [
+          "30429",
+          "30798",
+          "67262",
+          "68561",
+          "98488"
+        ]
+      },
+      {
+        "text": "asked a question",
+        "count": 5,
+        "comment_ids": [
+          "29965",
+          "29999",
+          "30324",
+          "42036",
+          "50630"
+        ]
+      }
+    ],
+    "card": "Cook notes (17 comments): 5 of 17 made it and liked it. 5 of 17 asked a question.",
+    "word_count": 18,
+    "backend": "themes-v2"
+  },
+  "node_path": [
+    "fetch",
+    "parse_recipe",
+    "parse_ingredients",
+    "match_nutrition",
+    "match_nutrition",
+    "match_nutrition",
+    "mark_unknown",
+    "gather_comments",
+    "summarise",
+    "validate",
+    "write"
+  ],
+  "terminal": {
+    "state": "complete_partial",
+    "reason": "7 of 15 ingredients without nutrition (4 unknown, 2 hit the 3-attempt cap, 3 no gram weight); card from 17 comments"
+  }
+}

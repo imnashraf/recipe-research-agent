@@ -1,0 +1,455 @@
+{
+  "recipe_id": "rcp_499b68545e",
+  "source_url": "https://www.gimmesomeoven.com/peanut-butter-pie/",
+  "title": "Peanut Butter Pie",
+  "site": "gimmesomeoven.com",
+  "category": [
+    "Dessert"
+  ],
+  "cuisine": [
+    "American"
+  ],
+  "yield_text": "12 / 12 servings",
+  "servings": 12,
+  "servings_unit": "servings",
+  "provenance": {
+    "page_source": "snapshot",
+    "fetched_url": "https://raw.githubusercontent.com/hhursev/recipe-scrapers/e7892149ee16c02cfd7ed1972e80791339727293/tests/test_data/gimmesomeoven.com/gimmesomeoven_2.testhtml",
+    "original_page_sha256": "54646c21e198ba2b986ea143a6e865f410751dea1a2b4968b478c1a06165b17c",
+    "nutrition_source": "USDA National Nutrient Database for Standard Reference, Release 28 (SR28, 2015)"
+  },
+  "section_headings": [],
+  "ingredients": [
+    {
+      "index": 0,
+      "raw": "24 Oreo cookies",
+      "name": "oreo cookies",
+      "quantity": 24.0,
+      "unit": null,
+      "status": "matched",
+      "food_id": "18166",
+      "food_description": "Cookies, chocolate sandwich, with creme filling, regular",
+      "grams": 288.0,
+      "gram_basis": "USDA portion '3 cookie' = 36 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 1336.32,
+        "protein_g": 15.005,
+        "fat_g": 55.123,
+        "carbohydrate_g": 204.48,
+        "fiber_g": 8.352,
+        "sugars_g": 117.13,
+        "sodium_mg": 1117.44,
+        "saturated_fat_g": 16.269,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 3,
+      "queries_tried": [
+        "oreo cookies",
+        "chocolate sandwich cookies",
+        "Cookies, chocolate sandwich, with creme filling, regular"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "oreo cookies",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        },
+        {
+          "attempt": 2,
+          "query": "chocolate sandwich cookies",
+          "strategy": "alias",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Cookies, chocolate sandwich, with creme filling, regular' is not a close match (cost 2.3 > 1.0)"
+        },
+        {
+          "attempt": 3,
+          "query": "Cookies, chocolate sandwich, with creme filling, regular",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "18166 Cookies, chocolate sandwich, with creme filling, regular"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 1,
+      "raw": "5 tablespoons melted butter",
+      "name": "butter",
+      "quantity": 5.0,
+      "unit": "tbsp",
+      "status": "matched",
+      "food_id": "01001",
+      "food_description": "Butter, salted",
+      "grams": 71.0,
+      "gram_basis": "USDA portion '1 tbsp' = 14.2 g (GmWt_2)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 509.07,
+        "protein_g": 0.604,
+        "fat_g": 57.588,
+        "carbohydrate_g": 0.043,
+        "fiber_g": 0.0,
+        "sugars_g": 0.043,
+        "sodium_mg": 456.53,
+        "saturated_fat_g": 36.471,
+        "cholesterol_mg": 152.65
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "butter"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "butter",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "01001 Butter, salted"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 2,
+      "raw": "1/8 teaspoon fine sea salt",
+      "name": "sea salt",
+      "quantity": 0.125,
+      "unit": "tsp",
+      "status": "unknown",
+      "food_id": null,
+      "food_description": null,
+      "grams": null,
+      "gram_basis": null,
+      "nutrition_status": "no_food_id",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "sea salt"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "sea salt",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'KASHI, TLC, Pita Crisps, Sea Salt' is not a close match (cost 9.0 > 1.0)"
+        }
+      ],
+      "unknown_reason": "no other names to try after 1 attempt(s); last: rejected: best hit 'KASHI, TLC, Pita Crisps, Sea Salt' is not a close match (cost 9.0 > 1.0)"
+    },
+    {
+      "index": 3,
+      "raw": "1 1/2 cups heavy cream",
+      "name": "heavy cream",
+      "quantity": 1.5,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "01053",
+      "food_description": "Cream, fluid, heavy whipping",
+      "grams": 357.0,
+      "gram_basis": "USDA portion '1 cup, fluid (yields 2 cups whipped)' = 238 g (GmWt_2)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 1213.8,
+        "protein_g": 10.139,
+        "fat_g": 128.806,
+        "carbohydrate_g": 9.782,
+        "fiber_g": 0.0,
+        "sugars_g": 10.424,
+        "sodium_mg": 96.39,
+        "saturated_fat_g": 82.224,
+        "cholesterol_mg": 403.41
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "heavy cream",
+        "heavy whipping cream"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "heavy cream",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Cream, fluid, heavy whipping' is not a close match (cost 1.3 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "heavy whipping cream",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "01053 Cream, fluid, heavy whipping"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 4,
+      "raw": "1 (8-ounce) block low-fat cream cheese",
+      "name": "low-fat cream cheese",
+      "quantity": 1.0,
+      "unit": "block",
+      "status": "matched",
+      "food_id": "43274",
+      "food_description": "Cheese, cream, low fat",
+      "grams": 226.8,
+      "gram_basis": "mass stated in recipe line",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 455.868,
+        "protein_g": 17.804,
+        "fat_g": 34.655,
+        "carbohydrate_g": 18.439,
+        "fiber_g": 0.0,
+        "sugars_g": 13.2,
+        "sodium_mg": 814.212,
+        "saturated_fat_g": 20.634,
+        "cholesterol_mg": 122.472
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "low-fat cream cheese"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "low-fat cream cheese",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "43274 Cheese, cream, low fat"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 5,
+      "raw": "1 cup natural peanut butter (be sure that it’s very well stirred)",
+      "name": "natural peanut butter",
+      "quantity": 1.0,
+      "unit": "cup",
+      "status": "unknown",
+      "food_id": null,
+      "food_description": null,
+      "grams": null,
+      "gram_basis": null,
+      "nutrition_status": "no_food_id",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "natural peanut butter"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "natural peanut butter",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        }
+      ],
+      "unknown_reason": "no other names to try after 1 attempt(s); last: no_candidates"
+    },
+    {
+      "index": 6,
+      "raw": "1 1/2 teaspoon vanilla extract",
+      "name": "vanilla extract",
+      "quantity": 1.5,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02050",
+      "food_description": "Vanilla extract",
+      "grams": 6.3,
+      "gram_basis": "USDA portion '1 tsp' = 4.2 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 18.144,
+        "protein_g": 0.004,
+        "fat_g": 0.004,
+        "carbohydrate_g": 0.797,
+        "fiber_g": 0.0,
+        "sugars_g": 0.797,
+        "sodium_mg": 0.567,
+        "saturated_fat_g": 0.001,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "vanilla extract"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "vanilla extract",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "02050 Vanilla extract"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 7,
+      "raw": "1/4 teaspoon fine sea salt",
+      "name": "sea salt",
+      "quantity": 0.25,
+      "unit": "tsp",
+      "status": "unknown",
+      "food_id": null,
+      "food_description": null,
+      "grams": null,
+      "gram_basis": null,
+      "nutrition_status": "no_food_id",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "sea salt"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "sea salt",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'KASHI, TLC, Pita Crisps, Sea Salt' is not a close match (cost 9.0 > 1.0)"
+        }
+      ],
+      "unknown_reason": "no other names to try after 1 attempt(s); last: rejected: best hit 'KASHI, TLC, Pita Crisps, Sea Salt' is not a close match (cost 9.0 > 1.0)"
+    },
+    {
+      "index": 8,
+      "raw": "1 1/2 cups powdered sugar",
+      "name": "powdered sugar",
+      "quantity": 1.5,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "19336",
+      "food_description": "Sugars, powdered",
+      "grams": 180.0,
+      "gram_basis": "USDA portion '1 cup, unsifted' = 120 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 700.2,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 179.586,
+        "fiber_g": 0.0,
+        "sugars_g": 176.058,
+        "sodium_mg": 3.6,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "powdered sugar"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "powdered sugar",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "19336 Sugars, powdered"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 9,
+      "raw": "whipped cream (chocolate shavings, crumbled Oreos, chopped Reese’s, etc)",
+      "name": "whipped cream",
+      "quantity": null,
+      "unit": null,
+      "status": "unknown",
+      "food_id": null,
+      "food_description": null,
+      "grams": null,
+      "gram_basis": null,
+      "nutrition_status": "no_food_id",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "whipped cream"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "whipped cream",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Cream, whipped, cream topping, pressurized' is not a close match (cost 2.0 > 1.0)"
+        }
+      ],
+      "unknown_reason": "no other names to try after 1 attempt(s); last: rejected: best hit 'Cream, whipped, cream topping, pressurized' is not a close match (cost 2.0 > 1.0)"
+    }
+  ],
+  "match": {
+    "ingredients": 10,
+    "matched": 6,
+    "unknown": 4,
+    "match_rate": 0.6,
+    "retry_rounds": 3,
+    "hit_retry_cap": 0
+  },
+  "nutrition": {
+    "basis": "whole recipe, sum of ingredients with a food id and a gram weight",
+    "source": "USDA National Nutrient Database for Standard Reference, Release 28 (SR28, 2015)",
+    "complete": false,
+    "ingredients_total": 10,
+    "ingredients_with_nutrition": 6,
+    "unmatched_food_count": 4,
+    "matched_without_grams_count": 0,
+    "statement": "Partial: 4 of 10 ingredients have no nutrition (4 unmatched food, 0 matched but no gram weight); totals cover the other 6 only.",
+    "totals": {
+      "energy_kcal": 4233.4,
+      "protein_g": 43.6,
+      "fat_g": 276.2,
+      "saturated_fat_g": 155.6,
+      "carbohydrate_g": 413.1,
+      "fiber_g": 8.4,
+      "sugars_g": 317.7,
+      "sodium_mg": 2488.7,
+      "cholesterol_mg": 678.5
+    },
+    "per_serving": {
+      "energy_kcal": 352.8,
+      "protein_g": 3.6,
+      "fat_g": 23.0,
+      "saturated_fat_g": 13.0,
+      "carbohydrate_g": 34.4,
+      "fiber_g": 0.7,
+      "sugars_g": 26.5,
+      "sodium_mg": 207.4,
+      "cholesterol_mg": 56.5
+    },
+    "servings": 12,
+    "nutrient_values_missing_in_usda": {}
+  },
+  "cook_notes": {
+    "status": "skipped_below_threshold",
+    "comment_count": 3,
+    "threshold": 5,
+    "claims": [],
+    "card": null,
+    "word_count": 0,
+    "backend": null
+  },
+  "node_path": [
+    "fetch",
+    "parse_recipe",
+    "parse_ingredients",
+    "match_nutrition",
+    "match_nutrition",
+    "match_nutrition",
+    "mark_unknown",
+    "gather_comments",
+    "validate",
+    "write"
+  ],
+  "terminal": {
+    "state": "complete_partial",
+    "reason": "4 of 10 ingredients without nutrition (4 unknown, 0 hit the 3-attempt cap, 0 no gram weight); no card (3 comments < threshold 5)"
+  }
+}

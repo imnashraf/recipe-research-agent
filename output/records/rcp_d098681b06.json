@@ -1,0 +1,536 @@
+{
+  "recipe_id": "rcp_d098681b06",
+  "source_url": "https://somuchfoodblog.com/best-ever-pumpkin-pie/",
+  "title": "Best Ever Pumpkin Pie Recipe",
+  "site": "somuchfoodblog.com",
+  "category": [
+    "Dessert"
+  ],
+  "cuisine": [
+    "American"
+  ],
+  "yield_text": "10 / 10 servings",
+  "servings": 10,
+  "servings_unit": "servings",
+  "provenance": {
+    "page_source": "snapshot",
+    "fetched_url": "https://raw.githubusercontent.com/hhursev/recipe-scrapers/e7892149ee16c02cfd7ed1972e80791339727293/tests/test_data/somuchfoodblog.com/somuchfoodblog_1.testhtml",
+    "original_page_sha256": "a7332618f776a8b9c01eb246aac7639fc99a51a260d8756a61021be4658fbba5",
+    "nutrition_source": "USDA National Nutrient Database for Standard Reference, Release 28 (SR28, 2015)"
+  },
+  "section_headings": [],
+  "ingredients": [
+    {
+      "index": 0,
+      "raw": "1 recipe all-butter pie crust ((or store bought single layer pie crust))",
+      "name": "all-butter pie crust",
+      "quantity": 1.0,
+      "unit": "recipe",
+      "status": "unknown",
+      "food_id": null,
+      "food_description": null,
+      "grams": null,
+      "gram_basis": null,
+      "nutrition_status": "no_food_id",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "all-butter pie crust"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "all-butter pie crust",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        }
+      ],
+      "unknown_reason": "no other names to try after 1 attempt(s); last: no_candidates"
+    },
+    {
+      "index": 1,
+      "raw": "2 - 15 oz cans pumpkin puree",
+      "name": "pumpkin puree",
+      "quantity": 2.0,
+      "unit": "can",
+      "status": "matched",
+      "food_id": "11846",
+      "food_description": "Pumpkin, canned, with salt",
+      "grams": 850.49,
+      "gram_basis": "mass stated in recipe line",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 289.167,
+        "protein_g": 9.355,
+        "fat_g": 2.381,
+        "carbohydrate_g": 68.805,
+        "fiber_g": 24.664,
+        "sugars_g": 28.066,
+        "sodium_mg": 2049.681,
+        "saturated_fat_g": 1.242,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "pumpkin puree",
+        "canned pumpkin"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "pumpkin puree",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        },
+        {
+          "attempt": 2,
+          "query": "canned pumpkin",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "11846 Pumpkin, canned, with salt"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 2,
+      "raw": "1/4 cup whole milk powder",
+      "name": "whole milk powder",
+      "quantity": 0.25,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "01090",
+      "food_description": "Milk, dry, whole, with added vitamin D",
+      "grams": 32.0,
+      "gram_basis": "USDA portion '0.25 cup' = 32 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 158.72,
+        "protein_g": 8.422,
+        "fat_g": 8.547,
+        "carbohydrate_g": 12.294,
+        "fiber_g": 0.0,
+        "sugars_g": 12.294,
+        "sodium_mg": 118.72,
+        "saturated_fat_g": 5.357,
+        "cholesterol_mg": 31.04
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "whole milk powder",
+        "Milk, dry, whole, with added vitamin D"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "whole milk powder",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Beverages, Eggnog-flavor mix, powder, prepared with whole milk' is not a close match (cost 6.3 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Milk, dry, whole, with added vitamin D",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "01090 Milk, dry, whole, with added vitamin D"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 3,
+      "raw": "14 oz can sweetened condensed milk",
+      "name": "sweetened condensed milk",
+      "quantity": 14.0,
+      "unit": "oz",
+      "status": "matched",
+      "food_id": "01095",
+      "food_description": "Milk, canned, condensed, sweetened",
+      "grams": 396.89,
+      "gram_basis": "mass stated in recipe line",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 1274.017,
+        "protein_g": 31.394,
+        "fat_g": 34.529,
+        "carbohydrate_g": 215.908,
+        "fiber_g": 0.0,
+        "sugars_g": 215.908,
+        "sodium_mg": 504.05,
+        "saturated_fat_g": 21.773,
+        "cholesterol_mg": 134.943
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "sweetened condensed milk"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "sweetened condensed milk",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "01095 Milk, canned, condensed, sweetened"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 4,
+      "raw": "1/4 cup pure maple syrup",
+      "name": "maple syrup",
+      "quantity": 0.25,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "19353",
+      "food_description": "Syrups, maple",
+      "grams": 80.0,
+      "gram_basis": "USDA portion '1 tbsp' = 20 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 208.0,
+        "protein_g": 0.032,
+        "fat_g": 0.048,
+        "carbohydrate_g": 53.632,
+        "fiber_g": 0.0,
+        "sugars_g": 48.368,
+        "sodium_mg": 9.6,
+        "saturated_fat_g": 0.006,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "maple syrup"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "maple syrup",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "19353 Syrups, maple"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 5,
+      "raw": "1 cup heavy cream, (room temperature)",
+      "name": "heavy cream",
+      "quantity": 1.0,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "01053",
+      "food_description": "Cream, fluid, heavy whipping",
+      "grams": 238.0,
+      "gram_basis": "USDA portion '1 cup, fluid (yields 2 cups whipped)' = 238 g (GmWt_2)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 809.2,
+        "protein_g": 6.759,
+        "fat_g": 85.87,
+        "carbohydrate_g": 6.521,
+        "fiber_g": 0.0,
+        "sugars_g": 6.95,
+        "sodium_mg": 64.26,
+        "saturated_fat_g": 54.816,
+        "cholesterol_mg": 268.94
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "heavy cream",
+        "heavy whipping cream"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "heavy cream",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Cream, fluid, heavy whipping' is not a close match (cost 1.3 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "heavy whipping cream",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "01053 Cream, fluid, heavy whipping"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 6,
+      "raw": "2 eggs, (room temperature)",
+      "name": "eggs",
+      "quantity": 2.0,
+      "unit": null,
+      "status": "matched",
+      "food_id": "01123",
+      "food_description": "Egg, whole, raw, fresh",
+      "grams": null,
+      "gram_basis": "count without size or weight; no USDA portion to convert it",
+      "nutrition_status": "no_gram_weight",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "eggs"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "eggs",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "01123 Egg, whole, raw, fresh"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 7,
+      "raw": "2 egg yolks, (room temperature)",
+      "name": "egg yolks",
+      "quantity": 2.0,
+      "unit": null,
+      "status": "matched",
+      "food_id": "01125",
+      "food_description": "Egg, yolk, raw, fresh",
+      "grams": null,
+      "gram_basis": "count without size or weight; no USDA portion to convert it",
+      "nutrition_status": "no_gram_weight",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "egg yolks"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "egg yolks",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "01125 Egg, yolk, raw, fresh"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 8,
+      "raw": "1 teaspoon vanilla bean paste",
+      "name": "vanilla bean paste",
+      "quantity": 1.0,
+      "unit": "tsp",
+      "status": "unknown",
+      "food_id": null,
+      "food_description": null,
+      "grams": null,
+      "gram_basis": null,
+      "nutrition_status": "no_food_id",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "vanilla bean paste"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "vanilla bean paste",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        }
+      ],
+      "unknown_reason": "no other names to try after 1 attempt(s); last: no_candidates"
+    },
+    {
+      "index": 9,
+      "raw": "1/2 teaspoon kosher salt",
+      "name": "kosher salt",
+      "quantity": 0.5,
+      "unit": "tsp",
+      "status": "unknown",
+      "food_id": null,
+      "food_description": null,
+      "grams": null,
+      "gram_basis": null,
+      "nutrition_status": "no_food_id",
+      "nutrients": null,
+      "attempts": 2,
+      "queries_tried": [
+        "kosher salt",
+        "coarse salt"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "kosher salt",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        },
+        {
+          "attempt": 2,
+          "query": "coarse salt",
+          "strategy": "alias",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        }
+      ],
+      "unknown_reason": "no other names to try after 2 attempt(s); last: no_candidates"
+    },
+    {
+      "index": 10,
+      "raw": "1 1/2 teaspoons pumpkin pie spice",
+      "name": "pumpkin pie spice",
+      "quantity": 1.5,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02035",
+      "food_description": "Spices, pumpkin pie spice",
+      "grams": 2.55,
+      "gram_basis": "USDA portion '1 tsp' = 1.7 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 8.721,
+        "protein_g": 0.147,
+        "fat_g": 0.321,
+        "carbohydrate_g": 1.767,
+        "fiber_g": 0.377,
+        "sugars_g": 0.198,
+        "sodium_mg": 1.326,
+        "saturated_fat_g": 0.167,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "pumpkin pie spice"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "pumpkin pie spice",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "02035 Spices, pumpkin pie spice"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 11,
+      "raw": "1/8 teaspoon freshly ground black pepper",
+      "name": "ground black pepper",
+      "quantity": 0.125,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02030",
+      "food_description": "Spices, pepper, black",
+      "grams": 0.29,
+      "gram_basis": "USDA portion '1 tsp, ground' = 2.3 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 0.722,
+        "protein_g": 0.03,
+        "fat_g": 0.009,
+        "carbohydrate_g": 0.184,
+        "fiber_g": 0.073,
+        "sugars_g": 0.002,
+        "sodium_mg": 0.058,
+        "saturated_fat_g": 0.004,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "ground black pepper",
+        "Spices, pepper, black"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "ground black pepper",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        },
+        {
+          "attempt": 2,
+          "query": "Spices, pepper, black",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "02030 Spices, pepper, black"
+        }
+      ],
+      "unknown_reason": null
+    }
+  ],
+  "match": {
+    "ingredients": 12,
+    "matched": 9,
+    "unknown": 3,
+    "match_rate": 0.75,
+    "retry_rounds": 2,
+    "hit_retry_cap": 0
+  },
+  "nutrition": {
+    "basis": "whole recipe, sum of ingredients with a food id and a gram weight",
+    "source": "USDA National Nutrient Database for Standard Reference, Release 28 (SR28, 2015)",
+    "complete": false,
+    "ingredients_total": 12,
+    "ingredients_with_nutrition": 7,
+    "unmatched_food_count": 3,
+    "matched_without_grams_count": 2,
+    "statement": "Partial: 5 of 12 ingredients have no nutrition (3 unmatched food, 2 matched but no gram weight); totals cover the other 7 only.",
+    "totals": {
+      "energy_kcal": 2748.5,
+      "protein_g": 56.1,
+      "fat_g": 131.7,
+      "saturated_fat_g": 83.4,
+      "carbohydrate_g": 359.1,
+      "fiber_g": 25.1,
+      "sugars_g": 311.8,
+      "sodium_mg": 2747.7,
+      "cholesterol_mg": 434.9
+    },
+    "per_serving": {
+      "energy_kcal": 274.9,
+      "protein_g": 5.6,
+      "fat_g": 13.2,
+      "saturated_fat_g": 8.3,
+      "carbohydrate_g": 35.9,
+      "fiber_g": 2.5,
+      "sugars_g": 31.2,
+      "sodium_mg": 274.8,
+      "cholesterol_mg": 43.5
+    },
+    "servings": 10,
+    "nutrient_values_missing_in_usda": {}
+  },
+  "cook_notes": {
+    "status": "skipped_below_threshold",
+    "comment_count": 2,
+    "threshold": 5,
+    "claims": [],
+    "card": null,
+    "word_count": 0,
+    "backend": null
+  },
+  "node_path": [
+    "fetch",
+    "parse_recipe",
+    "parse_ingredients",
+    "match_nutrition",
+    "match_nutrition",
+    "mark_unknown",
+    "gather_comments",
+    "validate",
+    "write"
+  ],
+  "terminal": {
+    "state": "complete_partial",
+    "reason": "5 of 12 ingredients without nutrition (3 unknown, 0 hit the 3-attempt cap, 2 no gram weight); no card (2 comments < threshold 5)"
+  }
+}

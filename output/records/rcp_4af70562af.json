@@ -1,0 +1,909 @@
+{
+  "recipe_id": "rcp_4af70562af",
+  "source_url": "https://theplantbasedschool.com/vegan-carrot-cake/",
+  "title": "Vegan Carrot Cake",
+  "site": "theplantbasedschool.com",
+  "category": [
+    "Breakfast",
+    "Dessert",
+    "Snack"
+  ],
+  "cuisine": [
+    "American"
+  ],
+  "yield_text": "16 / 16 squares",
+  "servings": 16,
+  "servings_unit": "squares",
+  "provenance": {
+    "page_source": "snapshot",
+    "fetched_url": "https://raw.githubusercontent.com/hhursev/recipe-scrapers/e7892149ee16c02cfd7ed1972e80791339727293/tests/test_data/theplantbasedschool.com/theplantbasedschool_2.testhtml",
+    "original_page_sha256": "3a792eca1468e00eda0fbbc7a1d25dd7d7ae220edbdde49ae6fcbacaeba458ec",
+    "nutrition_source": "USDA National Nutrient Database for Standard Reference, Release 28 (SR28, 2015)"
+  },
+  "section_headings": [],
+  "ingredients": [
+    {
+      "index": 0,
+      "raw": "2 cups all-purpose flour",
+      "name": "all-purpose flour",
+      "quantity": 2.0,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "20081",
+      "food_description": "Wheat flour, white, all-purpose, enriched, bleached",
+      "grams": 250.0,
+      "gram_basis": "USDA portion '1 cup' = 125 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 910.0,
+        "protein_g": 25.825,
+        "fat_g": 2.45,
+        "carbohydrate_g": 190.775,
+        "fiber_g": 6.75,
+        "sugars_g": 0.675,
+        "sodium_mg": 5.0,
+        "saturated_fat_g": 0.388,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "all-purpose flour",
+        "Wheat flour, white, all-purpose, enriched, bleached"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "all-purpose flour",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Wheat flour, white, all-purpose, enriched, bleached' is not a close match (cost 4.6 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Wheat flour, white, all-purpose, enriched, bleached",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "20081 Wheat flour, white, all-purpose, enriched, bleached"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 1,
+      "raw": "1 cup brown sugar",
+      "name": "brown sugar",
+      "quantity": 1.0,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "19334",
+      "food_description": "Sugars, brown",
+      "grams": 144.0,
+      "gram_basis": "USDA portion '1 tsp, unpacked' = 3 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 547.2,
+        "protein_g": 0.173,
+        "fat_g": 0.0,
+        "carbohydrate_g": 141.25,
+        "fiber_g": 0.0,
+        "sugars_g": 139.709,
+        "sodium_mg": 40.32,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "brown sugar"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "brown sugar",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "19334 Sugars, brown"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 2,
+      "raw": "3 teaspoons cinnamon",
+      "name": "cinnamon",
+      "quantity": 3.0,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02010",
+      "food_description": "Spices, cinnamon, ground",
+      "grams": 7.8,
+      "gram_basis": "USDA portion '1 tsp' = 2.6 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 19.266,
+        "protein_g": 0.311,
+        "fat_g": 0.097,
+        "carbohydrate_g": 6.286,
+        "fiber_g": 4.142,
+        "sugars_g": 0.169,
+        "sodium_mg": 0.78,
+        "saturated_fat_g": 0.027,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "cinnamon",
+        "Spices, cinnamon, ground"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "cinnamon",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Bread, cinnamon' is not a close match (cost 3.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Spices, cinnamon, ground",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "02010 Spices, cinnamon, ground"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 3,
+      "raw": "1/4 teaspoon nutmeg",
+      "name": "nutmeg",
+      "quantity": 0.25,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02025",
+      "food_description": "Spices, nutmeg, ground",
+      "grams": 0.55,
+      "gram_basis": "USDA portion '1 tsp' = 2.2 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 2.888,
+        "protein_g": 0.032,
+        "fat_g": 0.2,
+        "carbohydrate_g": 0.271,
+        "fiber_g": 0.114,
+        "sugars_g": 0.016,
+        "sodium_mg": 0.088,
+        "saturated_fat_g": 0.143,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "nutmeg",
+        "Spices, nutmeg, ground"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "nutmeg",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Spices, nutmeg, ground' is not a close match (cost 3.3 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Spices, nutmeg, ground",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "02025 Spices, nutmeg, ground"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 4,
+      "raw": "1/4 teaspoon all spice (optional)",
+      "name": "all spice",
+      "quantity": 0.25,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02001",
+      "food_description": "Spices, allspice, ground",
+      "grams": 0.47,
+      "gram_basis": "USDA portion '1 tsp' = 1.9 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 1.249,
+        "protein_g": 0.029,
+        "fat_g": 0.041,
+        "carbohydrate_g": 0.343,
+        "fiber_g": 0.103,
+        "sugars_g": null,
+        "sodium_mg": 0.366,
+        "saturated_fat_g": 0.012,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 3,
+      "queries_tried": [
+        "all spice",
+        "allspice",
+        "Spices, allspice, ground"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "all spice",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        },
+        {
+          "attempt": 2,
+          "query": "allspice",
+          "strategy": "alias",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Spices, allspice, ground' is not a close match (cost 3.3 > 1.0)"
+        },
+        {
+          "attempt": 3,
+          "query": "Spices, allspice, ground",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "02001 Spices, allspice, ground"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 5,
+      "raw": "1 tablespoon baking powder",
+      "name": "baking powder",
+      "quantity": 1.0,
+      "unit": "tbsp",
+      "status": "matched",
+      "food_id": "18369",
+      "food_description": "Leavening agents, baking powder, double-acting, sodium aluminum sulfate",
+      "grams": 13.8,
+      "gram_basis": "USDA portion '1 tsp' = 4.6 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 7.314,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 3.823,
+        "fiber_g": 0.028,
+        "sugars_g": 0.0,
+        "sodium_mg": 1462.8,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "baking powder",
+        "Leavening agents, baking powder, double-acting, sodium aluminum sulfate"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "baking powder",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Leavening agents, baking powder, low-sodium' is not a close match (cost 6.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Leavening agents, baking powder, double-acting, sodium aluminum sulfate",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "18369 Leavening agents, baking powder, double-acting, sodium aluminum sulfate"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 6,
+      "raw": "1/2 teaspoon baking soda",
+      "name": "baking soda",
+      "quantity": 0.5,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "18372",
+      "food_description": "Leavening agents, baking soda",
+      "grams": 2.3,
+      "gram_basis": "USDA portion '1 tsp' = 4.6 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 0.0,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 629.28,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "baking soda",
+        "Leavening agents, baking soda"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "baking soda",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Leavening agents, baking soda' is not a close match (cost 4.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Leavening agents, baking soda",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "18372 Leavening agents, baking soda"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 7,
+      "raw": "1/8 teaspoon salt",
+      "name": "salt",
+      "quantity": 0.125,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02047",
+      "food_description": "Salt, table",
+      "grams": 0.75,
+      "gram_basis": "USDA portion '1 tsp' = 6 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 0.0,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 290.685,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "salt"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "salt",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "02047 Salt, table"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 8,
+      "raw": "3/4 cup dairy-free milk (we use almond milk)",
+      "name": "dairy-free milk",
+      "quantity": 0.75,
+      "unit": "cup",
+      "status": "unknown",
+      "food_id": null,
+      "food_description": null,
+      "grams": null,
+      "gram_basis": null,
+      "nutrition_status": "no_food_id",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "dairy-free milk"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "dairy-free milk",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        }
+      ],
+      "unknown_reason": "no other names to try after 1 attempt(s); last: no_candidates"
+    },
+    {
+      "index": 9,
+      "raw": "1/3 cup olive oil (or another vegetable oil)",
+      "name": "olive oil",
+      "quantity": 0.3333,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "04053",
+      "food_description": "Oil, olive, salad or cooking",
+      "grams": 71.99,
+      "gram_basis": "USDA portion '1 tablespoon' = 13.5 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 636.416,
+        "protein_g": 0.0,
+        "fat_g": 71.993,
+        "carbohydrate_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 1.44,
+        "saturated_fat_g": 9.941,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "olive oil",
+        "Oil, olive, salad or cooking"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "olive oil",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Oil, olive, salad or cooking' is not a close match (cost 2.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Oil, olive, salad or cooking",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "04053 Oil, olive, salad or cooking"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 10,
+      "raw": "2 teaspoons vanilla extract",
+      "name": "vanilla extract",
+      "quantity": 2.0,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02050",
+      "food_description": "Vanilla extract",
+      "grams": 8.4,
+      "gram_basis": "USDA portion '1 tsp' = 4.2 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 24.192,
+        "protein_g": 0.005,
+        "fat_g": 0.005,
+        "carbohydrate_g": 1.063,
+        "fiber_g": 0.0,
+        "sugars_g": 1.063,
+        "sodium_mg": 0.756,
+        "saturated_fat_g": 0.001,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "vanilla extract"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "vanilla extract",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "02050 Vanilla extract"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 11,
+      "raw": "1 inch ginger (grated)",
+      "name": "ginger",
+      "quantity": 1.0,
+      "unit": "inch",
+      "status": "matched",
+      "food_id": "11216",
+      "food_description": "Ginger root, raw",
+      "grams": null,
+      "gram_basis": "unit 'inch' has no exact gram conversion",
+      "nutrition_status": "no_gram_weight",
+      "nutrients": null,
+      "attempts": 3,
+      "queries_tried": [
+        "ginger",
+        "fresh ginger root",
+        "Ginger root, raw"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "ginger",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Ginger root, raw' is not a close match (cost 3.3 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "fresh ginger root",
+          "strategy": "alias",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        },
+        {
+          "attempt": 3,
+          "query": "Ginger root, raw",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "11216 Ginger root, raw"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 12,
+      "raw": "2 1/2 cups carrots (finely grated)",
+      "name": "carrots",
+      "quantity": 2.5,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "11124",
+      "food_description": "Carrots, raw",
+      "grams": 275.0,
+      "gram_basis": "USDA portion '1 cup, grated' = 110 g (GmWt_2)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 112.75,
+        "protein_g": 2.558,
+        "fat_g": 0.66,
+        "carbohydrate_g": 26.345,
+        "fiber_g": 7.7,
+        "sugars_g": 13.035,
+        "sodium_mg": 189.75,
+        "saturated_fat_g": 0.102,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "carrots"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "carrots",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "11124 Carrots, raw"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 13,
+      "raw": "3/4 cup walnuts (chopped or pulsed in food processor)",
+      "name": "walnuts",
+      "quantity": 0.75,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "12155",
+      "food_description": "Nuts, walnuts, english",
+      "grams": 87.75,
+      "gram_basis": "USDA portion '1 cup, chopped' = 117 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 573.885,
+        "protein_g": 13.364,
+        "fat_g": 57.222,
+        "carbohydrate_g": 12.031,
+        "fiber_g": 5.879,
+        "sugars_g": 2.29,
+        "sodium_mg": 1.755,
+        "saturated_fat_g": 5.376,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 3,
+      "queries_tried": [
+        "walnuts",
+        "english walnuts",
+        "Nuts, walnuts, english"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "walnuts",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Oil, walnut' is not a close match (cost 3.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "english walnuts",
+          "strategy": "alias",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Nuts, walnuts, english' is not a close match (cost 3.0 > 1.0)"
+        },
+        {
+          "attempt": 3,
+          "query": "Nuts, walnuts, english",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "12155 Nuts, walnuts, english"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 14,
+      "raw": "1/2 cup raisins",
+      "name": "raisins",
+      "quantity": 0.5,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "09298",
+      "food_description": "Raisins, seedless",
+      "grams": 72.5,
+      "gram_basis": "USDA portion '1 cup, (not packed)' = 145 g (GmWt_2)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 216.775,
+        "protein_g": 2.226,
+        "fat_g": 0.334,
+        "carbohydrate_g": 57.406,
+        "fiber_g": 2.683,
+        "sugars_g": 42.913,
+        "sodium_mg": 7.975,
+        "saturated_fat_g": 0.042,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "raisins",
+        "Raisins, seedless"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "raisins",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: ambiguous between 'Raisins, seeded' and 'Raisins, seedless'"
+        },
+        {
+          "attempt": 2,
+          "query": "Raisins, seedless",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "09298 Raisins, seedless"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 15,
+      "raw": "2 ounces vegan butter (diced and softened at room temperature)",
+      "name": "vegan butter",
+      "quantity": 2.0,
+      "unit": "oz",
+      "status": "unknown",
+      "food_id": null,
+      "food_description": null,
+      "grams": null,
+      "gram_basis": null,
+      "nutrition_status": "no_food_id",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "vegan butter"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "vegan butter",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        }
+      ],
+      "unknown_reason": "no other names to try after 1 attempt(s); last: no_candidates"
+    },
+    {
+      "index": 16,
+      "raw": "1/2 lemon (the grated zest)",
+      "name": "lemon",
+      "quantity": 0.5,
+      "unit": null,
+      "status": "unknown",
+      "food_id": null,
+      "food_description": null,
+      "grams": null,
+      "gram_basis": null,
+      "nutrition_status": "no_food_id",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "lemon"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "lemon",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Lemons, raw, without peel' is not a close match (cost 2.3 > 1.0)"
+        }
+      ],
+      "unknown_reason": "no other names to try after 1 attempt(s); last: rejected: best hit 'Lemons, raw, without peel' is not a close match (cost 2.3 > 1.0)"
+    },
+    {
+      "index": 17,
+      "raw": "1 teaspoon vanilla extract",
+      "name": "vanilla extract",
+      "quantity": 1.0,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02050",
+      "food_description": "Vanilla extract",
+      "grams": 4.2,
+      "gram_basis": "USDA portion '1 tsp' = 4.2 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 12.096,
+        "protein_g": 0.003,
+        "fat_g": 0.003,
+        "carbohydrate_g": 0.531,
+        "fiber_g": 0.0,
+        "sugars_g": 0.531,
+        "sodium_mg": 0.378,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "vanilla extract"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "vanilla extract",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "02050 Vanilla extract"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 18,
+      "raw": "4 ounces vegan cream cheese",
+      "name": "vegan cream cheese",
+      "quantity": 4.0,
+      "unit": "oz",
+      "status": "unknown",
+      "food_id": null,
+      "food_description": null,
+      "grams": null,
+      "gram_basis": null,
+      "nutrition_status": "no_food_id",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "vegan cream cheese"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "vegan cream cheese",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        }
+      ],
+      "unknown_reason": "no other names to try after 1 attempt(s); last: no_candidates"
+    },
+    {
+      "index": 19,
+      "raw": "1 cup powdered sugar",
+      "name": "powdered sugar",
+      "quantity": 1.0,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "19336",
+      "food_description": "Sugars, powdered",
+      "grams": 120.0,
+      "gram_basis": "USDA portion '1 cup, unsifted' = 120 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 466.8,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 119.724,
+        "fiber_g": 0.0,
+        "sugars_g": 117.372,
+        "sodium_mg": 2.4,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "powdered sugar"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "powdered sugar",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "19336 Sugars, powdered"
+        }
+      ],
+      "unknown_reason": null
+    }
+  ],
+  "match": {
+    "ingredients": 20,
+    "matched": 16,
+    "unknown": 4,
+    "match_rate": 0.8,
+    "retry_rounds": 3,
+    "hit_retry_cap": 0
+  },
+  "nutrition": {
+    "basis": "whole recipe, sum of ingredients with a food id and a gram weight",
+    "source": "USDA National Nutrient Database for Standard Reference, Release 28 (SR28, 2015)",
+    "complete": false,
+    "ingredients_total": 20,
+    "ingredients_with_nutrition": 15,
+    "unmatched_food_count": 4,
+    "matched_without_grams_count": 1,
+    "statement": "Partial: 5 of 20 ingredients have no nutrition (4 unmatched food, 1 matched but no gram weight); totals cover the other 15 only.",
+    "totals": {
+      "energy_kcal": 3530.8,
+      "protein_g": 44.5,
+      "fat_g": 133.0,
+      "saturated_fat_g": 16.0,
+      "carbohydrate_g": 559.8,
+      "fiber_g": 27.4,
+      "sugars_g": 317.8,
+      "sodium_mg": 2633.8,
+      "cholesterol_mg": 0.0
+    },
+    "per_serving": {
+      "energy_kcal": 220.7,
+      "protein_g": 2.8,
+      "fat_g": 8.3,
+      "saturated_fat_g": 1.0,
+      "carbohydrate_g": 35.0,
+      "fiber_g": 1.7,
+      "sugars_g": 19.9,
+      "sodium_mg": 164.6,
+      "cholesterol_mg": 0.0
+    },
+    "servings": 16,
+    "nutrient_values_missing_in_usda": {
+      "sugars_g": 1
+    }
+  },
+  "cook_notes": {
+    "status": "skipped_below_threshold",
+    "comment_count": 2,
+    "threshold": 5,
+    "claims": [],
+    "card": null,
+    "word_count": 0,
+    "backend": null
+  },
+  "node_path": [
+    "fetch",
+    "parse_recipe",
+    "parse_ingredients",
+    "match_nutrition",
+    "match_nutrition",
+    "match_nutrition",
+    "mark_unknown",
+    "gather_comments",
+    "validate",
+    "write"
+  ],
+  "terminal": {
+    "state": "complete_partial",
+    "reason": "5 of 20 ingredients without nutrition (4 unknown, 0 hit the 3-attempt cap, 1 no gram weight); no card (2 comments < threshold 5)"
+  }
+}

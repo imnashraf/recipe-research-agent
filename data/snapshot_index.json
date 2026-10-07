@@ -1,0 +1,32 @@
+{
+  "description": "Pinned public snapshots of each recipe URL, used when the live site cannot be reached. Captured by the recipe-scrapers project (MIT) as test fixtures.",
+  "mirror_base": "https://raw.githubusercontent.com/hhursev/recipe-scrapers/e7892149ee16c02cfd7ed1972e80791339727293/tests/test_data",
+  "pinned_commit": "e7892149ee16c02cfd7ed1972e80791339727293",
+  "pages": {
+    "https://www.thecountrycook.net/southern-fudge-pie/": "thecountrycook.net/thecountrycook_2.testhtml",
+    "https://cookieandkate.com/peach-cobbler/": "cookieandkate.com/cookieandkate_2.testhtml",
+    "https://houseofnasheats.com/black-forest-cake/": "houseofnasheats.com/houseofnasheats_2.testhtml",
+    "https://ourbestbites.com/banana-cream-pie/": "ourbestbites.com/ourbestbites_1.testhtml",
+    "https://sallysbakingaddiction.com/recipe-round-2-cake-batter-chocolate-chip-cookies/": "sallysbakingaddiction.com/sallysbakingaddiction_1.testhtml",
+    "https://southernbite.com/old-fashioned-butter-rolls/": "southernbite.com/southernbite_1.testhtml",
+    "https://www.zenbelly.com/gingerbread/": "zenbelly.com/zenbelly_1.testhtml",
+    "https://thinlicious.com/rich-creamy-pumpkin-cheesecake-bars/": "thinlicious.com/thinlicious_2.testhtml",
+    "https://thebigmansworld.com/coconut-cake/": "thebigmansworld.com/thebigmansworld_2.testhtml",
+    "https://www.noracooks.com/vegan-chocolate-cake/": "noracooks.com/noracooks.testhtml",
+    "https://sugarspunrun.com/pecan-pie-cookies/": "sugarspunrun.com/sugarspunrun_2.testhtml",
+    "https://izzycooking.com/oreo-cheesecake-bites/": "izzycooking.com/izzycooking.testhtml",
+    "https://www.culinaryhill.com/apple-cider-donuts/": "culinaryhill.com/culinaryhill_2.testhtml",
+    "https://www.homeandplate.com/blog/perfect-sugar-cookie-recipe/": "homeandplate.com/homeandplate_2.testhtml",
+    "https://addapinch.com/the-best-chocolate-cake-recipe-ever/": "addapinch.com/addapinch_1.testhtml",
+    "https://www.smalltownwoman.com/banana-cream-pie/": "smalltownwoman.com/smalltownwoman_2.testhtml",
+    "https://www.savorynothings.com/chewy-chocolate-crinkle-cookies/": "savorynothings.com/savorynothings_1.testhtml",
+    "https://theplantbasedschool.com/vegan-carrot-cake/": "theplantbasedschool.com/theplantbasedschool_2.testhtml",
+    "https://spicysouthernkitchen.com/pineapple-pound-cake/": "spicysouthernkitchen.com/spicysouthernkitchen_2.testhtml",
+    "https://www.thecountrycook.net/peanut-butter-blossoms/": "thecountrycook.net/thecountrycook_1.testhtml",
+    "https://www.asweetpeachef.com/healthy-apple-crumble/": "asweetpeachef.com/asweetpeachef_1.testhtml",
+    "https://www.garlicandzest.com/easy-banana-cake-recipe/": "garlicandzest.com/garlicandzest_1.testhtml",
+    "https://www.wyseguide.com/blueberry-cobbler/": "wyseguide.com/wyseguide_1.testhtml",
+    "https://www.gimmesomeoven.com/peanut-butter-pie/": "gimmesomeoven.com/gimmesomeoven_2.testhtml",
+    "https://somuchfoodblog.com/best-ever-pumpkin-pie/": "somuchfoodblog.com/somuchfoodblog_1.testhtml"
+  }
+}

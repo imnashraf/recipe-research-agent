@@ -1,0 +1,725 @@
+{
+  "recipe_id": "rcp_b3d4fd62b7",
+  "source_url": "https://www.smalltownwoman.com/banana-cream-pie/",
+  "title": "Banana Cream Pie Recipe",
+  "site": "smalltownwoman.com",
+  "category": [
+    "Dessert"
+  ],
+  "cuisine": [
+    "American"
+  ],
+  "yield_text": "8 / 8 servings",
+  "servings": 8,
+  "servings_unit": "servings",
+  "provenance": {
+    "page_source": "snapshot",
+    "fetched_url": "https://raw.githubusercontent.com/hhursev/recipe-scrapers/e7892149ee16c02cfd7ed1972e80791339727293/tests/test_data/smalltownwoman.com/smalltownwoman_2.testhtml",
+    "original_page_sha256": "d37e3f083d35ef389bb4bc3789e34d4c43c45af19d9c0e03ad27f9263a825042",
+    "nutrition_source": "USDA National Nutrient Database for Standard Reference, Release 28 (SR28, 2015)"
+  },
+  "section_headings": [],
+  "ingredients": [
+    {
+      "index": 0,
+      "raw": "1 1/2 cups graham cracker crumbs (reserve 1 1/2 tablespoons)",
+      "name": "graham cracker crumbs",
+      "quantity": 1.5,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "18173",
+      "food_description": "Cookies, graham crackers, plain or honey (includes cinnamon)",
+      "grams": null,
+      "gram_basis": "matched food is a stand-in for nutrients only; its USDA portion weights do not apply",
+      "nutrition_status": "no_gram_weight",
+      "nutrients": null,
+      "attempts": 2,
+      "queries_tried": [
+        "graham cracker crumbs",
+        "Cookies, graham crackers, plain or honey (includes cinnamon)"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "graham cracker crumbs",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        },
+        {
+          "attempt": 2,
+          "query": "Cookies, graham crackers, plain or honey (includes cinnamon)",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "18173 Cookies, graham crackers, plain or honey (includes cinnamon)"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 1,
+      "raw": "6 tablespoons butter melted",
+      "name": "butter",
+      "quantity": 6.0,
+      "unit": "tbsp",
+      "status": "matched",
+      "food_id": "01001",
+      "food_description": "Butter, salted",
+      "grams": 85.2,
+      "gram_basis": "USDA portion '1 tbsp' = 14.2 g (GmWt_2)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 610.884,
+        "protein_g": 0.724,
+        "fat_g": 69.106,
+        "carbohydrate_g": 0.051,
+        "fiber_g": 0.0,
+        "sugars_g": 0.051,
+        "sodium_mg": 547.836,
+        "saturated_fat_g": 43.766,
+        "cholesterol_mg": 183.18
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "butter"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "butter",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "01001 Butter, salted"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 2,
+      "raw": "1/3 cup sugar",
+      "name": "sugar",
+      "quantity": 0.3333,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "19335",
+      "food_description": "Sugars, granulated",
+      "grams": 67.19,
+      "gram_basis": "USDA portion '1 tsp' = 4.2 g (GmWt_2)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 260.038,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 67.18,
+        "fiber_g": 0.0,
+        "sugars_g": 67.059,
+        "sodium_mg": 0.672,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "sugar"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "sugar",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "19335 Sugars, granulated"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 3,
+      "raw": "2 bananas sliced",
+      "name": "bananas",
+      "quantity": 2.0,
+      "unit": null,
+      "status": "matched",
+      "food_id": "09040",
+      "food_description": "Bananas, raw",
+      "grams": null,
+      "gram_basis": "count without size or weight; no USDA portion to convert it",
+      "nutrition_status": "no_gram_weight",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "bananas"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "bananas",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "09040 Bananas, raw"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 4,
+      "raw": "1 1/4 cups 2% milk",
+      "name": "2% milk",
+      "quantity": 1.25,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "01079",
+      "food_description": "Milk, reduced fat, fluid, 2% milkfat, with added vitamin A and vitamin D",
+      "grams": 305.0,
+      "gram_basis": "USDA portion '1 cup' = 244 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 152.5,
+        "protein_g": 10.065,
+        "fat_g": 6.039,
+        "carbohydrate_g": 14.64,
+        "fiber_g": 0.0,
+        "sugars_g": 15.433,
+        "sodium_mg": 143.35,
+        "saturated_fat_g": 3.834,
+        "cholesterol_mg": 24.4
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "2% milk",
+        "Milk, reduced fat, fluid, 2% milkfat, with added vitamin A and vitamin D"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "2% milk",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Egg custards, dry mix, prepared with 2% milk' is not a close match (cost 5.6 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Milk, reduced fat, fluid, 2% milkfat, with added vitamin A and vitamin D",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "01079 Milk, reduced fat, fluid, 2% milkfat, with added vitamin A and vitamin D"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 5,
+      "raw": "1 cup whipping cream",
+      "name": "whipping cream",
+      "quantity": 1.0,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "01052",
+      "food_description": "Cream, fluid, light whipping",
+      "grams": 239.0,
+      "gram_basis": "USDA portion '1 cup, fluid (yields 2 cups whipped)' = 239 g (GmWt_2)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 697.88,
+        "protein_g": 5.186,
+        "fat_g": 73.875,
+        "carbohydrate_g": 7.074,
+        "fiber_g": 0.0,
+        "sugars_g": 7.074,
+        "sodium_mg": 81.26,
+        "saturated_fat_g": 46.215,
+        "cholesterol_mg": 265.29
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "whipping cream",
+        "light whipping cream"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "whipping cream",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Cream, fluid, light whipping' is not a close match (cost 1.3 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "light whipping cream",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "01052 Cream, fluid, light whipping"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 6,
+      "raw": "2/3 cup sugar",
+      "name": "sugar",
+      "quantity": 0.6667,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "19335",
+      "food_description": "Sugars, granulated",
+      "grams": 134.41,
+      "gram_basis": "USDA portion '1 tsp' = 4.2 g (GmWt_2)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 520.154,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 134.38,
+        "fiber_g": 0.0,
+        "sugars_g": 134.138,
+        "sodium_mg": 1.344,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "sugar"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "sugar",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "19335 Sugars, granulated"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 7,
+      "raw": "1/8 teaspoon salt",
+      "name": "salt",
+      "quantity": 0.125,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02047",
+      "food_description": "Salt, table",
+      "grams": 0.75,
+      "gram_basis": "USDA portion '1 tsp' = 6 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 0.0,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 290.685,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "salt"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "salt",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "02047 Salt, table"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 8,
+      "raw": "1/4 cup cornstarch",
+      "name": "cornstarch",
+      "quantity": 0.25,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "20027",
+      "food_description": "Cornstarch",
+      "grams": 32.0,
+      "gram_basis": "USDA portion '1 cup' = 128 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 121.92,
+        "protein_g": 0.083,
+        "fat_g": 0.016,
+        "carbohydrate_g": 29.206,
+        "fiber_g": 0.288,
+        "sugars_g": 0.0,
+        "sodium_mg": 2.88,
+        "saturated_fat_g": 0.003,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "cornstarch"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "cornstarch",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "20027 Cornstarch"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 9,
+      "raw": "4 large egg yolks (room temperature)",
+      "name": "egg yolks",
+      "quantity": 4.0,
+      "unit": null,
+      "status": "matched",
+      "food_id": "01125",
+      "food_description": "Egg, yolk, raw, fresh",
+      "grams": 68.0,
+      "gram_basis": "USDA portion '1 large' = 17 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 218.96,
+        "protein_g": 10.785,
+        "fat_g": 18.047,
+        "carbohydrate_g": 2.441,
+        "fiber_g": 0.0,
+        "sugars_g": 0.381,
+        "sodium_mg": 32.64,
+        "saturated_fat_g": 6.495,
+        "cholesterol_mg": 737.8
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "egg yolks"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "egg yolks",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "01125 Egg, yolk, raw, fresh"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 10,
+      "raw": "1 teaspoon vanilla extract",
+      "name": "vanilla extract",
+      "quantity": 1.0,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02050",
+      "food_description": "Vanilla extract",
+      "grams": 4.2,
+      "gram_basis": "USDA portion '1 tsp' = 4.2 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 12.096,
+        "protein_g": 0.003,
+        "fat_g": 0.003,
+        "carbohydrate_g": 0.531,
+        "fiber_g": 0.0,
+        "sugars_g": 0.531,
+        "sodium_mg": 0.378,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "vanilla extract"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "vanilla extract",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "02050 Vanilla extract"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 11,
+      "raw": "2 tablespoons unsalted butter",
+      "name": "unsalted butter",
+      "quantity": 2.0,
+      "unit": "tbsp",
+      "status": "matched",
+      "food_id": "01145",
+      "food_description": "Butter, without salt",
+      "grams": 28.4,
+      "gram_basis": "USDA portion '1 tbsp' = 14.2 g (GmWt_2)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 203.628,
+        "protein_g": 0.241,
+        "fat_g": 23.035,
+        "carbohydrate_g": 0.017,
+        "fiber_g": 0.0,
+        "sugars_g": 0.017,
+        "sodium_mg": 3.124,
+        "saturated_fat_g": 14.339,
+        "cholesterol_mg": 61.06
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "unsalted butter",
+        "butter without salt"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "unsalted butter",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        },
+        {
+          "attempt": 2,
+          "query": "butter without salt",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "01145 Butter, without salt"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 12,
+      "raw": "1 cup whipping cream",
+      "name": "whipping cream",
+      "quantity": 1.0,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "01052",
+      "food_description": "Cream, fluid, light whipping",
+      "grams": 239.0,
+      "gram_basis": "USDA portion '1 cup, fluid (yields 2 cups whipped)' = 239 g (GmWt_2)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 697.88,
+        "protein_g": 5.186,
+        "fat_g": 73.875,
+        "carbohydrate_g": 7.074,
+        "fiber_g": 0.0,
+        "sugars_g": 7.074,
+        "sodium_mg": 81.26,
+        "saturated_fat_g": 46.215,
+        "cholesterol_mg": 265.29
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "whipping cream",
+        "light whipping cream"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "whipping cream",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Cream, fluid, light whipping' is not a close match (cost 1.3 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "light whipping cream",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "01052 Cream, fluid, light whipping"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 13,
+      "raw": "1 1/2 tablespoons powdered sugar",
+      "name": "powdered sugar",
+      "quantity": 1.5,
+      "unit": "tbsp",
+      "status": "matched",
+      "food_id": "19336",
+      "food_description": "Sugars, powdered",
+      "grams": 11.25,
+      "gram_basis": "USDA portion '1 cup, unsifted' = 120 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 43.763,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 11.224,
+        "fiber_g": 0.0,
+        "sugars_g": 11.004,
+        "sodium_mg": 0.225,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "powdered sugar"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "powdered sugar",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "19336 Sugars, powdered"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 14,
+      "raw": "1/2 teaspoon vanilla extract",
+      "name": "vanilla extract",
+      "quantity": 0.5,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02050",
+      "food_description": "Vanilla extract",
+      "grams": 2.1,
+      "gram_basis": "USDA portion '1 tsp' = 4.2 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 6.048,
+        "protein_g": 0.001,
+        "fat_g": 0.001,
+        "carbohydrate_g": 0.266,
+        "fiber_g": 0.0,
+        "sugars_g": 0.266,
+        "sodium_mg": 0.189,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "vanilla extract"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "vanilla extract",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "02050 Vanilla extract"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 15,
+      "raw": "bananas for garnish",
+      "name": "bananas",
+      "quantity": null,
+      "unit": null,
+      "status": "matched",
+      "food_id": "09040",
+      "food_description": "Bananas, raw",
+      "grams": null,
+      "gram_basis": "no single quantity in recipe line",
+      "nutrition_status": "no_gram_weight",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "bananas"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "bananas",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "09040 Bananas, raw"
+        }
+      ],
+      "unknown_reason": null
+    }
+  ],
+  "match": {
+    "ingredients": 16,
+    "matched": 16,
+    "unknown": 0,
+    "match_rate": 1.0,
+    "retry_rounds": 2,
+    "hit_retry_cap": 0
+  },
+  "nutrition": {
+    "basis": "whole recipe, sum of ingredients with a food id and a gram weight",
+    "source": "USDA National Nutrient Database for Standard Reference, Release 28 (SR28, 2015)",
+    "complete": false,
+    "ingredients_total": 16,
+    "ingredients_with_nutrition": 13,
+    "unmatched_food_count": 0,
+    "matched_without_grams_count": 3,
+    "statement": "Partial: 3 of 16 ingredients have no nutrition (0 unmatched food, 3 matched but no gram weight); totals cover the other 13 only.",
+    "totals": {
+      "energy_kcal": 3545.8,
+      "protein_g": 32.3,
+      "fat_g": 264.0,
+      "saturated_fat_g": 160.9,
+      "carbohydrate_g": 274.1,
+      "fiber_g": 0.3,
+      "sugars_g": 243.0,
+      "sodium_mg": 1185.8,
+      "cholesterol_mg": 1537.0
+    },
+    "per_serving": {
+      "energy_kcal": 443.2,
+      "protein_g": 4.0,
+      "fat_g": 33.0,
+      "saturated_fat_g": 20.1,
+      "carbohydrate_g": 34.3,
+      "fiber_g": 0.0,
+      "sugars_g": 30.4,
+      "sodium_mg": 148.2,
+      "cholesterol_mg": 192.1
+    },
+    "servings": 8,
+    "nutrient_values_missing_in_usda": {}
+  },
+  "cook_notes": {
+    "status": "produced",
+    "comment_count": 13,
+    "threshold": 5,
+    "claims": [
+      {
+        "text": "made it and liked it",
+        "count": 2,
+        "comment_ids": [
+          "335907",
+          "335962"
+        ]
+      },
+      {
+        "text": "said family or guests enjoyed it",
+        "count": 2,
+        "comment_ids": [
+          "335907",
+          "335931"
+        ]
+      }
+    ],
+    "card": "Cook notes (13 comments): 2 of 13 made it and liked it. 2 of 13 said family or guests enjoyed it.",
+    "word_count": 21,
+    "backend": "themes-v2"
+  },
+  "node_path": [
+    "fetch",
+    "parse_recipe",
+    "parse_ingredients",
+    "match_nutrition",
+    "match_nutrition",
+    "gather_comments",
+    "summarise",
+    "validate",
+    "write"
+  ],
+  "terminal": {
+    "state": "complete_partial",
+    "reason": "3 of 16 ingredients without nutrition (0 unknown, 0 hit the 3-attempt cap, 3 no gram weight); card from 13 comments"
+  }
+}

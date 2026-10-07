@@ -1,0 +1,825 @@
+{
+  "recipe_id": "rcp_d79db9d191",
+  "source_url": "https://www.noracooks.com/vegan-chocolate-cake/",
+  "title": "The Best Vegan Chocolate Cake",
+  "site": "noracooks.com",
+  "category": [
+    "Dessert"
+  ],
+  "cuisine": [
+    "American"
+  ],
+  "yield_text": "16 / 16 servings",
+  "servings": 16,
+  "servings_unit": "servings",
+  "provenance": {
+    "page_source": "snapshot",
+    "fetched_url": "https://raw.githubusercontent.com/hhursev/recipe-scrapers/e7892149ee16c02cfd7ed1972e80791339727293/tests/test_data/noracooks.com/noracooks.testhtml",
+    "original_page_sha256": "484af4382bbd88e14d29e5c5bf0e2f8589eac0c8b04241cef7264f514af01d4b",
+    "nutrition_source": "USDA National Nutrient Database for Standard Reference, Release 28 (SR28, 2015)"
+  },
+  "section_headings": [],
+  "ingredients": [
+    {
+      "index": 0,
+      "raw": "1 cup unsweetened almond milk",
+      "name": "unsweetened almond milk",
+      "quantity": 1.0,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "14091",
+      "food_description": "Beverages, almond milk, unsweetened, shelf stable",
+      "grams": 262.0,
+      "gram_basis": "USDA portion '1 cup' = 262 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 39.3,
+        "protein_g": 1.546,
+        "fat_g": 2.882,
+        "carbohydrate_g": 1.52,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 186.02,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "unsweetened almond milk",
+        "Beverages, almond milk, unsweetened, shelf stable"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "unsweetened almond milk",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Beverages, almond milk, unsweetened, shelf stable' is not a close match (cost 5.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Beverages, almond milk, unsweetened, shelf stable",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "14091 Beverages, almond milk, unsweetened, shelf stable"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 1,
+      "raw": "1 tablespoon apple cider vinegar",
+      "name": "apple cider vinegar",
+      "quantity": 1.0,
+      "unit": "tbsp",
+      "status": "matched",
+      "food_id": "02048",
+      "food_description": "Vinegar, cider",
+      "grams": 14.9,
+      "gram_basis": "USDA portion '1 tbsp' = 14.9 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 3.129,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 0.139,
+        "fiber_g": 0.0,
+        "sugars_g": 0.06,
+        "sodium_mg": 0.745,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "apple cider vinegar",
+        "Vinegar, cider"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "apple cider vinegar",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        },
+        {
+          "attempt": 2,
+          "query": "Vinegar, cider",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "02048 Vinegar, cider"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 2,
+      "raw": "2 cups all purpose flour",
+      "name": "all purpose flour",
+      "quantity": 2.0,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "20081",
+      "food_description": "Wheat flour, white, all-purpose, enriched, bleached",
+      "grams": 250.0,
+      "gram_basis": "USDA portion '1 cup' = 125 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 910.0,
+        "protein_g": 25.825,
+        "fat_g": 2.45,
+        "carbohydrate_g": 190.775,
+        "fiber_g": 6.75,
+        "sugars_g": 0.675,
+        "sodium_mg": 5.0,
+        "saturated_fat_g": 0.388,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "all purpose flour",
+        "Wheat flour, white, all-purpose, enriched, bleached"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "all purpose flour",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Wheat flour, white, all-purpose, enriched, bleached' is not a close match (cost 4.6 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Wheat flour, white, all-purpose, enriched, bleached",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "20081 Wheat flour, white, all-purpose, enriched, bleached"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 3,
+      "raw": "1 3/4 cups granulated sugar",
+      "name": "granulated sugar",
+      "quantity": 1.75,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "19335",
+      "food_description": "Sugars, granulated",
+      "grams": 352.8,
+      "gram_basis": "USDA portion '1 tsp' = 4.2 g (GmWt_2)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 1365.336,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 352.729,
+        "fiber_g": 0.0,
+        "sugars_g": 352.094,
+        "sodium_mg": 3.528,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "granulated sugar"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "granulated sugar",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "19335 Sugars, granulated"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 4,
+      "raw": "3/4 cup cocoa powder",
+      "name": "cocoa powder",
+      "quantity": 0.75,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "19165",
+      "food_description": "Cocoa, dry powder, unsweetened",
+      "grams": 64.5,
+      "gram_basis": "USDA portion '1 cup' = 86 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 147.06,
+        "protein_g": 12.642,
+        "fat_g": 8.836,
+        "carbohydrate_g": 37.345,
+        "fiber_g": 23.865,
+        "sugars_g": 1.129,
+        "sodium_mg": 13.545,
+        "saturated_fat_g": 5.205,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "cocoa powder",
+        "unsweetened cocoa powder"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "cocoa powder",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Cocoa, dry powder, unsweetened' is not a close match (cost 1.3 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "unsweetened cocoa powder",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "19165 Cocoa, dry powder, unsweetened"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 5,
+      "raw": "2 teaspoons baking powder",
+      "name": "baking powder",
+      "quantity": 2.0,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "18369",
+      "food_description": "Leavening agents, baking powder, double-acting, sodium aluminum sulfate",
+      "grams": 9.2,
+      "gram_basis": "USDA portion '1 tsp' = 4.6 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 4.876,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 2.548,
+        "fiber_g": 0.018,
+        "sugars_g": 0.0,
+        "sodium_mg": 975.2,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "baking powder",
+        "Leavening agents, baking powder, double-acting, sodium aluminum sulfate"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "baking powder",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Leavening agents, baking powder, low-sodium' is not a close match (cost 6.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Leavening agents, baking powder, double-acting, sodium aluminum sulfate",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "18369 Leavening agents, baking powder, double-acting, sodium aluminum sulfate"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 6,
+      "raw": "1 1/2 teaspoons baking soda",
+      "name": "baking soda",
+      "quantity": 1.5,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "18372",
+      "food_description": "Leavening agents, baking soda",
+      "grams": 6.9,
+      "gram_basis": "USDA portion '1 tsp' = 4.6 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 0.0,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 1887.84,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "baking soda",
+        "Leavening agents, baking soda"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "baking soda",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Leavening agents, baking soda' is not a close match (cost 4.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Leavening agents, baking soda",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "18372 Leavening agents, baking soda"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 7,
+      "raw": "1 teaspoon salt",
+      "name": "salt",
+      "quantity": 1.0,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02047",
+      "food_description": "Salt, table",
+      "grams": 6.0,
+      "gram_basis": "USDA portion '1 tsp' = 6 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 0.0,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 2325.48,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "salt"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "salt",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "02047 Salt, table"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 8,
+      "raw": "1/2 cup canola oil OR melted coconut oil",
+      "name": "canola oil",
+      "quantity": 0.5,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "04582",
+      "food_description": "Oil, canola",
+      "grams": 112.0,
+      "gram_basis": "USDA portion '1 tbsp' = 14 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 990.08,
+        "protein_g": 0.0,
+        "fat_g": 112.0,
+        "carbohydrate_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 0.0,
+        "saturated_fat_g": 8.249,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "canola oil"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "canola oil",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "04582 Oil, canola"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 9,
+      "raw": "2/3 cup unsweetened applesauce",
+      "name": "unsweetened applesauce",
+      "quantity": 0.6667,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "09019",
+      "food_description": "Applesauce, canned, unsweetened, without added ascorbic acid (includes USDA commodity)",
+      "grams": 162.67,
+      "gram_basis": "USDA portion '1 cup' = 244 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 68.323,
+        "protein_g": 0.277,
+        "fat_g": 0.163,
+        "carbohydrate_g": 18.333,
+        "fiber_g": 1.789,
+        "sugars_g": 15.275,
+        "sodium_mg": 3.253,
+        "saturated_fat_g": 0.013,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "unsweetened applesauce",
+        "Applesauce, canned, unsweetened, without added ascorbic acid (includes USDA commodity)"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "unsweetened applesauce",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Applesauce, canned, unsweetened, with added ascorbic acid' is not a close match (cost 4.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Applesauce, canned, unsweetened, without added ascorbic acid (includes USDA commodity)",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "09019 Applesauce, canned, unsweetened, without added ascorbic acid (includes USDA commodity)"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 10,
+      "raw": "1 tablespoon pure vanilla extract",
+      "name": "vanilla extract",
+      "quantity": 1.0,
+      "unit": "tbsp",
+      "status": "matched",
+      "food_id": "02050",
+      "food_description": "Vanilla extract",
+      "grams": 12.6,
+      "gram_basis": "USDA portion '1 tsp' = 4.2 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 36.288,
+        "protein_g": 0.008,
+        "fat_g": 0.008,
+        "carbohydrate_g": 1.594,
+        "fiber_g": 0.0,
+        "sugars_g": 1.594,
+        "sodium_mg": 1.134,
+        "saturated_fat_g": 0.001,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "vanilla extract"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "vanilla extract",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "02050 Vanilla extract"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 11,
+      "raw": "1 cup boiling water",
+      "name": "water",
+      "quantity": 1.0,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "14411",
+      "food_description": "Beverages, water, tap, drinking",
+      "grams": 236.8,
+      "gram_basis": "USDA portion '1 fl oz' = 29.6 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 0.0,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 9.472,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "water",
+        "Beverages, water, tap, drinking"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "water",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Water, bottled, generic' is not a close match (cost 2.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Beverages, water, tap, drinking",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "14411 Beverages, water, tap, drinking"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 12,
+      "raw": "1 cup cocoa powder",
+      "name": "cocoa powder",
+      "quantity": 1.0,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "19165",
+      "food_description": "Cocoa, dry powder, unsweetened",
+      "grams": 86.0,
+      "gram_basis": "USDA portion '1 cup' = 86 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 196.08,
+        "protein_g": 16.856,
+        "fat_g": 11.782,
+        "carbohydrate_g": 49.794,
+        "fiber_g": 31.82,
+        "sugars_g": 1.505,
+        "sodium_mg": 18.06,
+        "saturated_fat_g": 6.94,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "cocoa powder",
+        "unsweetened cocoa powder"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "cocoa powder",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Cocoa, dry powder, unsweetened' is not a close match (cost 1.3 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "unsweetened cocoa powder",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "19165 Cocoa, dry powder, unsweetened"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 13,
+      "raw": "1 1/2 cups vegan butter, softened (baking sticks preferred)",
+      "name": "vegan butter",
+      "quantity": 1.5,
+      "unit": "cup",
+      "status": "unknown",
+      "food_id": null,
+      "food_description": null,
+      "grams": null,
+      "gram_basis": null,
+      "nutrition_status": "no_food_id",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "vegan butter"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "vegan butter",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        }
+      ],
+      "unknown_reason": "no other names to try after 1 attempt(s); last: no_candidates"
+    },
+    {
+      "index": 14,
+      "raw": "4-5 cups powdered sugar",
+      "name": "powdered sugar",
+      "quantity": null,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "19336",
+      "food_description": "Sugars, powdered",
+      "grams": null,
+      "gram_basis": "no single quantity in recipe line",
+      "nutrition_status": "no_gram_weight",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "powdered sugar"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "powdered sugar",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "19336 Sugars, powdered"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 15,
+      "raw": "2 teaspoons pure vanilla extract",
+      "name": "vanilla extract",
+      "quantity": 2.0,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02050",
+      "food_description": "Vanilla extract",
+      "grams": 8.4,
+      "gram_basis": "USDA portion '1 tsp' = 4.2 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 24.192,
+        "protein_g": 0.005,
+        "fat_g": 0.005,
+        "carbohydrate_g": 1.063,
+        "fiber_g": 0.0,
+        "sugars_g": 1.063,
+        "sodium_mg": 0.756,
+        "saturated_fat_g": 0.001,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "vanilla extract"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "vanilla extract",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "02050 Vanilla extract"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 16,
+      "raw": "1/4-1/2 cup unsweetened almond milk",
+      "name": "unsweetened almond milk",
+      "quantity": null,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "14091",
+      "food_description": "Beverages, almond milk, unsweetened, shelf stable",
+      "grams": null,
+      "gram_basis": "no single quantity in recipe line",
+      "nutrition_status": "no_gram_weight",
+      "nutrients": null,
+      "attempts": 2,
+      "queries_tried": [
+        "unsweetened almond milk",
+        "Beverages, almond milk, unsweetened, shelf stable"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "unsweetened almond milk",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Beverages, almond milk, unsweetened, shelf stable' is not a close match (cost 5.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Beverages, almond milk, unsweetened, shelf stable",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "14091 Beverages, almond milk, unsweetened, shelf stable"
+        }
+      ],
+      "unknown_reason": null
+    }
+  ],
+  "match": {
+    "ingredients": 17,
+    "matched": 16,
+    "unknown": 1,
+    "match_rate": 0.941,
+    "retry_rounds": 2,
+    "hit_retry_cap": 0
+  },
+  "nutrition": {
+    "basis": "whole recipe, sum of ingredients with a food id and a gram weight",
+    "source": "USDA National Nutrient Database for Standard Reference, Release 28 (SR28, 2015)",
+    "complete": false,
+    "ingredients_total": 17,
+    "ingredients_with_nutrition": 14,
+    "unmatched_food_count": 1,
+    "matched_without_grams_count": 2,
+    "statement": "Partial: 3 of 17 ingredients have no nutrition (1 unmatched food, 2 matched but no gram weight); totals cover the other 14 only.",
+    "totals": {
+      "energy_kcal": 3784.7,
+      "protein_g": 57.2,
+      "fat_g": 138.1,
+      "saturated_fat_g": 20.8,
+      "carbohydrate_g": 655.8,
+      "fiber_g": 64.2,
+      "sugars_g": 373.4,
+      "sodium_mg": 5430.0,
+      "cholesterol_mg": 0.0
+    },
+    "per_serving": {
+      "energy_kcal": 236.5,
+      "protein_g": 3.6,
+      "fat_g": 8.6,
+      "saturated_fat_g": 1.3,
+      "carbohydrate_g": 41.0,
+      "fiber_g": 4.0,
+      "sugars_g": 23.3,
+      "sodium_mg": 339.4,
+      "cholesterol_mg": 0.0
+    },
+    "servings": 16,
+    "nutrient_values_missing_in_usda": {}
+  },
+  "cook_notes": {
+    "status": "produced",
+    "comment_count": 10,
+    "threshold": 5,
+    "claims": [
+      {
+        "text": "made it and liked it",
+        "count": 3,
+        "comment_ids": [
+          "148338",
+          "148454",
+          "148466"
+        ]
+      },
+      {
+        "text": "said family or guests enjoyed it",
+        "count": 3,
+        "comment_ids": [
+          "148454",
+          "148455",
+          "148466"
+        ]
+      },
+      {
+        "text": "called it easy or quick",
+        "count": 2,
+        "comment_ids": [
+          "148455",
+          "148466"
+        ]
+      },
+      {
+        "text": "asked a question",
+        "count": 5,
+        "comment_ids": [
+          "148338",
+          "148778",
+          "148851",
+          "148866",
+          "148875"
+        ]
+      }
+    ],
+    "card": "Cook notes (10 comments): 3 of 10 made it and liked it. 3 of 10 said family or guests enjoyed it. 2 of 10 called it easy or quick. 5 of 10 asked a question.",
+    "word_count": 35,
+    "backend": "themes-v2"
+  },
+  "node_path": [
+    "fetch",
+    "parse_recipe",
+    "parse_ingredients",
+    "match_nutrition",
+    "match_nutrition",
+    "mark_unknown",
+    "gather_comments",
+    "summarise",
+    "validate",
+    "write"
+  ],
+  "terminal": {
+    "state": "complete_partial",
+    "reason": "3 of 17 ingredients without nutrition (1 unknown, 0 hit the 3-attempt cap, 2 no gram weight); card from 10 comments"
+  }
+}

@@ -1,0 +1,624 @@
+{
+  "recipe_id": "rcp_7c62b972de",
+  "source_url": "https://thebigmansworld.com/coconut-cake/",
+  "title": "Coconut Cake Recipe",
+  "site": "thebigmansworld.com",
+  "category": [
+    "Dessert"
+  ],
+  "cuisine": [
+    "American"
+  ],
+  "yield_text": "12 / 12 servings",
+  "servings": 12,
+  "servings_unit": "servings",
+  "provenance": {
+    "page_source": "snapshot",
+    "fetched_url": "https://raw.githubusercontent.com/hhursev/recipe-scrapers/e7892149ee16c02cfd7ed1972e80791339727293/tests/test_data/thebigmansworld.com/thebigmansworld_2.testhtml",
+    "original_page_sha256": "c97b5a13b5cb17252a78aee47eb537e8d3d452e5694c9487ae9dc52f558166a9",
+    "nutrition_source": "USDA National Nutrient Database for Standard Reference, Release 28 (SR28, 2015)"
+  },
+  "section_headings": [],
+  "ingredients": [
+    {
+      "index": 0,
+      "raw": "2 cups all-purpose flour",
+      "name": "all-purpose flour",
+      "quantity": 2.0,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "20081",
+      "food_description": "Wheat flour, white, all-purpose, enriched, bleached",
+      "grams": 250.0,
+      "gram_basis": "USDA portion '1 cup' = 125 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 910.0,
+        "protein_g": 25.825,
+        "fat_g": 2.45,
+        "carbohydrate_g": 190.775,
+        "fiber_g": 6.75,
+        "sugars_g": 0.675,
+        "sodium_mg": 5.0,
+        "saturated_fat_g": 0.388,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "all-purpose flour",
+        "Wheat flour, white, all-purpose, enriched, bleached"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "all-purpose flour",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Wheat flour, white, all-purpose, enriched, bleached' is not a close match (cost 4.6 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Wheat flour, white, all-purpose, enriched, bleached",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "20081 Wheat flour, white, all-purpose, enriched, bleached"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 1,
+      "raw": "1 1/2 cups sugar",
+      "name": "sugar",
+      "quantity": 1.5,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "19335",
+      "food_description": "Sugars, granulated",
+      "grams": 302.4,
+      "gram_basis": "USDA portion '1 tsp' = 4.2 g (GmWt_2)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 1170.288,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 302.34,
+        "fiber_g": 0.0,
+        "sugars_g": 301.795,
+        "sodium_mg": 3.024,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "sugar"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "sugar",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "19335 Sugars, granulated"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 2,
+      "raw": "2 teaspoons baking soda",
+      "name": "baking soda",
+      "quantity": 2.0,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "18372",
+      "food_description": "Leavening agents, baking soda",
+      "grams": 9.2,
+      "gram_basis": "USDA portion '1 tsp' = 4.6 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 0.0,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 2517.12,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "baking soda",
+        "Leavening agents, baking soda"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "baking soda",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Leavening agents, baking soda' is not a close match (cost 4.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Leavening agents, baking soda",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "18372 Leavening agents, baking soda"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 3,
+      "raw": "1/2 teaspoon salt",
+      "name": "salt",
+      "quantity": 0.5,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02047",
+      "food_description": "Salt, table",
+      "grams": 3.0,
+      "gram_basis": "USDA portion '1 tsp' = 6 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 0.0,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 1162.74,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "salt"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "salt",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "02047 Salt, table"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 4,
+      "raw": "1 1/2 cups water",
+      "name": "water",
+      "quantity": 1.5,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "14411",
+      "food_description": "Beverages, water, tap, drinking",
+      "grams": 355.2,
+      "gram_basis": "USDA portion '1 fl oz' = 29.6 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 0.0,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 14.208,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "water",
+        "Beverages, water, tap, drinking"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "water",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Water, bottled, generic' is not a close match (cost 2.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Beverages, water, tap, drinking",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "14411 Beverages, water, tap, drinking"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 5,
+      "raw": "1 tablespoon vinegar",
+      "name": "vinegar",
+      "quantity": 1.0,
+      "unit": "tbsp",
+      "status": "matched",
+      "food_id": "02053",
+      "food_description": "Vinegar, distilled",
+      "grams": 14.9,
+      "gram_basis": "USDA portion '1 tbsp' = 14.9 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 2.682,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 0.006,
+        "fiber_g": 0.0,
+        "sugars_g": 0.006,
+        "sodium_mg": 0.298,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 3,
+      "queries_tried": [
+        "vinegar",
+        "white vinegar",
+        "Vinegar, distilled"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "vinegar",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: ambiguous between 'Vinegar, cider' and 'Vinegar, balsamic'"
+        },
+        {
+          "attempt": 2,
+          "query": "white vinegar",
+          "strategy": "alias",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        },
+        {
+          "attempt": 3,
+          "query": "Vinegar, distilled",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "02053 Vinegar, distilled"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 6,
+      "raw": "1/2 cup oil",
+      "name": "oil",
+      "quantity": 0.5,
+      "unit": "cup",
+      "status": "unknown",
+      "food_id": null,
+      "food_description": null,
+      "grams": null,
+      "gram_basis": null,
+      "nutrition_status": "no_food_id",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "oil"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "oil",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: ambiguous between 'Oil, oat' and 'Oil, palm'"
+        }
+      ],
+      "unknown_reason": "no other names to try after 1 attempt(s); last: rejected: ambiguous between 'Oil, oat' and 'Oil, palm'"
+    },
+    {
+      "index": 7,
+      "raw": "1 tablespoon vanilla extract",
+      "name": "vanilla extract",
+      "quantity": 1.0,
+      "unit": "tbsp",
+      "status": "matched",
+      "food_id": "02050",
+      "food_description": "Vanilla extract",
+      "grams": 12.6,
+      "gram_basis": "USDA portion '1 tsp' = 4.2 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 36.288,
+        "protein_g": 0.008,
+        "fat_g": 0.008,
+        "carbohydrate_g": 1.594,
+        "fiber_g": 0.0,
+        "sugars_g": 1.594,
+        "sodium_mg": 1.134,
+        "saturated_fat_g": 0.001,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "vanilla extract"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "vanilla extract",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "02050 Vanilla extract"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 8,
+      "raw": "1 cup shredded coconut",
+      "name": "shredded coconut",
+      "quantity": 1.0,
+      "unit": "cup",
+      "status": "unknown",
+      "food_id": null,
+      "food_description": null,
+      "grams": null,
+      "gram_basis": null,
+      "nutrition_status": "no_food_id",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "shredded coconut"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "shredded coconut",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Nuts, coconut meat, dried (desiccated), sweetened, shredded' is not a close match (cost 6.3 > 1.0)"
+        }
+      ],
+      "unknown_reason": "no other names to try after 1 attempt(s); last: rejected: best hit 'Nuts, coconut meat, dried (desiccated), sweetened, shredded' is not a close match (cost 6.3 > 1.0)"
+    },
+    {
+      "index": 9,
+      "raw": "8 ounces cream cheese (softened)",
+      "name": "cream cheese",
+      "quantity": 8.0,
+      "unit": "oz",
+      "status": "matched",
+      "food_id": "01017",
+      "food_description": "Cheese, cream",
+      "grams": 226.8,
+      "gram_basis": "mass stated in recipe line",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 793.8,
+        "protein_g": 13.948,
+        "fat_g": 78.11,
+        "carbohydrate_g": 12.519,
+        "fiber_g": 0.0,
+        "sugars_g": 8.528,
+        "sodium_mg": 712.152,
+        "saturated_fat_g": 45.843,
+        "cholesterol_mg": 229.068
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "cream cheese"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "cream cheese",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "01017 Cheese, cream"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 10,
+      "raw": "1 cup confectioners sugar",
+      "name": "confectioners sugar",
+      "quantity": 1.0,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "19336",
+      "food_description": "Sugars, powdered",
+      "grams": 120.0,
+      "gram_basis": "USDA portion '1 cup, unsifted' = 120 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 466.8,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 119.724,
+        "fiber_g": 0.0,
+        "sugars_g": 117.372,
+        "sodium_mg": 2.4,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "confectioners sugar",
+        "powdered sugar"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "confectioners sugar",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        },
+        {
+          "attempt": 2,
+          "query": "powdered sugar",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "19336 Sugars, powdered"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 11,
+      "raw": "3/4 cup heavy cream",
+      "name": "heavy cream",
+      "quantity": 0.75,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "01053",
+      "food_description": "Cream, fluid, heavy whipping",
+      "grams": 178.5,
+      "gram_basis": "USDA portion '1 cup, fluid (yields 2 cups whipped)' = 238 g (GmWt_2)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 606.9,
+        "protein_g": 5.069,
+        "fat_g": 64.403,
+        "carbohydrate_g": 4.891,
+        "fiber_g": 0.0,
+        "sugars_g": 5.212,
+        "sodium_mg": 48.195,
+        "saturated_fat_g": 41.112,
+        "cholesterol_mg": 201.705
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "heavy cream",
+        "heavy whipping cream"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "heavy cream",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Cream, fluid, heavy whipping' is not a close match (cost 1.3 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "heavy whipping cream",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "01053 Cream, fluid, heavy whipping"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 12,
+      "raw": "1 teaspoon coconut extract (or vanilla extract)",
+      "name": "coconut extract",
+      "quantity": 1.0,
+      "unit": "tsp",
+      "status": "unknown",
+      "food_id": null,
+      "food_description": null,
+      "grams": null,
+      "gram_basis": null,
+      "nutrition_status": "no_food_id",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "coconut extract"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "coconut extract",
+          "strategy": "name",
+          "outcome": "no_candidates",
+          "detail": "no_candidates"
+        }
+      ],
+      "unknown_reason": "no other names to try after 1 attempt(s); last: no_candidates"
+    }
+  ],
+  "match": {
+    "ingredients": 13,
+    "matched": 10,
+    "unknown": 3,
+    "match_rate": 0.769,
+    "retry_rounds": 3,
+    "hit_retry_cap": 0
+  },
+  "nutrition": {
+    "basis": "whole recipe, sum of ingredients with a food id and a gram weight",
+    "source": "USDA National Nutrient Database for Standard Reference, Release 28 (SR28, 2015)",
+    "complete": false,
+    "ingredients_total": 13,
+    "ingredients_with_nutrition": 10,
+    "unmatched_food_count": 3,
+    "matched_without_grams_count": 0,
+    "statement": "Partial: 3 of 13 ingredients have no nutrition (3 unmatched food, 0 matched but no gram weight); totals cover the other 10 only.",
+    "totals": {
+      "energy_kcal": 3986.8,
+      "protein_g": 44.9,
+      "fat_g": 145.0,
+      "saturated_fat_g": 87.3,
+      "carbohydrate_g": 631.8,
+      "fiber_g": 6.8,
+      "sugars_g": 435.2,
+      "sodium_mg": 4466.3,
+      "cholesterol_mg": 430.8
+    },
+    "per_serving": {
+      "energy_kcal": 332.2,
+      "protein_g": 3.7,
+      "fat_g": 12.1,
+      "saturated_fat_g": 7.3,
+      "carbohydrate_g": 52.6,
+      "fiber_g": 0.6,
+      "sugars_g": 36.3,
+      "sodium_mg": 372.2,
+      "cholesterol_mg": 35.9
+    },
+    "servings": 12,
+    "nutrient_values_missing_in_usda": {}
+  },
+  "cook_notes": {
+    "status": "produced",
+    "comment_count": 10,
+    "threshold": 5,
+    "claims": [
+      {
+        "text": "asked a question",
+        "count": 5,
+        "comment_ids": [
+          "234528",
+          "239211",
+          "271823",
+          "334015",
+          "430061"
+        ]
+      }
+    ],
+    "card": "Cook notes (10 comments): 5 of 10 asked a question.",
+    "word_count": 10,
+    "backend": "themes-v2"
+  },
+  "node_path": [
+    "fetch",
+    "parse_recipe",
+    "parse_ingredients",
+    "match_nutrition",
+    "match_nutrition",
+    "match_nutrition",
+    "mark_unknown",
+    "gather_comments",
+    "summarise",
+    "validate",
+    "write"
+  ],
+  "terminal": {
+    "state": "complete_partial",
+    "reason": "3 of 13 ingredients without nutrition (3 unknown, 0 hit the 3-attempt cap, 0 no gram weight); card from 10 comments"
+  }
+}

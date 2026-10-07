@@ -1,0 +1,833 @@
+{
+  "recipe_id": "rcp_954df896bf",
+  "source_url": "https://houseofnasheats.com/black-forest-cake/",
+  "title": "Easy Black Forest Cake Recipe",
+  "site": "houseofnasheats.com",
+  "category": [
+    "Dessert"
+  ],
+  "cuisine": [
+    "American",
+    "German"
+  ],
+  "yield_text": "14 / 14 servings",
+  "servings": 14,
+  "servings_unit": "servings",
+  "provenance": {
+    "page_source": "snapshot",
+    "fetched_url": "https://raw.githubusercontent.com/hhursev/recipe-scrapers/e7892149ee16c02cfd7ed1972e80791339727293/tests/test_data/houseofnasheats.com/houseofnasheats_2.testhtml",
+    "original_page_sha256": "e7f652cc7a56ac92469baa29a27fa2de7c57e3852e81a9d5155e25a5aa80fad1",
+    "nutrition_source": "USDA National Nutrient Database for Standard Reference, Release 28 (SR28, 2015)"
+  },
+  "section_headings": [],
+  "ingredients": [
+    {
+      "index": 0,
+      "raw": "1 cup salted butter (softened (227g))",
+      "name": "salted butter",
+      "quantity": 1.0,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "01001",
+      "food_description": "Butter, salted",
+      "grams": 227.0,
+      "gram_basis": "mass stated in recipe line",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 1627.59,
+        "protein_g": 1.929,
+        "fat_g": 184.12,
+        "carbohydrate_g": 0.136,
+        "fiber_g": 0.0,
+        "sugars_g": 0.136,
+        "sodium_mg": 1459.61,
+        "saturated_fat_g": 116.605,
+        "cholesterol_mg": 488.05
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "salted butter"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "salted butter",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "01001 Butter, salted"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 1,
+      "raw": "2 cups granulated sugar ((400g))",
+      "name": "granulated sugar",
+      "quantity": 2.0,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "19335",
+      "food_description": "Sugars, granulated",
+      "grams": 400.0,
+      "gram_basis": "mass stated in recipe line",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 1548.0,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 399.92,
+        "fiber_g": 0.0,
+        "sugars_g": 399.2,
+        "sodium_mg": 4.0,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "granulated sugar"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "granulated sugar",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "19335 Sugars, granulated"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 2,
+      "raw": "2 large eggs",
+      "name": "eggs",
+      "quantity": 2.0,
+      "unit": null,
+      "status": "matched",
+      "food_id": "01123",
+      "food_description": "Egg, whole, raw, fresh",
+      "grams": 100.0,
+      "gram_basis": "USDA portion '1 large' = 50 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 143.0,
+        "protein_g": 12.56,
+        "fat_g": 9.51,
+        "carbohydrate_g": 0.72,
+        "fiber_g": 0.0,
+        "sugars_g": 0.37,
+        "sodium_mg": 142.0,
+        "saturated_fat_g": 3.126,
+        "cholesterol_mg": 372.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "eggs"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "eggs",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "01123 Egg, whole, raw, fresh"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 3,
+      "raw": "1 teaspoon pure vanilla extract",
+      "name": "vanilla extract",
+      "quantity": 1.0,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02050",
+      "food_description": "Vanilla extract",
+      "grams": 4.2,
+      "gram_basis": "USDA portion '1 tsp' = 4.2 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 12.096,
+        "protein_g": 0.003,
+        "fat_g": 0.003,
+        "carbohydrate_g": 0.531,
+        "fiber_g": 0.0,
+        "sugars_g": 0.531,
+        "sodium_mg": 0.378,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "vanilla extract"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "vanilla extract",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "02050 Vanilla extract"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 4,
+      "raw": "3 cups all-purpose flour (spooned and leveled (375g))",
+      "name": "all-purpose flour",
+      "quantity": 3.0,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "20081",
+      "food_description": "Wheat flour, white, all-purpose, enriched, bleached",
+      "grams": 375.0,
+      "gram_basis": "mass stated in recipe line",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 1365.0,
+        "protein_g": 38.737,
+        "fat_g": 3.675,
+        "carbohydrate_g": 286.163,
+        "fiber_g": 10.125,
+        "sugars_g": 1.012,
+        "sodium_mg": 7.5,
+        "saturated_fat_g": 0.581,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "all-purpose flour",
+        "Wheat flour, white, all-purpose, enriched, bleached"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "all-purpose flour",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Wheat flour, white, all-purpose, enriched, bleached' is not a close match (cost 4.6 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Wheat flour, white, all-purpose, enriched, bleached",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "20081 Wheat flour, white, all-purpose, enriched, bleached"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 5,
+      "raw": "6 Tablespoons cocoa powder ((45g))",
+      "name": "cocoa powder",
+      "quantity": 6.0,
+      "unit": "tbsp",
+      "status": "matched",
+      "food_id": "19165",
+      "food_description": "Cocoa, dry powder, unsweetened",
+      "grams": 45.0,
+      "gram_basis": "mass stated in recipe line",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 102.6,
+        "protein_g": 8.82,
+        "fat_g": 6.165,
+        "carbohydrate_g": 26.055,
+        "fiber_g": 16.65,
+        "sugars_g": 0.787,
+        "sodium_mg": 9.45,
+        "saturated_fat_g": 3.632,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "cocoa powder",
+        "unsweetened cocoa powder"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "cocoa powder",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Cocoa, dry powder, unsweetened' is not a close match (cost 1.3 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "unsweetened cocoa powder",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "19165 Cocoa, dry powder, unsweetened"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 6,
+      "raw": "2 teaspoons baking soda",
+      "name": "baking soda",
+      "quantity": 2.0,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "18372",
+      "food_description": "Leavening agents, baking soda",
+      "grams": 9.2,
+      "gram_basis": "USDA portion '1 tsp' = 4.6 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 0.0,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 2517.12,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "baking soda",
+        "Leavening agents, baking soda"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "baking soda",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Leavening agents, baking soda' is not a close match (cost 4.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Leavening agents, baking soda",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "18372 Leavening agents, baking soda"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 7,
+      "raw": "1/2 teaspoon salt",
+      "name": "salt",
+      "quantity": 0.5,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02047",
+      "food_description": "Salt, table",
+      "grams": 3.0,
+      "gram_basis": "USDA portion '1 tsp' = 6 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 0.0,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 1162.74,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "salt"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "salt",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "02047 Salt, table"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 8,
+      "raw": "1 cup buttermilk ((240ml))",
+      "name": "buttermilk",
+      "quantity": 1.0,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "01088",
+      "food_description": "Milk, buttermilk, fluid, cultured, lowfat",
+      "grams": 245.0,
+      "gram_basis": "USDA portion '1 cup' = 245 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 98.0,
+        "protein_g": 8.11,
+        "fat_g": 2.156,
+        "carbohydrate_g": 11.736,
+        "fiber_g": 0.0,
+        "sugars_g": 11.736,
+        "sodium_mg": 465.5,
+        "saturated_fat_g": 1.343,
+        "cholesterol_mg": 9.8
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "buttermilk",
+        "Milk, buttermilk, fluid, cultured, lowfat"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "buttermilk",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Milk, buttermilk, fluid, whole' is not a close match (cost 3.6 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Milk, buttermilk, fluid, cultured, lowfat",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "01088 Milk, buttermilk, fluid, cultured, lowfat"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 9,
+      "raw": "1 cup boiling water ((236ml))",
+      "name": "water",
+      "quantity": 1.0,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "14411",
+      "food_description": "Beverages, water, tap, drinking",
+      "grams": 236.8,
+      "gram_basis": "USDA portion '1 fl oz' = 29.6 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 0.0,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 9.472,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "water",
+        "Beverages, water, tap, drinking"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "water",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Water, bottled, generic' is not a close match (cost 2.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Beverages, water, tap, drinking",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "14411 Beverages, water, tap, drinking"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 10,
+      "raw": "1/4 cup all-purpose flour ((31g))",
+      "name": "all-purpose flour",
+      "quantity": 0.25,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "20081",
+      "food_description": "Wheat flour, white, all-purpose, enriched, bleached",
+      "grams": 31.0,
+      "gram_basis": "mass stated in recipe line",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 112.84,
+        "protein_g": 3.202,
+        "fat_g": 0.304,
+        "carbohydrate_g": 23.656,
+        "fiber_g": 0.837,
+        "sugars_g": 0.084,
+        "sodium_mg": 0.62,
+        "saturated_fat_g": 0.048,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "all-purpose flour",
+        "Wheat flour, white, all-purpose, enriched, bleached"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "all-purpose flour",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Wheat flour, white, all-purpose, enriched, bleached' is not a close match (cost 4.6 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Wheat flour, white, all-purpose, enriched, bleached",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "20081 Wheat flour, white, all-purpose, enriched, bleached"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 11,
+      "raw": "1/2 teaspoon salt",
+      "name": "salt",
+      "quantity": 0.5,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02047",
+      "food_description": "Salt, table",
+      "grams": 3.0,
+      "gram_basis": "USDA portion '1 tsp' = 6 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 0.0,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 1162.74,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "salt"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "salt",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "02047 Salt, table"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 12,
+      "raw": "1 cup whole milk ((240ml))",
+      "name": "whole milk",
+      "quantity": 1.0,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "01077",
+      "food_description": "Milk, whole, 3.25% milkfat, with added vitamin D",
+      "grams": 244.0,
+      "gram_basis": "USDA portion '1 cup' = 244 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 148.84,
+        "protein_g": 7.686,
+        "fat_g": 7.93,
+        "carbohydrate_g": 11.712,
+        "fiber_g": 0.0,
+        "sugars_g": 12.322,
+        "sodium_mg": 104.92,
+        "saturated_fat_g": 4.551,
+        "cholesterol_mg": 24.4
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "whole milk",
+        "Milk, whole, 3.25% milkfat, with added vitamin D"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "whole milk",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Milk, buttermilk, fluid, whole' is not a close match (cost 1.3 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Milk, whole, 3.25% milkfat, with added vitamin D",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "01077 Milk, whole, 3.25% milkfat, with added vitamin D"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 13,
+      "raw": "1 cup salted butter (softened (227g))",
+      "name": "salted butter",
+      "quantity": 1.0,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "01001",
+      "food_description": "Butter, salted",
+      "grams": 227.0,
+      "gram_basis": "mass stated in recipe line",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 1627.59,
+        "protein_g": 1.929,
+        "fat_g": 184.12,
+        "carbohydrate_g": 0.136,
+        "fiber_g": 0.0,
+        "sugars_g": 0.136,
+        "sodium_mg": 1459.61,
+        "saturated_fat_g": 116.605,
+        "cholesterol_mg": 488.05
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "salted butter"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "salted butter",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "01001 Butter, salted"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 14,
+      "raw": "1 cup granulated sugar ((200g))",
+      "name": "granulated sugar",
+      "quantity": 1.0,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "19335",
+      "food_description": "Sugars, granulated",
+      "grams": 200.0,
+      "gram_basis": "mass stated in recipe line",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 774.0,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 199.96,
+        "fiber_g": 0.0,
+        "sugars_g": 199.6,
+        "sodium_mg": 2.0,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "granulated sugar"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "granulated sugar",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "19335 Sugars, granulated"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 15,
+      "raw": "2 teaspoon pure vanilla extract",
+      "name": "vanilla extract",
+      "quantity": 2.0,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02050",
+      "food_description": "Vanilla extract",
+      "grams": 8.4,
+      "gram_basis": "USDA portion '1 tsp' = 4.2 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 24.192,
+        "protein_g": 0.005,
+        "fat_g": 0.005,
+        "carbohydrate_g": 1.063,
+        "fiber_g": 0.0,
+        "sugars_g": 1.063,
+        "sodium_mg": 0.756,
+        "saturated_fat_g": 0.001,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "vanilla extract"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "vanilla extract",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "02050 Vanilla extract"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 16,
+      "raw": "2 (21-ounce) cans cherry pie filling",
+      "name": "cherry pie filling",
+      "quantity": 2.0,
+      "unit": "can",
+      "status": "matched",
+      "food_id": "19314",
+      "food_description": "Pie fillings, canned, cherry",
+      "grams": 1190.68,
+      "gram_basis": "mass stated in recipe line",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 1369.282,
+        "protein_g": 4.406,
+        "fat_g": 0.833,
+        "carbohydrate_g": 333.39,
+        "fiber_g": 7.144,
+        "sugars_g": null,
+        "sodium_mg": 214.322,
+        "saturated_fat_g": 0.214,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "cherry pie filling"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "cherry pie filling",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "19314 Pie fillings, canned, cherry"
+        }
+      ],
+      "unknown_reason": null
+    }
+  ],
+  "match": {
+    "ingredients": 17,
+    "matched": 17,
+    "unknown": 0,
+    "match_rate": 1.0,
+    "retry_rounds": 2,
+    "hit_retry_cap": 0
+  },
+  "nutrition": {
+    "basis": "whole recipe, sum of ingredients with a food id and a gram weight",
+    "source": "USDA National Nutrient Database for Standard Reference, Release 28 (SR28, 2015)",
+    "complete": true,
+    "ingredients_total": 17,
+    "ingredients_with_nutrition": 17,
+    "unmatched_food_count": 0,
+    "matched_without_grams_count": 0,
+    "statement": "Complete: all 17 ingredients have nutrition from a USDA food id.",
+    "totals": {
+      "energy_kcal": 8953.0,
+      "protein_g": 87.4,
+      "fat_g": 398.8,
+      "saturated_fat_g": 246.7,
+      "carbohydrate_g": 1295.2,
+      "fiber_g": 34.8,
+      "sugars_g": 627.0,
+      "sodium_mg": 8722.7,
+      "cholesterol_mg": 1382.3
+    },
+    "per_serving": {
+      "energy_kcal": 639.5,
+      "protein_g": 6.2,
+      "fat_g": 28.5,
+      "saturated_fat_g": 17.6,
+      "carbohydrate_g": 92.5,
+      "fiber_g": 2.5,
+      "sugars_g": 44.8,
+      "sodium_mg": 623.1,
+      "cholesterol_mg": 98.7
+    },
+    "servings": 14,
+    "nutrient_values_missing_in_usda": {
+      "sugars_g": 1
+    }
+  },
+  "cook_notes": {
+    "status": "produced",
+    "comment_count": 14,
+    "threshold": 5,
+    "claims": [
+      {
+        "text": "made it and liked it",
+        "count": 6,
+        "comment_ids": [
+          "7586",
+          "67314",
+          "89374",
+          "127440",
+          "167493",
+          "170631"
+        ]
+      },
+      {
+        "text": "called it easy or quick",
+        "count": 2,
+        "comment_ids": [
+          "7586",
+          "170631"
+        ]
+      },
+      {
+        "text": "said family or guests enjoyed it",
+        "count": 2,
+        "comment_ids": [
+          "127440",
+          "170631"
+        ]
+      },
+      {
+        "text": "asked a question",
+        "count": 3,
+        "comment_ids": [
+          "1197",
+          "67314",
+          "121231"
+        ]
+      }
+    ],
+    "card": "Cook notes (14 comments): 6 of 14 made it and liked it. 2 of 14 called it easy or quick. 2 of 14 said family or guests enjoyed it. 3 of 14 asked a question.",
+    "word_count": 35,
+    "backend": "themes-v2"
+  },
+  "node_path": [
+    "fetch",
+    "parse_recipe",
+    "parse_ingredients",
+    "match_nutrition",
+    "match_nutrition",
+    "gather_comments",
+    "summarise",
+    "validate",
+    "write"
+  ],
+  "terminal": {
+    "state": "complete",
+    "reason": "all 17 ingredients matched with grams; card from 14 comments"
+  }
+}

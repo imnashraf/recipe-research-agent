@@ -1,0 +1,418 @@
+{
+  "recipe_id": "rcp_6cc580a3f9",
+  "source_url": "https://ourbestbites.com/banana-cream-pie/",
+  "title": "Banana Cream Pie",
+  "site": "ourbestbites.com",
+  "category": [
+    "Desserts"
+  ],
+  "cuisine": [
+    "American"
+  ],
+  "yield_text": "16 / 16 servings (2 pies)",
+  "servings": 16,
+  "servings_unit": "servings",
+  "provenance": {
+    "page_source": "snapshot",
+    "fetched_url": "https://raw.githubusercontent.com/hhursev/recipe-scrapers/e7892149ee16c02cfd7ed1972e80791339727293/tests/test_data/ourbestbites.com/ourbestbites_1.testhtml",
+    "original_page_sha256": "7b5b168b5de80eed3ecd043002a65bb8b884eb7d28037d9d7c1c0389db7229ce",
+    "nutrition_source": "USDA National Nutrient Database for Standard Reference, Release 28 (SR28, 2015)"
+  },
+  "section_headings": [],
+  "ingredients": [
+    {
+      "index": 0,
+      "raw": "1 3.4- ounce package instant vanilla pudding (do not use \"cook and serve\")",
+      "name": "instant vanilla pudding",
+      "quantity": 1.0,
+      "unit": "package",
+      "status": "matched",
+      "food_id": "19202",
+      "food_description": "Puddings, vanilla, dry mix, instant",
+      "grams": 96.39,
+      "gram_basis": "mass stated in recipe line",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 363.39,
+        "protein_g": 0.0,
+        "fat_g": 0.578,
+        "carbohydrate_g": 89.546,
+        "fiber_g": 0.0,
+        "sugars_g": 89.546,
+        "sodium_mg": 1388.98,
+        "saturated_fat_g": 0.416,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "instant vanilla pudding",
+        "Puddings, vanilla, dry mix, instant"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "instant vanilla pudding",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Puddings, vanilla, dry mix, instant' is not a close match (cost 1.3 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Puddings, vanilla, dry mix, instant",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "19202 Puddings, vanilla, dry mix, instant"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 1,
+      "raw": "1 cup cold water",
+      "name": "water",
+      "quantity": 1.0,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "14411",
+      "food_description": "Beverages, water, tap, drinking",
+      "grams": 236.8,
+      "gram_basis": "USDA portion '1 fl oz' = 29.6 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 0.0,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 0.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 9.472,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "water",
+        "Beverages, water, tap, drinking"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "water",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Water, bottled, generic' is not a close match (cost 2.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Beverages, water, tap, drinking",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "14411 Beverages, water, tap, drinking"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 2,
+      "raw": "1 14-ounce can sweetened condensed milk",
+      "name": "sweetened condensed milk",
+      "quantity": 1.0,
+      "unit": "can",
+      "status": "matched",
+      "food_id": "01095",
+      "food_description": "Milk, canned, condensed, sweetened",
+      "grams": 396.89,
+      "gram_basis": "mass stated in recipe line",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 1274.017,
+        "protein_g": 31.394,
+        "fat_g": 34.529,
+        "carbohydrate_g": 215.908,
+        "fiber_g": 0.0,
+        "sugars_g": 215.908,
+        "sodium_mg": 504.05,
+        "saturated_fat_g": 21.773,
+        "cholesterol_mg": 134.943
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "sweetened condensed milk"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "sweetened condensed milk",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "01095 Milk, canned, condensed, sweetened"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 3,
+      "raw": "2 8-serving graham cracker or cookie crusts",
+      "name": "graham cracker crusts",
+      "quantity": 2.0,
+      "unit": null,
+      "status": "matched",
+      "food_id": "18942",
+      "food_description": "Pie Crust, Cookie-type, Graham Cracker, Ready Crust",
+      "grams": 366.0,
+      "gram_basis": "USDA portion '1 crust' = 183 g (GmWt_2)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 1833.66,
+        "protein_g": 18.666,
+        "fat_g": 90.878,
+        "carbohydrate_g": 235.338,
+        "fiber_g": 6.954,
+        "sugars_g": 66.356,
+        "sodium_mg": 1723.86,
+        "saturated_fat_g": 18.296,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "graham cracker crusts",
+        "Pie Crust, Cookie-type, Graham Cracker, Ready Crust"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "graham cracker crusts",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Pie Crust, Cookie-type, Graham Cracker, Ready Crust' is not a close match (cost 6.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Pie Crust, Cookie-type, Graham Cracker, Ready Crust",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "18942 Pie Crust, Cookie-type, Graham Cracker, Ready Crust"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 4,
+      "raw": "bananas (4-5 small bananas, or 2-3 large ones)",
+      "name": "bananas",
+      "quantity": null,
+      "unit": null,
+      "status": "matched",
+      "food_id": "09040",
+      "food_description": "Bananas, raw",
+      "grams": null,
+      "gram_basis": "no single quantity in recipe line",
+      "nutrition_status": "no_gram_weight",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "bananas"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "bananas",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "09040 Bananas, raw"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 5,
+      "raw": "1 pint heavy whipping cream",
+      "name": "heavy whipping cream",
+      "quantity": 1.0,
+      "unit": "pint",
+      "status": "matched",
+      "food_id": "01053",
+      "food_description": "Cream, fluid, heavy whipping",
+      "grams": 476.0,
+      "gram_basis": "USDA portion '1 cup, fluid (yields 2 cups whipped)' = 238 g (GmWt_2)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 1618.4,
+        "protein_g": 13.518,
+        "fat_g": 171.741,
+        "carbohydrate_g": 13.042,
+        "fiber_g": 0.0,
+        "sugars_g": 13.899,
+        "sodium_mg": 128.52,
+        "saturated_fat_g": 109.632,
+        "cholesterol_mg": 537.88
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "heavy whipping cream"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "heavy whipping cream",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "01053 Cream, fluid, heavy whipping"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 6,
+      "raw": "1/3 cup powdered sugar",
+      "name": "powdered sugar",
+      "quantity": 0.3333,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "19336",
+      "food_description": "Sugars, powdered",
+      "grams": 40.0,
+      "gram_basis": "USDA portion '1 cup, unsifted' = 120 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 155.584,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 39.904,
+        "fiber_g": 0.0,
+        "sugars_g": 39.12,
+        "sodium_mg": 0.8,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "powdered sugar"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "powdered sugar",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "19336 Sugars, powdered"
+        }
+      ],
+      "unknown_reason": null
+    }
+  ],
+  "match": {
+    "ingredients": 7,
+    "matched": 7,
+    "unknown": 0,
+    "match_rate": 1.0,
+    "retry_rounds": 2,
+    "hit_retry_cap": 0
+  },
+  "nutrition": {
+    "basis": "whole recipe, sum of ingredients with a food id and a gram weight",
+    "source": "USDA National Nutrient Database for Standard Reference, Release 28 (SR28, 2015)",
+    "complete": false,
+    "ingredients_total": 7,
+    "ingredients_with_nutrition": 6,
+    "unmatched_food_count": 0,
+    "matched_without_grams_count": 1,
+    "statement": "Partial: 1 of 7 ingredients have no nutrition (0 unmatched food, 1 matched but no gram weight); totals cover the other 6 only.",
+    "totals": {
+      "energy_kcal": 5245.1,
+      "protein_g": 63.6,
+      "fat_g": 297.7,
+      "saturated_fat_g": 150.1,
+      "carbohydrate_g": 593.7,
+      "fiber_g": 7.0,
+      "sugars_g": 424.8,
+      "sodium_mg": 3755.7,
+      "cholesterol_mg": 672.8
+    },
+    "per_serving": {
+      "energy_kcal": 327.8,
+      "protein_g": 4.0,
+      "fat_g": 18.6,
+      "saturated_fat_g": 9.4,
+      "carbohydrate_g": 37.1,
+      "fiber_g": 0.4,
+      "sugars_g": 26.6,
+      "sodium_mg": 234.7,
+      "cholesterol_mg": 42.0
+    },
+    "servings": 16,
+    "nutrient_values_missing_in_usda": {}
+  },
+  "cook_notes": {
+    "status": "produced",
+    "comment_count": 30,
+    "threshold": 5,
+    "claims": [
+      {
+        "text": "made it and liked it",
+        "count": 6,
+        "comment_ids": [
+          "155",
+          "5874",
+          "11406",
+          "17802",
+          "18590",
+          "45275"
+        ]
+      },
+      {
+        "text": "called it easy or quick",
+        "count": 5,
+        "comment_ids": [
+          "5166",
+          "5190",
+          "11406",
+          "18207",
+          "18590"
+        ]
+      },
+      {
+        "text": "will make it again or already have",
+        "count": 2,
+        "comment_ids": [
+          "51",
+          "45275"
+        ]
+      },
+      {
+        "text": "asked a question",
+        "count": 10,
+        "comment_ids": [
+          "33",
+          "39",
+          "41",
+          "155",
+          "1996",
+          "5872",
+          "25509",
+          "42789",
+          "56204",
+          "58933"
+        ]
+      }
+    ],
+    "card": "Cook notes (30 comments): 6 of 30 made it and liked it. 5 of 30 called it easy or quick. 2 of 30 will make it again or already have. 10 of 30 asked a question.",
+    "word_count": 36,
+    "backend": "themes-v2"
+  },
+  "node_path": [
+    "fetch",
+    "parse_recipe",
+    "parse_ingredients",
+    "match_nutrition",
+    "match_nutrition",
+    "gather_comments",
+    "summarise",
+    "validate",
+    "write"
+  ],
+  "terminal": {
+    "state": "complete_partial",
+    "reason": "1 of 7 ingredients without nutrition (0 unknown, 0 hit the 3-attempt cap, 1 no gram weight); card from 30 comments"
+  }
+}

@@ -1,0 +1,436 @@
+{
+  "recipe_id": "rcp_8f14802a32",
+  "source_url": "https://www.thecountrycook.net/southern-fudge-pie/",
+  "title": "Southern Fudge Pie",
+  "site": "thecountrycook.net",
+  "category": [
+    "Dessert"
+  ],
+  "cuisine": [
+    "American"
+  ],
+  "yield_text": "6",
+  "servings": 6,
+  "servings_unit": "servings",
+  "provenance": {
+    "page_source": "snapshot",
+    "fetched_url": "https://raw.githubusercontent.com/hhursev/recipe-scrapers/e7892149ee16c02cfd7ed1972e80791339727293/tests/test_data/thecountrycook.net/thecountrycook_2.testhtml",
+    "original_page_sha256": "627a1038c0572a2621423154dcefae52dc38fed13f3d80006384d0bec86ca652",
+    "nutrition_source": "USDA National Nutrient Database for Standard Reference, Release 28 (SR28, 2015)"
+  },
+  "section_headings": [],
+  "ingredients": [
+    {
+      "index": 0,
+      "raw": "3/4 cup salted butter",
+      "name": "salted butter",
+      "quantity": 0.75,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "01001",
+      "food_description": "Butter, salted",
+      "grams": 170.4,
+      "gram_basis": "USDA portion '1 tbsp' = 14.2 g (GmWt_2)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 1221.768,
+        "protein_g": 1.448,
+        "fat_g": 138.211,
+        "carbohydrate_g": 0.102,
+        "fiber_g": 0.0,
+        "sugars_g": 0.102,
+        "sodium_mg": 1095.672,
+        "saturated_fat_g": 87.531,
+        "cholesterol_mg": 366.36
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "salted butter"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "salted butter",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "01001 Butter, salted"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 1,
+      "raw": "3 (1 ounce) unsweetened chocolate squares",
+      "name": "unsweetened chocolate squares",
+      "quantity": 3.0,
+      "unit": null,
+      "status": "matched",
+      "food_id": "19078",
+      "food_description": "Baking chocolate, unsweetened, squares",
+      "grams": 85.05,
+      "gram_basis": "mass stated in recipe line",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 546.021,
+        "protein_g": 12.179,
+        "fat_g": 44.49,
+        "carbohydrate_g": 24.171,
+        "fiber_g": 14.118,
+        "sugars_g": 0.774,
+        "sodium_mg": 20.412,
+        "saturated_fat_g": 27.452,
+        "cholesterol_mg": 1.701
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "unsweetened chocolate squares",
+        "Baking chocolate, unsweetened, squares"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "unsweetened chocolate squares",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Baking chocolate, unsweetened, squares' is not a close match (cost 3.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Baking chocolate, unsweetened, squares",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "19078 Baking chocolate, unsweetened, squares"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 2,
+      "raw": "3 large eggs",
+      "name": "eggs",
+      "quantity": 3.0,
+      "unit": null,
+      "status": "matched",
+      "food_id": "01123",
+      "food_description": "Egg, whole, raw, fresh",
+      "grams": 150.0,
+      "gram_basis": "USDA portion '1 large' = 50 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 214.5,
+        "protein_g": 18.84,
+        "fat_g": 14.265,
+        "carbohydrate_g": 1.08,
+        "fiber_g": 0.0,
+        "sugars_g": 0.555,
+        "sodium_mg": 213.0,
+        "saturated_fat_g": 4.689,
+        "cholesterol_mg": 558.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "eggs"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "eggs",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "01123 Egg, whole, raw, fresh"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 3,
+      "raw": "1 1/2 cups sugar",
+      "name": "sugar",
+      "quantity": 1.5,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "19335",
+      "food_description": "Sugars, granulated",
+      "grams": 302.4,
+      "gram_basis": "USDA portion '1 tsp' = 4.2 g (GmWt_2)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 1170.288,
+        "protein_g": 0.0,
+        "fat_g": 0.0,
+        "carbohydrate_g": 302.34,
+        "fiber_g": 0.0,
+        "sugars_g": 301.795,
+        "sodium_mg": 3.024,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "sugar"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "sugar",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "19335 Sugars, granulated"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 4,
+      "raw": "3/4 cup all-purpose flour",
+      "name": "all-purpose flour",
+      "quantity": 0.75,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "20081",
+      "food_description": "Wheat flour, white, all-purpose, enriched, bleached",
+      "grams": 93.75,
+      "gram_basis": "USDA portion '1 cup' = 125 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 341.25,
+        "protein_g": 9.684,
+        "fat_g": 0.919,
+        "carbohydrate_g": 71.541,
+        "fiber_g": 2.531,
+        "sugars_g": 0.253,
+        "sodium_mg": 1.875,
+        "saturated_fat_g": 0.145,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "all-purpose flour",
+        "Wheat flour, white, all-purpose, enriched, bleached"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "all-purpose flour",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Wheat flour, white, all-purpose, enriched, bleached' is not a close match (cost 4.6 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Wheat flour, white, all-purpose, enriched, bleached",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "20081 Wheat flour, white, all-purpose, enriched, bleached"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 5,
+      "raw": "1 teaspoon vanilla extract",
+      "name": "vanilla extract",
+      "quantity": 1.0,
+      "unit": "tsp",
+      "status": "matched",
+      "food_id": "02050",
+      "food_description": "Vanilla extract",
+      "grams": 4.2,
+      "gram_basis": "USDA portion '1 tsp' = 4.2 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 12.096,
+        "protein_g": 0.003,
+        "fat_g": 0.003,
+        "carbohydrate_g": 0.531,
+        "fiber_g": 0.0,
+        "sugars_g": 0.531,
+        "sodium_mg": 0.378,
+        "saturated_fat_g": 0.0,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 1,
+      "queries_tried": [
+        "vanilla extract"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "vanilla extract",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "02050 Vanilla extract"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 6,
+      "raw": "1/2 cup chopped pecans ((or walnuts))",
+      "name": "pecans",
+      "quantity": 0.5,
+      "unit": "cup",
+      "status": "matched",
+      "food_id": "12142",
+      "food_description": "Nuts, pecans",
+      "grams": 54.5,
+      "gram_basis": "USDA portion '1 cup, chopped' = 109 g (GmWt_1)",
+      "nutrition_status": "computed",
+      "nutrients": {
+        "energy_kcal": 376.595,
+        "protein_g": 4.998,
+        "fat_g": 39.224,
+        "carbohydrate_g": 7.554,
+        "fiber_g": 5.232,
+        "sugars_g": 2.164,
+        "sodium_mg": 0.0,
+        "saturated_fat_g": 3.368,
+        "cholesterol_mg": 0.0
+      },
+      "attempts": 2,
+      "queries_tried": [
+        "pecans",
+        "Nuts, pecans"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "pecans",
+          "strategy": "name",
+          "outcome": "rejected",
+          "detail": "rejected: best hit 'Nuts, pecans' is not a close match (cost 3.0 > 1.0)"
+        },
+        {
+          "attempt": 2,
+          "query": "Nuts, pecans",
+          "strategy": "alias",
+          "outcome": "matched",
+          "detail": "12142 Nuts, pecans"
+        }
+      ],
+      "unknown_reason": null
+    },
+    {
+      "index": 7,
+      "raw": "vanilla ice cream, chocolate syrup and chopped pecans",
+      "name": "vanilla ice cream",
+      "quantity": null,
+      "unit": null,
+      "status": "matched",
+      "food_id": "19095",
+      "food_description": "Ice creams, vanilla",
+      "grams": null,
+      "gram_basis": "no single quantity in recipe line",
+      "nutrition_status": "no_gram_weight",
+      "nutrients": null,
+      "attempts": 1,
+      "queries_tried": [
+        "vanilla ice cream"
+      ],
+      "attempt_log": [
+        {
+          "attempt": 1,
+          "query": "vanilla ice cream",
+          "strategy": "name",
+          "outcome": "matched",
+          "detail": "19095 Ice creams, vanilla"
+        }
+      ],
+      "unknown_reason": null
+    }
+  ],
+  "match": {
+    "ingredients": 8,
+    "matched": 8,
+    "unknown": 0,
+    "match_rate": 1.0,
+    "retry_rounds": 2,
+    "hit_retry_cap": 0
+  },
+  "nutrition": {
+    "basis": "whole recipe, sum of ingredients with a food id and a gram weight",
+    "source": "USDA National Nutrient Database for Standard Reference, Release 28 (SR28, 2015)",
+    "complete": false,
+    "ingredients_total": 8,
+    "ingredients_with_nutrition": 7,
+    "unmatched_food_count": 0,
+    "matched_without_grams_count": 1,
+    "statement": "Partial: 1 of 8 ingredients have no nutrition (0 unmatched food, 1 matched but no gram weight); totals cover the other 7 only.",
+    "totals": {
+      "energy_kcal": 3882.5,
+      "protein_g": 47.2,
+      "fat_g": 237.1,
+      "saturated_fat_g": 123.2,
+      "carbohydrate_g": 407.3,
+      "fiber_g": 21.9,
+      "sugars_g": 306.2,
+      "sodium_mg": 1334.4,
+      "cholesterol_mg": 926.1
+    },
+    "per_serving": {
+      "energy_kcal": 647.1,
+      "protein_g": 7.9,
+      "fat_g": 39.5,
+      "saturated_fat_g": 20.5,
+      "carbohydrate_g": 67.9,
+      "fiber_g": 3.6,
+      "sugars_g": 51.0,
+      "sodium_mg": 222.4,
+      "cholesterol_mg": 154.3
+    },
+    "servings": 6,
+    "nutrient_values_missing_in_usda": {}
+  },
+  "cook_notes": {
+    "status": "produced",
+    "comment_count": 34,
+    "threshold": 5,
+    "claims": [
+      {
+        "text": "made it and liked it",
+        "count": 3,
+        "comment_ids": [
+          "7739",
+          "16992",
+          "58471"
+        ]
+      },
+      {
+        "text": "called it easy or quick",
+        "count": 2,
+        "comment_ids": [
+          "7816",
+          "7820"
+        ]
+      },
+      {
+        "text": "asked a question",
+        "count": 4,
+        "comment_ids": [
+          "7780",
+          "7781",
+          "209880",
+          "216063"
+        ]
+      }
+    ],
+    "card": "Cook notes (34 comments): 3 of 34 made it and liked it. 2 of 34 called it easy or quick. 4 of 34 asked a question.",
+    "word_count": 26,
+    "backend": "themes-v2"
+  },
+  "node_path": [
+    "fetch",
+    "parse_recipe",
+    "parse_ingredients",
+    "match_nutrition",
+    "match_nutrition",
+    "gather_comments",
+    "summarise",
+    "validate",
+    "write"
+  ],
+  "terminal": {
+    "state": "complete_partial",
+    "reason": "1 of 8 ingredients without nutrition (0 unknown, 0 hit the 3-attempt cap, 1 no gram weight); card from 34 comments"
+  }
+}

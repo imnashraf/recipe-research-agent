@@ -1,0 +1,73 @@
+{
+  "rcp_8f14802a32:made it and liked it": {
+    "7739": true,
+    "16992": true,
+    "58471": true,
+    "note": "Supported 3/3. All three report making the pie and liking it (58471 with allergy swaps)."
+  },
+  "rcp_88989bf2ca:made it and liked it": {
+    "905681": true,
+    "905718": true,
+    "907489": true,
+    "note": "Supported 3/3."
+  },
+  "rcp_954df896bf:made it and liked it": {
+    "7586": false,
+    "67314": true,
+    "89374": false,
+    "127440": true,
+    "167493": true,
+    "170631": true,
+    "note": "Supported 4/6: claim overstated by 2. 7586 and 89374 made only this recipe's frosting on a different cake."
+  },
+  "rcp_6cc580a3f9:made it and liked it": {
+    "155": true,
+    "5874": true,
+    "11406": true,
+    "17802": true,
+    "18590": true,
+    "45275": true,
+    "note": "Supported 6/6 (155 swapped bananas for berries but made the pie; 5874 made it with sugar-free pudding)."
+  },
+  "rcp_456ba2c583:made it and liked it": {
+    "1242992": true,
+    "1243429": true,
+    "1243858": true,
+    "1243938": true,
+    "1244502": true,
+    "1249762": true,
+    "1254052": true,
+    "note": "Supported 7/7. 1243858 liked the flavour but the cookies came out flat (mixed but supports the claim)."
+  },
+  "rcp_37c8a93478:made it and liked it": {
+    "238241": true,
+    "238705": false,
+    "note": "Supported 1/2: claim overstated. 238705 describes their own family version, not this recipe; with 1 supporting comment the claim would fall below the 2-comment minimum."
+  },
+  "rcp_d534b880e0:made it and liked it": {
+    "30429": false,
+    "30798": true,
+    "67262": true,
+    "68561": true,
+    "98488": true,
+    "note": "Supported 4/5: claim overstated by 1. 30429 is an essay about sugar and migraines ('I have experimented ... various kinds of sugar') and never reports making the cake."
+  },
+  "rcp_d79db9d191:made it and liked it": {
+    "148338": true,
+    "148454": true,
+    "148466": true,
+    "note": "Supported 3/3."
+  },
+  "rcp_888a61d803:said family or guests enjoyed it": {
+    "386383": true,
+    "387961": true,
+    "note": "Supported 2/2."
+  },
+  "rcp_b503aae880:made it and liked it": {
+    "76": true,
+    "1530": true,
+    "4996": true,
+    "9991": true,
+    "note": "Supported 4/4."
+  }
+}
