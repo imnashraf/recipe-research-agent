@@ -259,6 +259,14 @@ Vercel (frontend/)  ──HTTPS──▶  Railway (Dockerfile, FastAPI)  ──s
                                                            └── Gmail: approval request ▶ form ▶ approved email + PDF
 ```
 
+Live frontend: https://recipe-research-agent.vercel.app (Vercel project `recipe-research-agent`, built from
+`recipe-research-agent/frontend`).
+
+**Railway service setup.** New project → Deploy from GitHub repo → `imnashraf/IOSNodeShift`. In the service
+settings set **Root Directory** `recipe-research-agent`, **Branch** to the branch that holds this code, and
+**Railway Config File** `/recipe-research-agent/railway.json` (Railway resolves that path from the repo root, not
+from the root directory). Attach a volume at `/data`, add the variables below, then Networking → Generate Domain.
+
 **Backend (`recipe_agent/api.py`, `Dockerfile`, `railway.json`).** Public read endpoints: `/health`, `/api/config`,
 `/api/summary`, `/api/recipes`, `/api/recipes/{id}`, `/api/report.pdf`. Endpoints that spend Groq tokens or send
 mail need `Authorization: Bearer $ADMIN_TOKEN`: `POST /api/runs {"url": ...}` (one recipe, progress at
