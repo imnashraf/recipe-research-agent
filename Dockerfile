@@ -1,4 +1,4 @@
-# Backend image for Railway (service root directory: recipe-research-agent)
+# Backend image for Railway (built from the repo root)
 FROM python:3.13-slim
 
 ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 PIP_NO_CACHE_DIR=1

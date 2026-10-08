@@ -215,7 +215,7 @@ version of the recipe, and one essay about sugar.
 ## Run it
 
 ```bash
-cd recipe-research-agent
+git clone https://github.com/imnashraf/recipe-research-agent && cd recipe-research-agent
 python -m venv .venv && . .venv/bin/activate
 pip install -r requirements.txt
 export GROQ_API_KEY=...                               # optional: Groq cook notes
@@ -259,13 +259,12 @@ Vercel (frontend/)  ──HTTPS──▶  Railway (Dockerfile, FastAPI)  ──s
                                                            └── Gmail: approval request ▶ form ▶ approved email + PDF
 ```
 
-Live frontend: https://recipe-research-agent.vercel.app (Vercel project `recipe-research-agent`, built from
-`recipe-research-agent/frontend`).
+Live frontend: https://recipe-research-agent.vercel.app (Vercel project `recipe-research-agent`, root directory
+`frontend`).
 
-**Railway service setup.** New project → Deploy from GitHub repo → `imnashraf/IOSNodeShift`. In the service
-settings set **Root Directory** `recipe-research-agent`, **Branch** to the branch that holds this code, and
-**Railway Config File** `/recipe-research-agent/railway.json` (Railway resolves that path from the repo root, not
-from the root directory). Attach a volume at `/data`, add the variables below, then Networking → Generate Domain.
+**Railway service setup.** New project → Deploy from GitHub repo → `imnashraf/recipe-research-agent`, branch `main`.
+Railway finds `railway.json` and the `Dockerfile` at the repo root, so no root-directory setting is needed. Attach a
+volume at `/data`, add the variables below, then Networking → Generate Domain.
 
 **Backend (`recipe_agent/api.py`, `Dockerfile`, `railway.json`).** Public read endpoints: `/health`, `/api/config`,
 `/api/summary`, `/api/recipes`, `/api/recipes/{id}`, `/api/report.pdf`. Endpoints that spend Groq tokens or send
