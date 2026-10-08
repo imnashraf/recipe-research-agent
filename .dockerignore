@@ -1,0 +1,12 @@
+.cache
+.venv
+__pycache__
+.pytest_cache
+frontend
+tests
+evals
+n8n
+output/checkpoints.sqlite*
+output/state_dumps
+output/eval_runs
+output/handoff

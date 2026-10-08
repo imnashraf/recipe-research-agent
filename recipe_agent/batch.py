@@ -49,12 +49,15 @@ async def run_one(graph, deps: AgentDeps, url: str, label: str) -> dict:
     return await graph.ainvoke({"url": url, "node_path": []}, config, context=deps, durability="sync")
 
 
-def compile_dataset(output_dir: Path, urls: list[str], results: list[dict]) -> dict:
-    records = []
-    for res in results:
-        path = res.get("written_to")
-        if path and "/records/" in "/" + path:
-            records.append(json.loads((output_dir.parent / path).read_text()))
+def compile_dataset(output_dir: Path) -> dict:
+    """Rebuild dataset.json/.jsonl from every record in output_dir/records.
+
+    The 25 batch recipes come first in data/recipes.txt order; records from other runs (for
+    example URLs submitted in the web UI) follow, sorted by title.
+    """
+    order = {u: i for i, u in enumerate(read_urls(DATA_DIR / "recipes.txt"))}
+    records = [json.loads(p.read_text()) for p in sorted((output_dir / "records").glob("*.json"))]
+    records.sort(key=lambda r: (order.get(r["source_url"], len(order)), r["title"]))
     dataset = {
         "category": "Dessert",
         "retry_cap": RETRY_CAP,
@@ -62,6 +65,7 @@ def compile_dataset(output_dir: Path, urls: list[str], results: list[dict]) -> d
         "card_word_cap": CARD_WORD_CAP,
         "recipes": records,
     }
+    output_dir.mkdir(parents=True, exist_ok=True)
     (output_dir / "dataset.json").write_text(json.dumps(dataset, indent=2, ensure_ascii=False) + "\n")
     with open(output_dir / "dataset.jsonl", "w", encoding="utf-8") as fh:
         for r in records:
@@ -92,7 +96,7 @@ async def main_async(args) -> int:
             print(f"[{i:2}/{len(urls)}] {t.get('state', '?'):17} {url}\n        {t.get('reason', '')}")
             results.append(res)
     if not args.url:
-        ds = compile_dataset(output_dir, urls, results)
+        ds = compile_dataset(output_dir)
         print(f"dataset: {len(ds['recipes'])} records -> {output_dir / 'dataset.json'}")
     return 0
 
@@ -103,7 +107,8 @@ def main(argv=None) -> int:
     ap.add_argument("--url")
     ap.add_argument("--label", default="batch", help="run label; part of the checkpoint thread id")
     ap.add_argument("--fetch-mode", default="auto", choices=["auto", "live", "snapshot"])
-    ap.add_argument("--summariser", default="themes", choices=["themes", "claude"])
+    ap.add_argument("--summariser", default="auto", choices=["auto", "themes", "groq"],
+                    help="auto = groq when GROQ_API_KEY is set, else themes")
     ap.add_argument("--output-dir", default=str(OUTPUT_DIR))
     return asyncio.run(main_async(ap.parse_args(argv)))
 

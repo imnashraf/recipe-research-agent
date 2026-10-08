@@ -1,0 +1,5 @@
+-r requirements.txt
+# tests, evals and the local n8n test harness
+pytest==9.1.1
+pypdf==6.19.0
+aiosmtpd==1.4.6

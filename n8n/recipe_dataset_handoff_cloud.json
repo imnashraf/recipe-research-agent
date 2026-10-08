@@ -1,0 +1,362 @@
+{
+  "name": "Recipe dataset hand-off (n8n Cloud, Gmail)",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "recipe-dataset-handoff",
+        "responseMode": "onReceived",
+        "options": {}
+      },
+      "id": "06b7cf75-d697-5a1c-bb6a-afbe93973840",
+      "name": "Batch finished (webhook)",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        300
+      ],
+      "webhookId": "246b5d71-6929-5c5b-a123-76d65a9557ff"
+    },
+    {
+      "parameters": {
+        "jsCode": "// ==== Edit these two lines once after importing ====\nconst APPROVER_EMAIL = 'you@example.com';          // who approves before anything is sent\nconst RECIPIENTS = 'you@example.com';              // comma-separated list for the final email\n// ====================================================\n// Only call back to a Railway service. Optionally pin the exact host, e.g. 'recipe-agent.up.railway.app'\nconst PINNED_HOST = '';\nconst body = $json.body || {};\nconst url = String(body.backend_url || '').replace(/\\/+$/, '');\nconst ok = /^https:\\/\\/[a-z0-9-]+(\\.[a-z0-9-]+)*\\.up\\.railway\\.app$/.test(url) && (!PINNED_HOST || url === 'https://' + PINNED_HOST);\nif (!ok) throw new Error('Rejected: backend_url must be your https://*.up.railway.app service, got ' + JSON.stringify(url));\nif (APPROVER_EMAIL.endsWith('@example.com')) throw new Error('Set APPROVER_EMAIL and RECIPIENTS in the Settings node first');\nreturn [{ json: { backend_url: url, approver: APPROVER_EMAIL, recipients: RECIPIENTS, batch: body.batch || '' } }];"
+      },
+      "id": "379836d4-7690-5c0a-bfc2-a57fbc18875a",
+      "name": "Settings",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        180,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "url": "={{ $('Settings').first().json.backend_url }}/api/summary",
+        "options": {}
+      },
+      "id": "c2163479-280c-5f5a-8097-c14c7f10e755",
+      "name": "Get dataset summary",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        360,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "url": "={{ $('Settings').first().json.backend_url }}/api/report.pdf",
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "file",
+              "outputPropertyName": "report"
+            }
+          }
+        }
+      },
+      "id": "a7db6835-c6b7-527f-a239-45ebe478f899",
+      "name": "Compile PDF",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        540,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const s = $('Get dataset summary').first().json;\nconst states = Object.entries(s.terminal_states).map(([k, v]) => `${k}: ${v}`).join(', ');\nconst subject = `${s.category} recipe dataset: ${s.recipes} recipes, ${(s.match_rate * 100).toFixed(1)}% ingredient match rate`;\nconst body = [\n  'Hello,',\n  '',\n  `Attached is the ${s.category.toLowerCase()} recipe dataset compiled by the recipe research agent (PDF).`,\n  '',\n  `- Recipes: ${s.recipes} (terminal states: ${states})`,\n  `- Ingredient lines: ${s.ingredients}; matched to a USDA SR28 food id: ${s.matched} (${(s.match_rate * 100).toFixed(1)}%)`,\n  `- With a gram weight and nutrition: ${s.ingredients_with_nutrition}; unknown: ${s.unknown} (${s.hit_retry_cap} reached the retry cap)`,\n  `- Cook notes cards: ${s.cards_produced} produced, ${s.cards_skipped} skipped (fewer than ${s.comment_threshold} comments)`,\n  '',\n  `Settings: retry cap ${s.retry_cap} lookups per ingredient, comment threshold ${s.comment_threshold}, card cap ${s.card_word_cap} words.`,\n  'Unmatched ingredients are listed as unknown with the queries tried; they are never estimated, so recipe totals marked Partial leave them out.',\n  '',\n  'Regards,',\n  'Recipe research agent (sent after human approval)',\n].join('\\n');\nreturn [{ json: { to: $('Settings').first().json.recipients, subject, body }, binary: $('Compile PDF').first().binary }];"
+      },
+      "id": "523aa3b8-58ca-5796-867f-45e091cd3669",
+      "name": "Draft email",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        720,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $('Settings').first().json.approver }}",
+        "subject": "=Approval needed before sending: {{ $json.subject }}",
+        "emailType": "text",
+        "message": "=A draft email with the recipe dataset PDF is waiting for your approval. Nothing is sent until you approve.\n\nTo: {{ $json.to }}\nSubject: {{ $json.subject }}\n\n{{ $json.body }}\n\nApprove, edit or reject here: {{ $execution.resumeFormUrl }}",
+        "options": {
+          "appendAttribution": false,
+          "attachmentsUi": {
+            "attachmentsBinary": [
+              {
+                "property": "report"
+              }
+            ]
+          }
+        }
+      },
+      "id": "21d2df6f-07ef-5224-803c-f652a620384c",
+      "name": "Ask approver",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        900,
+        300
+      ],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "",
+          "name": "Gmail account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resume": "form",
+        "formTitle": "Send the recipe dataset email?",
+        "formDescription": "=To: {{ $('Draft email').first().json.to }}\nSubject: {{ $('Draft email').first().json.subject }}\n\n{{ $('Draft email').first().json.body }}",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Decision",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Approve and send"
+                  },
+                  {
+                    "option": "Reject"
+                  }
+                ]
+              },
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Edited body (optional)",
+              "fieldType": "textarea"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "8ef82bf4-3861-556b-8e5a-043f26f05717",
+      "name": "Wait for human approval",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        1100,
+        300
+      ],
+      "webhookId": "50997c2b-368b-5741-83d2-7a26711997d2"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "approved",
+              "leftValue": "={{ $json.Decision }}",
+              "rightValue": "Approve and send",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "d92e2b82-07e4-532d-9ab5-436a3230c39f",
+      "name": "Approved?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        1300,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const draft = $('Draft email').first().json;\nconst edited = ($json['Edited body (optional)'] || '').trim();\nreturn [{\n  json: { to: draft.to, subject: draft.subject, body: edited || draft.body, approved_at: $json.submittedAt || null },\n  binary: $('Compile PDF').first().binary,\n}];"
+      },
+      "id": "b4ffc8cb-be36-5626-b1d6-a6b608a1763e",
+      "name": "Final email with PDF",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1500,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $json.to }}",
+        "subject": "={{ $json.subject }}",
+        "emailType": "text",
+        "message": "={{ $json.body }}",
+        "options": {
+          "appendAttribution": false,
+          "attachmentsUi": {
+            "attachmentsBinary": [
+              {
+                "property": "report"
+              }
+            ]
+          }
+        }
+      },
+      "id": "91ff8055-3514-50e2-9615-a3b5c407a290",
+      "name": "Send dataset email",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        1700,
+        200
+      ],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "",
+          "name": "Gmail account"
+        }
+      }
+    },
+    {
+      "parameters": {},
+      "id": "1e779bf0-c067-5bd6-9fd6-3aac4ce07079",
+      "name": "Rejected: nothing sent",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        1500,
+        420
+      ]
+    }
+  ],
+  "connections": {
+    "Batch finished (webhook)": {
+      "main": [
+        [
+          {
+            "node": "Settings",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Settings": {
+      "main": [
+        [
+          {
+            "node": "Get dataset summary",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get dataset summary": {
+      "main": [
+        [
+          {
+            "node": "Compile PDF",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Compile PDF": {
+      "main": [
+        [
+          {
+            "node": "Draft email",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Draft email": {
+      "main": [
+        [
+          {
+            "node": "Ask approver",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Ask approver": {
+      "main": [
+        [
+          {
+            "node": "Wait for human approval",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait for human approval": {
+      "main": [
+        [
+          {
+            "node": "Approved?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Approved?": {
+      "main": [
+        [
+          {
+            "node": "Final email with PDF",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Rejected: nothing sent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Final email with PDF": {
+      "main": [
+        [
+          {
+            "node": "Send dataset email",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "active": false,
+  "id": "recipeDatasetHandoffCloud",
+  "meta": {
+    "templateCredsSetupCompleted": false
+  },
+  "tags": []
+}

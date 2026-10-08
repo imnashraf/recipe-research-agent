@@ -3,8 +3,8 @@
 Two backends produce candidate claims:
   * ThemeSummariser (default, deterministic): matches each comment against a fixed set of themes,
     with negation handling ("not too sweet" does not count as "too sweet").
-  * ClaudeSummariser (optional, needs ANTHROPIC_API_KEY): asks Claude for claims as JSON with the
-    comment ids that support each one.
+  * GroqSummariser (used when GROQ_API_KEY is set): asks a Groq-hosted model for claims as JSON
+    with the comment ids that support each one.
 
 Whatever the backend, `finalize_card` is the single gate: it drops claims whose ids are not real
 comment ids, recomputes each count from the ids (the model's own number is never trusted),
@@ -107,11 +107,17 @@ class ThemeSummariser:
         return out
 
 
-class ClaudeSummariser:
-    """Optional LLM backend. Only used when ANTHROPIC_API_KEY is set and --summariser claude."""
+class GroqSummariser:
+    """LLM backend on Groq's OpenAI-compatible API. Needs GROQ_API_KEY; GROQ_MODEL overrides the model.
 
-    name = "claude"
-    MODEL = "claude-opus-5-5"
+    The model only proposes claims and the comment ids behind them. finalize_card() then drops ids
+    that are not real comments, recounts from the ids and applies the word cap, so the model can
+    neither inflate a count nor exceed the cap.
+    """
+
+    name = "groq"
+    URL = "https://api.groq.com/openai/v1/chat/completions"
+    DEFAULT_MODEL = "openai/gpt-oss-120b"
     SCHEMA = {
         "type": "object",
         "properties": {
@@ -131,36 +137,50 @@ class ClaudeSummariser:
         "required": ["claims"],
         "additionalProperties": False,
     }
+    INSTRUCTIONS = (
+        "You summarise reader comments on one recipe. Each comment is prefixed with its id in brackets.\n"
+        "Return up to 6 claims about what people who MADE the recipe reported: results, changes they made, "
+        "problems, who enjoyed it. Ignore questions, plans to try it, praise of the photo, and other people's "
+        "versions. Each claim is a short verb phrase of at most 8 words, with no numbers and no names, for "
+        "example 'cut the sugar and liked it'. For each claim list the ids of every comment that supports it. "
+        "Use only ids from the list. Reply with JSON only: "
+        '{"claims": [{"text": "...", "comment_ids": ["..."]}]}'
+    )
 
-    def __init__(self, client=None):
-        if client is None:
-            import anthropic
+    def __init__(self, api_key: str | None = None, model: str | None = None, transport=None, timeout: float = 60.0):
+        import httpx
 
-            client = anthropic.Anthropic()
-        self.client = client
+        self.api_key = api_key or os.environ["GROQ_API_KEY"]
+        self.model = model or os.environ.get("GROQ_MODEL") or self.DEFAULT_MODEL
+        self.http = httpx.Client(timeout=timeout, transport=transport)
+
+    def _post(self, response_format: dict, listing: str) -> dict:
+        r = self.http.post(
+            self.URL,
+            headers={"Authorization": f"Bearer {self.api_key}"},
+            json={
+                "model": self.model,
+                "temperature": 0,
+                "response_format": response_format,
+                "messages": [
+                    {"role": "system", "content": self.INSTRUCTIONS},
+                    {"role": "user", "content": listing},
+                ],
+            },
+        )
+        return r
 
     def claims(self, comments: list[dict]) -> list[dict]:
         listing = "\n".join(f"[{c['comment_id']}] {c['text']}" for c in comments)
-        prompt = (
-            "These are reader comments on one dessert recipe, each prefixed with its comment id.\n"
-            "List up to 6 short claims about what people who made it reported (results, changes, "
-            "problems, who enjoyed it). Each claim is a verb phrase of at most 8 words with no "
-            "numbers, for example 'cut the sugar and liked it'. For each claim give the ids of "
-            "every comment that supports it. Use only ids from the list. Do not include names.\n\n"
-            + listing
-        )
-        resp = self.client.beta.messages.create(
-            model=self.MODEL,
-            max_tokens=4000,
-            betas=["server-side-fallback-2026-07-01"],
-            fallbacks="default",
-            output_config={"effort": "low", "format": {"type": "json_schema", "schema": self.SCHEMA}},
-            messages=[{"role": "user", "content": prompt}],
-        )
-        if resp.stop_reason == "refusal":
-            return []
-        text = next(b.text for b in resp.content if b.type == "text")
-        return json.loads(text)["claims"]
+        r = self._post({"type": "json_schema",
+                        "json_schema": {"name": "cook_notes", "schema": self.SCHEMA, "strict": True}}, listing)
+        if r.status_code == 400:  # model without structured-output support: plain JSON mode
+            r = self._post({"type": "json_object"}, listing)
+        r.raise_for_status()
+        content = r.json()["choices"][0]["message"]["content"]
+        data = json.loads(content)
+        claims = data.get("claims", []) if isinstance(data, dict) else []
+        return [c for c in claims if isinstance(c, dict)]
 
 
 def count_words(text: str) -> int:
@@ -199,9 +219,10 @@ def finalize_card(raw_claims: list[dict], comments: list[dict], cap: int = CARD_
     return enforce_word_cap(header, cleaned, total, cap)
 
 
-def get_summariser(name: str):
-    if name == "claude":
-        if not os.environ.get("ANTHROPIC_API_KEY"):
-            raise RuntimeError("--summariser claude needs ANTHROPIC_API_KEY")
-        return ClaudeSummariser()
+def get_summariser(name: str = "auto"):
+    """"auto" uses Groq when GROQ_API_KEY is set, otherwise the deterministic themes."""
+    if name == "groq" or (name == "auto" and os.environ.get("GROQ_API_KEY")):
+        if not os.environ.get("GROQ_API_KEY"):
+            raise RuntimeError("--summariser groq needs GROQ_API_KEY")
+        return GroqSummariser()
     return ThemeSummariser()

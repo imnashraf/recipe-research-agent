@@ -134,13 +134,14 @@ counts as an attempt and the same query is retried.
   `skipped_below_threshold` with the count.
 - **Format.** For example: *"Cook notes (19 comments): 3 of 19 made it and liked it. …"*. Every claim is
   "N of M …", and the record lists the comment ids behind each claim.
-- **Default summariser (`themes-v2`).** It is deterministic, so the batch runs without an API key. It counts a
-  comment for a theme only when one sentence is a first-hand report: not a question, a plan ("can't wait to try"),
-  someone else's cooking ("my grandma made…") or negated.
-- **Optional Claude summariser.** `--summariser claude` (model `claude-opus-5-5`, structured JSON output) goes through
-  the same gate. Ids that are not real comments are dropped, counts are recomputed from the ids, claims need at
-  least 2 comments, and the 60-word cap is applied in code. It is covered by a test with a fake client; it was not
-  run live here because no API key was available.
+- **Groq summariser (used when `GROQ_API_KEY` is set).** Calls Groq's OpenAI-compatible chat API (default model
+  `openai/gpt-oss-120b`, override with `GROQ_MODEL`) with a JSON-schema response format, falling back to JSON mode
+  for models without structured outputs. The model only proposes claims and comment ids; the same gate then drops
+  ids that are not real comments, recounts from the ids, requires at least 2 comments per claim and applies the
+  60-word cap in code. Covered by a test with a mocked Groq endpoint; it has not been run against the live API here.
+- **Fallback summariser (`themes-v2`).** Deterministic, used when no Groq key is set (and for the committed
+  evaluation run). It counts a comment for a theme only when one sentence is a first-hand report: not a question,
+  a plan ("can't wait to try"), someone else's cooking ("my grandma made…") or negated.
 
 ## No PII anywhere
 
@@ -217,8 +218,10 @@ version of the recipe, and one essay about sugar.
 cd recipe-research-agent
 python -m venv .venv && . .venv/bin/activate
 pip install -r requirements.txt
+export GROQ_API_KEY=...                               # optional: Groq cook notes
 
-python -m pytest -q                                   # 47 tests: nodes, routers, graph paths, resume, MCP, PII, card cap
+pip install -r requirements-dev.txt                   # adds pytest/pypdf/aiosmtpd
+python -m pytest -q                                   # 51 tests: nodes, routers, graph paths, resume, MCP, PII, card cap, API
 python -m recipe_agent.batch                          # 25 recipes -> output/ (resumable; re-run to resume)
 python -m recipe_agent.batch --url <recipe-url>       # one recipe
 python -m recipe_agent.report                         # output/recipe_dataset.pdf
@@ -247,6 +250,40 @@ To use it:
 For a dry run with no real mail, run `python n8n/smtp_sink.py` and point the SMTP credential at
 `127.0.0.1:1025`. Messages land in `output/handoff/`. That is how check 7 was run, with n8n 2.42.4 on Node 24.
 
+## Deployment: Railway (backend) + Vercel (frontend) + n8n Cloud
+
+```
+Vercel (frontend/)  ──HTTPS──▶  Railway (Dockerfile, FastAPI)  ──stdio──▶  MCP nutrition server (same container)
+                                   │  └──▶ Groq API (cook notes)
+                                   └──POST webhook──▶  n8n Cloud ──GET /api/summary, /api/report.pdf──▶ Railway
+                                                           └── Gmail: approval request ▶ form ▶ approved email + PDF
+```
+
+**Backend (`recipe_agent/api.py`, `Dockerfile`, `railway.json`).** Public read endpoints: `/health`, `/api/config`,
+`/api/summary`, `/api/recipes`, `/api/recipes/{id}`, `/api/report.pdf`. Endpoints that spend Groq tokens or send
+mail need `Authorization: Bearer $ADMIN_TOKEN`: `POST /api/runs {"url": ...}` (one recipe, progress at
+`GET /api/runs/{id}`), `POST /api/batch` (all 25, then the n8n hand-off) and `POST /api/handoff`. On first start an
+empty volume is seeded with the committed 25 records.
+
+| Railway variable | Value |
+|---|---|
+| `GROQ_API_KEY` | your Groq key (never commit it) |
+| `ADMIN_TOKEN` | a long random string; you also paste it into the website's Connection panel |
+| `DATA_DIR` | `/data`, with a Railway volume mounted at `/data` |
+| `N8N_WEBHOOK_URL` | the n8n workflow's **Production** webhook URL |
+| `CORS_ORIGINS` | the Vercel site URL, e.g. `https://recipe-research-agent.vercel.app` (default `*`) |
+| `GROQ_MODEL`, `FETCH_MODE` | optional |
+
+**Frontend (`frontend/`, Vite + React).** Dashboard, run-a-recipe panel with the live node path, recipe detail with
+food ids, gram basis, every lookup attempt and the cook notes card. Set `VITE_API_BASE` to the Railway URL in Vercel
+(or enter it under *Connection* in the site). Without a backend it shows the committed snapshot
+(`frontend/public/dataset.json`, refresh with `npm run sync-data`).
+
+**n8n Cloud (`n8n/recipe_dataset_handoff_cloud.json`).** Import it, connect a Gmail credential to both Gmail nodes,
+set `APPROVER_EMAIL` and `RECIPIENTS` in the *Settings* node, publish, and copy the production webhook URL into
+Railway's `N8N_WEBHOOK_URL`. The backend sends its own public URL in the webhook body; the Settings node only
+accepts `https://*.up.railway.app` (pin the exact host with `PINNED_HOST`).
+
 ## Known limitations
 
 - **The match rate is optimistic for new recipes.** The alias table (`data/aliases.json`) was written while working
@@ -256,18 +293,20 @@ For a dry run with no real mail, run `python n8n/smtp_sink.py` and point the SMT
   overstate their count by 1–2. Many real reports are missed, so counts are lower bounds in practice.
 - **SR28 has two household portions per food.** Ingredients like "2 eggs" (no size) or "1 cup almond flour" get no
   gram weight, so 23 of 25 recipes are `complete_partial`. That is the intended honest outcome, not a failure.
-- Live fetching and the Claude summariser are implemented and unit-tested, but this sandbox could not exercise them
-  against the real services.
+- Live fetching and the Groq summariser are implemented and unit-tested, but this sandbox could not reach the real
+  services. The committed dataset and the claim trace use the deterministic summariser.
 
 ## Layout
 
 ```
-recipe_agent/   state.py (schema + terminal states) · graph.py · nodes.py · fetch.py · sanitize.py · pii.py
+recipe_agent/   state.py (schema + terminal states) · graph.py · nodes.py · api.py · fetch.py · sanitize.py · pii.py
                 ingredient_parse.py · matching.py · nutrition_db.py · nutrition_mcp.py · mcp_client.py
                 cook_notes.py · batch.py · report.py · report_server.py · run_log.py · config.py
 data/           recipes.txt · snapshot_index.json · aliases.json · sr28/ (USDA SR28 abbreviated tables)
 evals/          check scripts, claim_verdicts.json, pii_allowlist.json, reports/
-n8n/            recipe_dataset_handoff.json · build_workflow.py · smtp_sink.py
+n8n/            recipe_dataset_handoff.json (local) · recipe_dataset_handoff_cloud.json · build_workflow.py · smtp_sink.py
+frontend/       Vite + React site for Vercel
+Dockerfile · railway.json   backend image for Railway (recipe_agent/api.py)
 output/         dataset.json(l) · records/ · recipe_dataset.pdf · logs/run_log.jsonl · handoff/*.txt
 tests/          pytest suite + a fixture page (toor dal, with planted PII)
 ```

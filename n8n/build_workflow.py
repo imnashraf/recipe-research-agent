@@ -1,6 +1,11 @@
-"""Generates n8n/recipe_dataset_handoff.json (kept as code so the JSON stays reviewable).
+"""Generates the n8n workflows (kept as code so the JSON stays reviewable).
 
     python n8n/build_workflow.py
+
+  recipe_dataset_handoff.json        local test: SMTP credential, backend on 127.0.0.1:8765
+  recipe_dataset_handoff_cloud.json  n8n Cloud: Gmail OAuth credential, backend URL sent by the
+                                     Railway service in the webhook body and checked against an
+                                     allow-list in the "Settings" node
 """
 
 import json
@@ -123,3 +128,68 @@ workflow = {
 }
 Path(__file__).with_name("recipe_dataset_handoff.json").write_text(json.dumps(workflow, indent=2) + "\n")
 print("wrote n8n/recipe_dataset_handoff.json")
+
+
+# ------------------------------------------------------------------------------------------ cloud
+SETTINGS_JS = r"""
+// ==== Edit these two lines once after importing ====
+const APPROVER_EMAIL = 'you@example.com';          // who approves before anything is sent
+const RECIPIENTS = 'you@example.com';              // comma-separated list for the final email
+// ====================================================
+// Only call back to a Railway service. Optionally pin the exact host, e.g. 'recipe-agent.up.railway.app'
+const PINNED_HOST = '';
+const body = $json.body || {};
+const url = String(body.backend_url || '').replace(/\/+$/, '');
+const ok = /^https:\/\/[a-z0-9-]+(\.[a-z0-9-]+)*\.up\.railway\.app$/.test(url) && (!PINNED_HOST || url === 'https://' + PINNED_HOST);
+if (!ok) throw new Error('Rejected: backend_url must be your https://*.up.railway.app service, got ' + JSON.stringify(url));
+if (APPROVER_EMAIL.endsWith('@example.com')) throw new Error('Set APPROVER_EMAIL and RECIPIENTS in the Settings node first');
+return [{ json: { backend_url: url, approver: APPROVER_EMAIL, recipients: RECIPIENTS, batch: body.batch || '' } }];
+"""
+
+GMAIL = {"gmailOAuth2": {"id": "", "name": "Gmail account"}}
+
+
+def gmail(name, to, subject, text, pos):
+    return node(name, "n8n-nodes-base.gmail", 2.1,
+                {"sendTo": to, "subject": subject, "emailType": "text", "message": text,
+                 "options": {"appendAttribution": False,
+                             "attachmentsUi": {"attachmentsBinary": [{"property": "report"}]}}},
+                pos, credentials=GMAIL)
+
+
+cloud_draft = DRAFT_JS.replace(f"to: '{RECIPIENTS}'", "to: $('Settings').first().json.recipients")
+assert cloud_draft != DRAFT_JS
+by_name = {n["name"]: n for n in nodes}
+cloud_nodes = [
+    by_name["Batch finished (webhook)"],
+    node("Settings", "n8n-nodes-base.code", 2, {"jsCode": SETTINGS_JS.strip()}, [180, 300]),
+    node("Get dataset summary", "n8n-nodes-base.httpRequest", 4.2,
+         {"url": "={{ $('Settings').first().json.backend_url }}/api/summary", "options": {}}, [360, 300]),
+    node("Compile PDF", "n8n-nodes-base.httpRequest", 4.2,
+         {"url": "={{ $('Settings').first().json.backend_url }}/api/report.pdf",
+          "options": {"response": {"response": {"responseFormat": "file", "outputPropertyName": "report"}}}},
+         [540, 300]),
+    node("Draft email", "n8n-nodes-base.code", 2, {"jsCode": cloud_draft.strip()}, [720, 300]),
+    gmail("Ask approver", "={{ $('Settings').first().json.approver }}",
+          "=Approval needed before sending: {{ $json.subject }}",
+          "=A draft email with the recipe dataset PDF is waiting for your approval. Nothing is sent until you "
+          "approve.\n\nTo: {{ $json.to }}\nSubject: {{ $json.subject }}\n\n{{ $json.body }}\n\n"
+          "Approve, edit or reject here: {{ $execution.resumeFormUrl }}", [900, 300]),
+    {**by_name["Wait for human approval"], "position": [1100, 300]},
+    {**by_name["Approved?"], "position": [1300, 300]},
+    {**by_name["Final email with PDF"], "position": [1500, 200]},
+    gmail("Send dataset email", "={{ $json.to }}", "={{ $json.subject }}", "={{ $json.body }}", [1700, 200]),
+    {**by_name["Rejected: nothing sent"], "position": [1500, 420]},
+]
+cloud_edges = [("Batch finished (webhook)", "Settings", 0), ("Settings", "Get dataset summary", 0)] + [
+    e for e in edges if e[0] != "Batch finished (webhook)"]
+cloud_connections = {}
+for a, b, out in cloud_edges:
+    main = cloud_connections.setdefault(a, {"main": []})["main"]
+    while len(main) <= out:
+        main.append([])
+    main[out].append({"node": b, "type": "main", "index": 0})
+cloud = {**workflow, "name": "Recipe dataset hand-off (n8n Cloud, Gmail)", "id": "recipeDatasetHandoffCloud",
+         "nodes": cloud_nodes, "connections": cloud_connections}
+Path(__file__).with_name("recipe_dataset_handoff_cloud.json").write_text(json.dumps(cloud, indent=2) + "\n")
+print("wrote n8n/recipe_dataset_handoff_cloud.json")

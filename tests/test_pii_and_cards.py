@@ -61,25 +61,35 @@ def test_every_claim_in_card_carries_count():
     json.dumps(kept)
 
 
-def test_claude_backend_output_goes_through_the_same_gate():
-    """No API key in CI: a fake client returns what the model might, including bad ids and counts."""
-    from types import SimpleNamespace
+def test_groq_backend_output_goes_through_the_same_gate():
+    """No network in CI: a mock transport answers like Groq's chat completions endpoint."""
+    import httpx
 
-    from recipe_agent.cook_notes import ClaudeSummariser
+    from recipe_agent.cook_notes import GroqSummariser
 
     payload = {"claims": [{"text": "made it for a party and everyone loved it", "comment_ids": ["1", "3", "77"]},
                           {"text": "says 9 people loved it", "comment_ids": ["2"]}]}
-    calls = []
+    seen = []
 
-    class FakeMessages:
-        def create(self, **kw):
-            calls.append(kw)
-            return SimpleNamespace(stop_reason="end_turn",
-                                   content=[SimpleNamespace(type="text", text=json.dumps(payload))])
+    def handler(request: httpx.Request) -> httpx.Response:
+        body = json.loads(request.content)
+        seen.append((request.url.host, request.headers["authorization"], body))
+        if body["response_format"]["type"] == "json_schema":
+            return httpx.Response(400, json={"error": {"message": "json_schema not supported by this model"}})
+        return httpx.Response(200, json={"choices": [{"message": {"content": json.dumps(payload)}}]})
 
-    client = SimpleNamespace(beta=SimpleNamespace(messages=FakeMessages()))
-    card, kept = finalize_card(ClaudeSummariser(client).claims(_comments(1)), _comments(1))
-    assert calls[0]["model"] == "claude-opus-5-5"
-    assert calls[0]["output_config"]["format"]["type"] == "json_schema"
+    s = GroqSummariser(api_key="test-key", model="some-model", transport=httpx.MockTransport(handler))
+    card, kept = finalize_card(s.claims(_comments(1)), _comments(1))
+    assert [x[0] for x in seen] == ["api.groq.com", "api.groq.com"]  # structured output first, then JSON mode
+    assert seen[0][1] == "Bearer test-key" and seen[0][2]["model"] == "some-model"
     assert kept == [{"text": "made it for a party and everyone loved it", "count": 2, "comment_ids": ["1", "3"]}]
     assert card == "Cook notes (6 comments): 2 of 6 made it for a party and everyone loved it."
+
+
+def test_auto_summariser_picks_groq_only_with_a_key(monkeypatch):
+    from recipe_agent.cook_notes import GroqSummariser, get_summariser
+
+    monkeypatch.delenv("GROQ_API_KEY", raising=False)
+    assert isinstance(get_summariser("auto"), ThemeSummariser)
+    monkeypatch.setenv("GROQ_API_KEY", "k")
+    assert isinstance(get_summariser("auto"), GroqSummariser)
